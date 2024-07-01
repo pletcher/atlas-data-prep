@@ -10,7 +10,7 @@ In short, the following capabilities may exist depending on the data available:
 * retrieval of a particular sense within entry
 * opening a text from a citation in an entry
 * navigate from a lemmatized token to a dictionary entry
-* navigate from a word-sense-disambiguated token to a * dictionary entry sense
+* navigate from a word-sense-disambiguated token to a dictionary entry sense
 * determine which tokens in a lemmatized text are covered by a dictionary
 * determine which chunks or tokens in a lemmatized text are cited in a dictionary entry
 
