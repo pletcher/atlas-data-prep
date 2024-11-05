@@ -10,7 +10,7 @@ CANONICAL_ENGLIT = Path(__file__).parent.parent.parent.parent / "canonical-engLi
 
 
 def text_content(el):
-    return re.sub(r"\s+", " ", "".join(el.xpath(".//text()")))
+    return re.sub(r"\s+", " ", "".join(el.xpath(".//text()"))).strip()
 
 
 class Converter:
