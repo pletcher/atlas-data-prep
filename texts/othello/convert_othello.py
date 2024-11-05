@@ -63,6 +63,7 @@ class Converter:
 
     def handle_scene(self, el):
         self.scene_num = int(el.attrib["n"])
+        self.speech_num = 0
         self.who = None
         self.line_num = 0
         assert el[0].tag == tei("head")
@@ -86,11 +87,12 @@ class Converter:
     def handle_speech(self, el):
         assert el[0].tag == tei("speaker")
         self.who = el.attrib["who"]
+        self.speech_num += 1
         for child in el[1:]:
             if child.tag == tei("lb"):
                 pass
             elif child.tag == tei("stage"):
-                yield from self.handle_stage(child)
+                yield from self.handle_stage(child, in_speech=True)
             elif child.tag == tei("p"):
                 yield from self.handle_prose(child)
             else:
@@ -103,13 +105,15 @@ class Converter:
         return f"{self.act_num}.{self.scene_num}.{self.line_num}"
 
 
-    def handle_stage(self, el):
+    def handle_stage(self, el, in_speech=False):
         assert el.attrib.get("type") in ["setting", "entrance", None]
         annotations = {"kind": "stage"}
         if self.who:
             annotations["who"] = self.who
         if el.attrib.get("type"):
             annotations["type"] = el.attrib["type"]
+        if in_speech:
+            annotations["sp"] = self.speech_num
         self.line_num += 1
         ref = self.get_ref()
         yield ref, annotations, text_content(el)
@@ -117,6 +121,7 @@ class Converter:
 
     def handle_prose(self, el):
         annotations = {"kind": "prose"}
+        annotations["sp"] = self.speech_num
         if self.who:
             annotations["who"] = self.who
         if el.attrib.get("part"):
@@ -128,6 +133,7 @@ class Converter:
 
     def handle_line(self, el):
         annotations = {"kind": "line"}
+        annotations["sp"] = self.speech_num
         if self.who:
             annotations["who"] = self.who
         if el.attrib.get("part"):
