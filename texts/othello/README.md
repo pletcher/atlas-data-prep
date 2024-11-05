@@ -10,3 +10,7 @@ Information which is currently thrown away but could be included:
 
 - `castList`
 - `lb`
+
+Still to do:
+
+- a `metadata.json` for overall metadata
