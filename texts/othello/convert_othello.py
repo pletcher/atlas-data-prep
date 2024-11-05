@@ -8,6 +8,12 @@ from lxml import etree
 
 CANONICAL_ENGLIT = Path(__file__).parent.parent.parent.parent / "canonical-engLit"
 
+namespaces = {"tei": "http://www.tei-c.org/ns/1.0"}
+
+
+def tei(element_name):
+    return f"{{{namespaces['tei']}}}{element_name}"
+
 
 def text_content(el):
     return re.sub(r"\s+", " ", "".join(el.xpath(".//text()"))).strip()
@@ -21,13 +27,20 @@ class Converter:
 
         root = etree.parse(filename, parser=parser).getroot()
 
-        body = root.xpath("/TEI.2/text/body")[0]
+        body = root.xpath("/tei:TEI/tei:text/tei:body", namespaces=namespaces)[0]
         for child in body:
-            assert child.tag == "div1"
-            assert child.attrib["type"] == "act"
+            assert child.tag == tei("div"), child.tag
+            assert child.attrib["type"] == "edition", child.attrib
+            yield from self.handle_edition(child)
+
+
+    def handle_edition(self, el):
+        self.urn = el.attrib["n"]
+        for child in el:
+            assert child.attrib["type"] == "textpart", child.attrib
+            assert child.attrib["subtype"] == "act", child.attrib
             if child.attrib["n"] == "cast":
-                # no-op for now but we could extract the case list as metadata
-                pass
+                pass  # ignore cast list for now
             else:
                 yield from self.handle_act(child)
 
@@ -36,14 +49,15 @@ class Converter:
         self.act_num = int(el.attrib["n"])
         self.scene_num = 0
         self.line_num = 0
-        assert el[0].tag == "head"
+        assert el[0].tag == tei("head")
         yield from self.handle_head(el[0])
         for child in el[1:]:
-            if child.tag == "lb":
+            if child.tag == tei("lb"):
                 pass
             else:
-                assert child.tag == "div2"
-                assert child.attrib["type"] == "scene"
+                assert child.tag == tei("div"), child.tag
+                assert child.attrib["type"] == "textpart", child.attrib
+                assert child.attrib["subtype"] == "scene", child.attrib
                 yield from self.handle_scene(child)
 
 
@@ -51,15 +65,15 @@ class Converter:
         self.scene_num = int(el.attrib["n"])
         self.who = None
         self.line_num = 0
-        assert el[0].tag == "head"
+        assert el[0].tag == tei("head")
         self.handle_head(el[0])
         for child in el[1:]:
-            if child.tag == "lb":
+            if child.tag == tei("lb"):
                 pass
-            elif child.tag == "stage":
+            elif child.tag == tei("stage"):
                 yield from self.handle_stage(child)
             else:
-                assert child.tag == "sp"
+                assert child.tag == tei("sp"), child.tag
                 yield from self.handle_speech(child)
 
 
@@ -70,17 +84,17 @@ class Converter:
 
 
     def handle_speech(self, el):
-        assert el[0].tag == "speaker"
+        assert el[0].tag == tei("speaker")
         self.who = el.attrib["who"]
         for child in el[1:]:
-            if child.tag == "lb":
+            if child.tag == tei("lb"):
                 pass
-            elif child.tag == "stage":
+            elif child.tag == tei("stage"):
                 yield from self.handle_stage(child)
-            elif child.tag == "p":
+            elif child.tag == tei("p"):
                 yield from self.handle_prose(child)
             else:
-                assert child.tag == "l"
+                assert child.tag == tei("l"), child.tag
                 yield from self.handle_line(child)
         self.who = None
 
@@ -102,10 +116,11 @@ class Converter:
 
 
     def handle_prose(self, el):
-        assert el.attrib == {}
         annotations = {"kind": "prose"}
         if self.who:
             annotations["who"] = self.who
+        if el.attrib.get("part"):
+            annotations["part"] = el.attrib["part"]
         self.line_num += 1
         ref = self.get_ref()
         yield ref, annotations, text_content(el)
@@ -124,7 +139,7 @@ class Converter:
 
 if __name__ == "__main__":
     c = Converter()
-    filename = CANONICAL_ENGLIT / "Renaissance/Shakespeare/opensource/oth.xml"
+    filename = CANONICAL_ENGLIT / "data/shakespeare/oth.xml"
     with open("othello-text.tsv", "w") as text_fd, open("othello-anno.jsonl", "w") as anno_fd:
         for ref, annotations, content in c.convert_othello(filename):
             print(ref, content, sep="\t", file=text_fd)
