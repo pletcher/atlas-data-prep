@@ -1,0 +1,149 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168v1",
+    "comment": "Ποσειδάων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8439",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.1489,0.2386,0.05398,0.02061"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.231"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168v2",
+    "comment": "γνω ἐπισταίμεσθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8440",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.1443,0.3562,0.07351,0.03804"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.238"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:13.168v3",
+    "comment": "εὔτυκτον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8441",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.1605,0.4050,0.05048,0.02393"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.240"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.168v1",
+    "comment": "Ζηνοδ καὶ Αριστοφα δουρικλυτός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8438",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.9000,0.5264,0.03537,0.03956"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.246"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168v1",
+    "comment": "Ζηνοδ συμφερτος δὲ βίη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8433",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.4451,0.3589,0.04772,0.03900"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.237"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168v2",
+    "comment": "Ζηνοδ καὶ Ἀριστοφανής ἐνιστήθεσσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8434",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.4444,0.5098,0.05490,0.03306"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.245"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.168v3",
+    "comment": "αντ ἄγγελος ουτ ἀγγελίας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8435",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.4377,0.6447,0.05066,0.02420"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.252"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.168v1",
+    "comment": "αντ τοῦ ἐκπλήθους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8436",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.5111,0.3524,0.07977,0.01383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.237"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.168v2",
+    "comment": "λείπει χάριν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8437",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.6179,0.6362,0.03869,0.01314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.252"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.168v1",
+    "lemma": "μελπηθρα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8234",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.214,0.2853,0.245,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.233"
+    ],
+    "comment": "ἐμπαίγματα παίγνια μετα κόρον γὰρ σφαιρίζουσι τὰς σάρκας οἱ κῦνες λέων δὲ τὸ πᾶν ἐσθίει \t\t\t\t\t\t\t\t\t\t\t\t\t\tκαὶ Κύκλωψ ἤσθιε δὲ ὥστε λέων ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.168v2",
+    "lemma": "σπεύδειν αἴκ' ὄφελος τι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8235",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.220,0.3206,0.225,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.236"
+    ],
+    "comment": "ὅτι τοῦ σπεύδειν ὐκ ἐστιν ἐπι τοῦ ταχύνειν λλ επι τοῦ ἐνεργεῖν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.168v3",
+    "lemma": "συμφερτὴ δ' ἀρετὴ πέλει ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8236",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.221,0.3551,0.227,0.1336"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.237"
+    ],
+    "comment": "τὸ τῆς συναλιφῆς σημεῖον ὑπὸ τὰς τελευταίας δύο λέξεις θετέον ἐξ ἀμφοτέρων γὰρ ἓν δηλοῦται \t\t\t\t\t\t\t\t\t\t\t\t\t\tτὸ λυγροτάτων πρὸς ὃ καὶ Ἀρίσταρχος ημειοῦται τὸν στίχον ἵν ᾖ ὁ λόγος συμφερητὴ  τίς νδρῶν ἀρετὴ καὶ τῶν ἀσθενεστάτων οἷον οὐ μόνον κατὰ ἕνα ἀλλὰ καὶ κατὰ πλῆθος \t\t\t\t\t\t\t\t\t\t\t\t\t\tἐστί τις ἀρετὴ νοουμένη κὰν εἷς ἕκαστος ἀσθενὴς ἦ καθ αὑτόν . εὰν δὲ χωρίζωμεν τὰς δύο λέξεις \t\t\t\t\t\t\t\t\t\t\t\t\t\tεὐεμπτῶτως ἕξομεν ἐπι τὸ ἀπεμφαῖνον ἐστὶ τοιοῦτο~ συμφορητή τις ἀρετὴ ἀνδρῶν ἐστι καὶ \t\t\t\t\t\t\t\t\t\t\t\t\t\tμάλιστα τῶν ἀσθενῶν ὅπερ οὐκ ἔστιν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.168v4",
+    "lemma": "θεράπων ἐῢς ἀντεβολησεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8237",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA168VN_0670@0.219,0.4872,0.228,0.1209"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:168v.13.246"
+    ],
+    "comment": "ὁ Ἀσκαλονίτης ησὶν ὅτι Ἀρίσταρχος ύο ποιεῖ θεράπων καὶ ἐῢς~ τινὲς δὲ ὑφ' ἓν \t\t\t\t\t\t\t\t\t\t\t\t\t\tἀνέγνωσαν ὡς \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tἘτεωνεύς \t\t\t\t\t\t\t\t\t\t\t\t\t\t τι δὲ δεῖ κατὰ διάλυσιν ἀναγινώσκειν καὶ οὐ παρωνύμῳ τύπῳ διδαχθησόμεθα ἐξ αὐτῆς τῆς \t\t\t\t\t\t\t\t\t\t\t\t\t\tφωνῆς , ἐγίνετο γὰρ ἂν θεραποντεύς ἀπο γὰρ γενικῶν φιλεῖ ὁ τοιοῦτος τύπος παραγεσθαι εἴγε καὶ \t\t\t\t\t\t\t\t\t\t\t\t\t\tπαρα τὴν λέοντος \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tΛεοντεύς \t\t\t\t\t\t\t\t\t\t\t\t\t\t ὐχὶ Λεωνεύς ~ παρά τε τὴν \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tΑἰθίοπος \t\t\t\t\t\t\t\t\t\t\t\t\t\t Αἰθιοπεύς ⁑"
+  }
+]

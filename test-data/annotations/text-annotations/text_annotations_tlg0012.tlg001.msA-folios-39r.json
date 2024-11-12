@@ -1,0 +1,198 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.751",
+    "comment": "τις γὰρ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1781",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.7963,0.5911,0.0371,0.02"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.761"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:2.752",
+    "comment": "πιερίη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1782",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.7825,0.6805,0.0479,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.766"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:2.749",
+    "comment": "χωρὶς τοῦ ν τὸ ῆρχε δια τὸ ἐπιφέρεσθαι δύο σύμφω  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1611",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.0721,0.4747,0.065,0.0598"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.756"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.745",
+    "comment": "Ἱ¨ακῶς τὸ vέμοντο Ἀρίσταρχος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1544",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.5375,0.388,0.0625,0.0394"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.751"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.746",
+    "comment": "εἰς αὐτὸν γὰρ ομνυουσιν οἱ ἐπιχώριοι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1545",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.5475,0.4612,0.0504,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.755"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.747",
+    "comment": "ὅτι προς τὸ δευτερον πρότερον ἀπήντηκεν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1546",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.4967,0.5964,0.0592,0.0379"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.763"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:2.748",
+    "comment": "διαβητη ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1547",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.5271,0.6564,0.0196,0.0407"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.765"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.735",
+    "lemma": "‡ καὶ Αἰθῑ'κεσσι πέλασσεν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1445",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1471,0.1164,0.4625,0.0269"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.744"
+    ],
+    "comment": "Δημοκρινὴς ἀγνοήσας Αἰθιόπεσσιν ἔγραφεν κακῶς"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.736",
+    "lemma": "οὐκ οἶος ἅμα τῷ γε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1446",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1388,0.1298,0.6108,0.0407"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.745"
+    ],
+    "comment": "ὅτι δια μέσου τὰ περι τοὺς Κενταύρους παριστόρηται : τὸ δὲ ἑξῆς ἐστι τοῦ λόγου τῶν αὖθ' ἡγεμόνευε μενεπτόλεμος Πολυποίτης οὐκ οἶος , ἄμα τῷ γε Λεοντεὺς όζος Ἄρηος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.737",
+    "lemma": "οἳ περὶ Δωδώνην ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1447",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1496,0.1518,0.5979,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.750"
+    ],
+    "comment": "χωρίον ἐν Ὑπερβορέοις τῆς Θεσπρωτίας ἱερὸν Διὸς ἔνθα τὸ ἐκ δρυὸς μαντεῖον τοῦ Δωδωναίου Δϊός ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.738",
+    "lemma": "ἀπορρώξ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1448",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.546,0.4899,0.2077,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.755"
+    ],
+    "comment": "Ἀρισταρχος ὀξυτόνως ὡς θυλακοτρώξ : καὶ ἡ σύνθεσις δὲ τοῦτο ἀπαιτεῖ ὅ τι ἂν σημαίνει εἴτε πάθος εἴτε ἐνέργειαν :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.739",
+    "comment": "ὀξυτόνως ἀπορρὼξ ἡ ἀπορροή βαρυτόνως δὲ τὸ ἀπόρρυμα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1449",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.554,0.5362,0.2123,0.031"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.755"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.740",
+    "lemma": "ποδώκεας·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1450",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1058,0.561,0.6442,0.1793"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.764"
+    ],
+    "comment": "τινὲς ὡς εὐσεβέας καὶ οὕτως ἐρεῖ ὁ λόγος εἴ γε καὶ τὸ ποδώκὴς ὀφίλει ὀξύνεσθαι καθὃ τὰ εἰς υς ὀξύτονα φυλάσσοντα ἐν τῇ συνθέσει τὴν κατάληξιν ἀναδίδωσι τὸν τόνον , δριμὺς ἄδριμυς οὔχ οὕτως δὲ ἔχοντα ἀλλα τρέποντα τὸ τελος ἵσταται ἐπι τῆς ὀξείας ἡδύς ἀηδής : βαρὺς  ἀβαρής , ἠΰς ἐνηής οὕτως οὖν ὄφειλε καὶ τὸ ποδωκής ὀξυτονεῖσθαι : γενόμενον ἀπο τοῦ ὠκύς ἀλλα φασὶν εἰς ϊδιότητα τοῦ Ἀχιλλέως βεβαρυτονεῖσθαι τὸ ποδώκης παρα γοῦν τῷ Ἡσιόδῳ ἀνεγνώκασι ποδώκης δι Ατάλαντι τί οὖν ἐπι τοῦ Δόλωνος κατα βαρεῖαν τάσιν ἀνεγνώκασιν καὶ ἐπι τούτου ὃς δή τοι εἶδος μὲν έην κακὸς ἀλλα ποδώκης ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.741",
+    "lemma": "ὅτριχας οἰέτεας·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1451",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1146,0.7272,0.6388,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.765"
+    ],
+    "comment": "συντόμως πᾶσαν ἵππων ἀρετὴν καὶ ὁμοιότητα περιέλαβεν : διαφέρουσι γὰρ ἀλλήλων ἵπποι . ηλικία χρόᾳ μεγέθει γένει δυνάμει τοῦτο δὲ ἔθος τῷ ποιητῇ πολλάκις ἐν μονοστίχῳ πᾶσαν ἀρετὴν ἐμφαίνειν ὡς τὸ καλή τε μεγάλη τε καὶ ἀγλαὰ ἔργ' εἰδυῖα : καὶ τὸ οὐ δέμας οὐδε φυήν οὔτ αρ φρένας οὐτέ τι ἔργα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.742",
+    "lemma": "οἰἔτεας·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1452",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1217,0.7653,0.6346,0.051"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.765"
+    ],
+    "comment": "ὡς Διομήδεας ἔστι δὲ καὶ ἐπὶ τούτου τοῦ σχηματισμοῦ παράλογος ὁ τόνος : τὰ γὰρ παρα τὰ εἰς ος λήγοντα ουδ  δισύλλαβα συντιθέμενα εἰς ης λήγοντα ἐπιθετικὰ μὴ ἔχοντα τὸ η προ τέλους πάντα ὀξύνεται : εὐγενής ἀκλεής εὐειδής : οὕτως δὲ καὶ εὐτειχηςειν , εχρῆν μὲν οὖν καὶ τὰ παρα τὸ έτος τὸ αὐτο ἀναδέχεσθαι : νυνὶ δὲ κατα βαρεῖαν τάσιν ἀναγινώσκουσιν ἀλλ' οὑδὲ τοῦτο πάλιν καθολικῶς σώζοντες ξετέα γὰρ ἀδμήτην ἀναγινώσκουσιν ὡς εὐσεβέα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.743",
+    "lemma": "σταφυλη·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1453",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.1142,0.8004,0.6458,0.0297"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.765"
+    ],
+    "comment": "οὕτως σταφύλη ὡς κό΄τυλη : έστι δὲ ἄμφω ἴσας τὸν νῶτον ὡς σταφύλη μετρεῖσθαι ὅ ἐστι λαοξικῷ δικη ὃς ἅμα πλᾶτος καὶ ὕψος μετρεῖ ὁ δὲ διαβήτης μόνον πλάτος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:2.744",
+    "lemma": "ἄμφω θηλείας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol1454",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA039RN_0040@0.0996,0.816,0.6304,0.0357"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:39r.2.767"
+    ],
+    "comment": "ὅτι τὴν ἐν πολέμῳ φυγὴν φόβον Ἄρεος εἴρηκεν ἀρετὴ γὰρ ἵππων οὐ μόνον διώκειν ἀλλα καὶ ὅτε δέοι ἀταράχως φεύγειν διωκέμεν ἠδὲ φεβεσθαι ⁑"
+  }
+]

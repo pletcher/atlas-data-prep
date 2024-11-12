@@ -1,0 +1,197 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.1010",
+    "comment": "μοχθίσσειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3859",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.799,0.308,0.072,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.106"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.1011",
+    "comment": "κτῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3860",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.848,0.5312,0.037,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.1013",
+    "comment": "ὅτι  ἀνεκτὸς ἡ χρεια οὐκ ανεκτη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3856",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.099,0.5297,0.05,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.1014",
+    "comment": "ὅτι περισσὸς ὁ καί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3857",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.095,0.577,0.048,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.120"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.1015",
+    "comment": "ἐν ἄλλῳ μέγ' ἐπέγρετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3858",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.093,0.6469,0.061,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.124"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.1004",
+    "comment": "τὸν Μέγητα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3855",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.554,0.3854,0.031,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.110"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1016",
+    "comment": "προθυμήσωσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3861",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.426,0.2066,0.067,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1017",
+    "comment": "οὐδαμῶς δὴ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3862",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.202,0.2615,0.061,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.5000",
+    "comment": "δ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3863",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.398,0.2832,0.038,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1018",
+    "comment": "ταῖς φροντίσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3864",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.195,0.299,0.075,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.1019",
+    "comment": "κακοπαθήσειν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3865",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.294,0.2983,0.075,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1000",
+    "lemma": "‡οὐ δέ τι ἴδμεν μήπως καὶ δια νυκτα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3848",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.162,0.0999,0.632,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.101"
+    ],
+    "comment": "τοῦτο προς καιρὸν εἴρηκεν ὁ Ἀγαμέμνων ἕνεκα τοῦ ἐκπλῆξαι τὸν Νέστορα . ἐπεί τοι οὐκ ἦν ἔθος ἀυτοῖς νυκτὸς πολεμεῖν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1003",
+    "lemma": "ἠδ' Αἴαντα ταχὺν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3849",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.573,0.4711,0.225,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.110"
+    ],
+    "comment": "ὅτι πλησίον τοῦ Λοκροῦ Αἴαντος ὁ Mέγης ἐνεωλκήκει . καὶ δίεσταλκε δὲ προσθεὶς ταχύν . ἡ δὲ ἀναφορὰ πρὸς τὸν ἐπὶ τοῦ ναυσσταθμου ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1005",
+    "lemma": "ἀντίθεόν τ' Αἴαντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3850",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.587,0.5162,0.213,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.112"
+    ],
+    "comment": "πρὸς τὰ περι τοῦ ναυσταθμοῦ , ὅτι πλησίον ὁ Ϊδομενευς Αἴαντος τοῦ Τελαμωνίου ἐνεωλκήκει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1006",
+    "lemma": "ὡς εὕδει σοὶ δ' οἴω·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3851",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.601,0.553,0.197,0.0706"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.116"
+    ],
+    "comment": "ὅτι τὸ πονέεσθαι ἐπι τοῦ ἐνεργεῖν , καθ εαυτὸ δὲ ἀναγνωστέον τὸ ὡς εὕδει ἐν θαυμασμῷ : ἠ τοῖς ἄνω συναπτέον ὡς ευδει ἐν θαυμασμῷ· ἠ τοῖς ἄνω συναπτέον"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1007",
+    "lemma": "οὔτ' ὄκνω εἴκων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3852",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.603,0.6086,0.197,0.0744"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.122"
+    ],
+    "comment": "φιλαδέλφως ἀπολογεῖται δύο δέ ἐστι δι ὧν γράφει , ῥαθυμία ,  ἀμέλεια καὶ ἄνοια καὶ ἐν ὥστε τὸ δοκοῦν ἁμάρτημα εἰς εγκώμιον τῆς πειθαρχίας περιΐσταται ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1008",
+    "lemma": "ἀλλ' ἑμές τ' εἰσορόων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3853",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.145,0.6867,0.66,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.123"
+    ],
+    "comment": "ἀλλ' εις εμὲ ἀποβλέπων οὔτε τὸν Νέστορα συκοφάντην ἐποίησεν . οὔτε τὸν Μενέλαον ἀργόν : ἅμα δὲ καὶ τὸν φιλάδελφον ἐμφανίζει ὅτι ἐγὼ ὑπερ αυτοῦ πάντα ποιῶ κακεῖνος ἐκδεχεταί μου τὴν ὁρμήν οἷον εἶναι δεῖ νεώτερον ἀδελφὸν πρὸς πρεσβύτερον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.1009",
+    "lemma": "νῦν δ' ἑμέο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3854",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA128RN_0300@0.152,0.7213,0.653,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:128r.10.124"
+    ],
+    "comment": "ὁ Ϊξίων μεγ' ἐπέγρετο καὶ μήποτε ἡ Ἀριστάρχειος οὕτως εἶχεν ⁑"
+  }
+]

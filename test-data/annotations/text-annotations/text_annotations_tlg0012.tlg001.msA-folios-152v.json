@@ -1,0 +1,186 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.88",
+    "comment": "ἐν ἄλλω χω  λέγοντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4561",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.4525,0.269,0.046,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.755"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.90",
+    "comment": "Ἀρισταρχ  μηρία καιε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4562",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.4515,0.6131,0.029,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.773"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.343",
+    "comment": "συνάγοντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4467",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.833,0.2678,0.05,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.344",
+    "comment": "πο  Ί̈διδος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4468",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.632,0.2828,0.037,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.345",
+    "comment": "ἀπέστρεψε σημείοις τισί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4469",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.748,0.3181,0.106,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.346",
+    "comment": "ἔσχατον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4470",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.718,0.3353,0.04,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.347",
+    "comment": "αντ  ἐμοί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4471",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.808,0.3728,0.043,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.348",
+    "comment": "ἐναπολαύσει γενήσεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4472",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.678,0.4126,0.101,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.349",
+    "comment": "ἐν τῷ τριγχῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4473",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.611,0.6197,0.067,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.350",
+    "comment": "ποτήριον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4474",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.812,0.6234,0.041,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.351",
+    "comment": "καιόμενος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4475",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.769,0.6399,0.044,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.353",
+    "comment": "νῦν ἐνεργεῖτετ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4476",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.697,0.6594,0.065,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.285",
+    "lemma": "‡ τόφρα γὰρ οὖν ἐπόμεσθα δι ἀσπιδέως πεδίοιο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4770",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.245,0.1103,0.694,0.153"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.754"
+    ],
+    "comment": "ὁ Ἀσκαλωνίτης δι ασπίδεως ἐπεὶ ἐπιφέρει ἀνά τ' ἔντεα καλὰ λέγοντες , τοιοῦτό τι λέγων τοῦ πολλὰς ἔχοντος ἀσπίδας , ὁ δὲ Αλεξίων καὶ ἀμφότερα κρίνει καὶ ἀσπιδέος καὶ σπιδεος , ὅ τε Ἀρίσταρχος ἐκεῖνο ἀποφαίνεται ὡς ὅτι τινὲς μὲν ἀπὸ τοῦ ς ποιοῦνται τὴν διαστολήν ἵνα ᾗ ἀσπίδεος ὡς εἰκαστικώτερον τοῦ ποιητοῦ ἄσπιδες τὸ πεδίον εἰρηκότος τὸ τὰ μακρὰ τῶν πεδίων καὶ εὐρέα περιφερῆ φαίνεσθαι μηδενὸς ἄλλου ὁρωμένου τέρματος ἀλλα τοῦ ορίζοντος ἀερος , ἄλλοι δὲ ἐκδέχονται ἀσπίδεος τοῦ ἔχοντος πολλὰς ἀσπίδας καθ ὅτι ἐπιφέρει ἀνά τ' ἔντεα καλὰ λέγοντες . οἱ δέ φασὶν ἐκ πλήρους σπίδεος καὶ ἀποδιδόασι πολλοῦ καὶ μακροῦ , καὶ γὰρ Αἰσχῦλος πολλάκις τὴν λέξιν οὕτως ἔχουσαν τίθησιν ὅταν λέγῃ σπίδιον μῆκος ὁδοῦ , καὶ ὁ Ἀντίμαχος οὐδε σπιδόθεν προνοῆσαι τοῦτέστι μακρόθεν , καὶ ταῦτα μὲν ὁ Ἀρίσταρχος : Κράτης δὲ προκρίνει τὴν δια τοῦ α γραφὴν καὶ Ζηνοδοτος δὲ συναινεῖ τῇ δίχα τοῦ α γραφῇ καὶ φησὶ σπιδέος τοῦ ἀπόρου καὶ τραχέος καὶ μεγάλου , καὶ Ἀμερίας δὲ λέγει σπιδέος τοῦ πολλοῦ καὶ εὑρεος καὶ μεγάλου καγὼ δὲ συγκατίθεμαι τοῖς ἀνδράσιν ὁρῶ γὰρ πολλὴν τὴν τοιαύτην χρησιν παρα τοῖς ἀρχαίοις ἡ διπλῆ , πρὸς τὸ σημαινόμενον τὸ ἀπο τῆς λέξεως ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.286",
+    "lemma": "πέτρης τ' Ὠλενίης ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4771",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.229,0.2633,0.226,0.0878"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.757"
+    ],
+    "comment": "ἤτοι διασταλτέον ἐπι τὸ Ἀλισίου , ἠ συνσπτέον  τοῖς ἑξῆς ὡς Δημήτριος ὁ Σκήψιος τάφον τὸν τοῦ Ἀλισίου ουτ  γὰρ Ἀρίσταρχος γράφει προστιθεὶς ὅτι τῶν Ἱπποδαμείας μνηστήρων εἷς ἢν ὁ Ἀλίσιος ἠ Ἀλίσιον μὲν πόλις , Κολώνη δὲ , ουτ  καλούμενος τόπος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.287",
+    "lemma": "ἔνθ' ἄνδρα κτείνας :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4772",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.238,0.3458,0.213,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.759"
+    ],
+    "comment": "ὅτι τὸ ἔνθα ἐν εκείνω τῷ τόπῳ καὶ ὅτι τοὺς Πυλίους Ἀχαιοὺς λέγει νῦν τοὺς δὲ Ηλείους Ἐπειούς ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.288",
+    "lemma": "οἶος τῆς ἀρετῆς ἀπονήσεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4773",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.238,0.3886,0.213,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.763"
+    ],
+    "comment": "μόνος τῆς ἀρετῆς ὄνησιν ἔξει , οὐχὶ δὲ καὶ οἱ φίλοι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.289",
+    "lemma": "νῶϊ δὲ ἔνδον ἐόντες ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4774",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.238,0.4141,0.226,0.2378"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.767"
+    ],
+    "comment": "ἡ μὲν διπλη ὅτι χωρὶς τοῦ ν Ὁμηρικῶς , ἡμεῖς ἢ ἡμᾶς : ἀθετοῦνται δὲ ἀπο τούτου στίχοι ιθ ἕως τοῦ σοὶ δ' αὖθ' ἐπέτελλεν , ὅτι ἡ σύνθεσις αὐτῶν πεζῆς καὶ διαφωνεῖ τοῖς ἐν ταῖς η ταῖς ταύτα , Πηλεὺς μὲν ὦ παιδὶ ἐπέτελλ' Ἀχιλῆϊ : ἐκεῖ γὰρ ὁ Πηλεὺς φησὶ τέκνον ἡμῶν , κάρτος μὲν Ἀθηναίη τὲ καὶ Ἥρη δώσουσ' αἴ κε θέλωσί : σὺ δὲ μεγαλήτορα θυμον . κάρτος μὲν Ἀθηναίη τὲ καὶ Ἥρη δώσουσ' αἴ κ' εθέλωσι : σὺ δὲ μεγαλήτορα θυμόν . καὶ ὅτι ἃ Πηλεῖ ἐπέβαλλε ποιεῖν ὁ Αχιλλεὺς πράσσει . αὐτὸς δὲ ὡς εἴδωλον σπένδει ἐς δ' άγε χειρὸς ἑλῶν κατά δ' ἐδριάασθαι ἄνωγεν . ξείνια τ' εῦ παρέθηκεν : ὁ δὲ Πηλεὺς οὐδ εἰ πάρεισι προσποιεῖται . εὐτελὴς δὲ ἡ σύνθεσις , καὶ τοῦ ἦρχον ἐγὼ μύθοιο κελεύων ὕμμ' ἅμ' ἕπεσθαι . ἡθετοῦντο καὶ παρα Ἀριστοφα  οἱ ιθ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.290",
+    "lemma": "αὐλῆς ἐν χόρτῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4775",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152VN_0654@0.239,0.6407,0.217,0.072"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152v.11.774"
+    ],
+    "comment": "ἐν τῷ περιφραγματ  τῆς αὐλῆς : χόρτοι δὲ οἱ τριγχοὶ ὡς καὶ Εὐριπίδης ἐν , σύγχορτα νέω παιδία ταῖς Ἐλευθέραις : καὶ ἐν ὁμοίως ⁑"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.120",
+    "comment": "Ἀρίσταρχ  ἀριστέας ἠγεν Ἀχαιῶν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_120",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.8703,0.3091,0.04145,0.04080"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.89"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.121",
+    "comment": "τὴν ἐπιθυμίαν ἐπλήρουν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_121",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.8436,0.3705,0.06448,0.02766"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.113",
+    "comment": "Ϊακῶς τὸ στεῖχον αἱ Ἀριστάρχ  ἅμα στεῖχον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_113",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4075,0.2609,0.077,0.0273"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.114",
+    "comment": "Ἀρίσταρχ  μετὰ τοῦ α δόρπα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_114",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4149,0.3052,0.0659,0.0238"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.88"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.115",
+    "comment": "Ἀρίσταρχ  γέροντας ἀριστέας :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_115",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4191,0.329,0.0605,0.0216"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.89"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.116",
+    "comment": "καὶ αλλου δε τινος ἐπιτελέσαι καὶ βεβαιῶσαι τὴν γνώμην :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_116",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.43,0.5508,0.0506,0.0367"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.101"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.117",
+    "comment": "καὶ ἄλλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_117",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4357,0.6098,0.0404,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.104"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.118",
+    "comment": "αντι τοῦ ου κατα τὴν εμὴν γνώμην :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_118",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4517,0.6896,0.0331,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.108"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.119",
+    "comment": "οὕτως Ἀρίσταρχ  ἀπεμυθεόμην ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_119",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4856,0.7152,0.1089,0.0164"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.109"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.122",
+    "comment": "οἱ δὲ ἐπι τὰ έτοιμα βρώματα ἐξ έτεινον τὰς χείρας και ἤσθιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_122",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4851,0.3481,0.2227,0.01604"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.91"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.123",
+    "comment": "κατασκευάζειν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_123",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.7012,0.3867,0.06743,0.01770"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.93"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.124",
+    "comment": "απ εκένοῦ τοῦ χρ  εως τοῦ νῦν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_124",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.4836,0.6361,0.1102,0.01342"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.106"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.125",
+    "comment": "ἀπηγόρευον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_125",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.5763,0.6964,0.05637,0.01494"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.109"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.106",
+    "lemma": "τίθεντο δὲ δόρπον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_106",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.2067,0.1266,0.7244,0.0415"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.88"
+    ],
+    "comment": "ἕκαστος . δια τοῦ α δόρπα αἱ Ἀριστάρχου ἄκαιρος δὲ Ζηνόδοτος γράφων τίθεντο δὲ δαῖτα θάλειαν ἄτοπον γὰρ θαλιάζειν τοὺς πένθει ἀτλήτῳ τὴν ψυχὴν βεβλημένους ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.107",
+    "lemma": "ἄριστον μὲν τὸ πρωϊνὸν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_107",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.1807,0.1426,0.7386,0.0386"
+    },
+    "references": [],
+    "comment": "ἔμβρωμα δόρπος δὲ τὸ νῦν ἄριστον ἢ δεῖπνον μεθ ὃ τὰ δόρατα ἔπαυον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.108",
+    "lemma": "ἐν σοὶ μὲν λήξω :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_108",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.1988,0.4712,0.2343,0.0593"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.97"
+    ],
+    "comment": "σύ μοι ἀρχὴ καὶ τέλος τῶν λόγων πάλιν γενήση : ἀνακτᾶται δὲ αὐτὸν τοῖς ἐγκωμίοις πρότερον καταπτοήσας ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.109",
+    "lemma": "σκῆπτρον τ' ἠδὲ θέμιστας ἵνα σφίσι βουλεύῃσθα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_109",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.1902,0.5147,0.2343,0.0805"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.99"
+    ],
+    "comment": "ἵνα τούτοις χρώμενος προβουλεύῃς τῶν ὑποτεταγμένων . ὡς τοῦ βασιλέως δὲ καὶ τῶν θεμίστων κρατοῦντος . οὐδέπω γὰρ ἐχρῶντο γραπτοῖς νόμοις ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.110",
+    "lemma": "σέο δ' έξεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_110",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.1996,0.5861,0.2475,0.0752"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.102"
+    ],
+    "comment": "ήτοι ἐν τῇ σῇ ἐξουσίᾳ , ἔσται τὸ ἔργον τοῦτο δοκιμασαι . ἥ το τοῦ λόγου κατόρθωμα σόν ἐστιν εἰς σε γαρ ἀνενεχθήσεται : τὸ ἕξεται δασυντέον ἀπο γὰρ τοῦ ἕξω μέλλοντος δασυνομένου μέσος ἐστίν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.111",
+    "lemma": "διογενεὺς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_111",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.2137,0.656,0.2434,0.0571"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.106"
+    ],
+    "comment": "προπερισπωμένως ἀναγνῶμεν , συναίρεσιν γὰρ ἔπαθεν τοῦ διογενέος καὶ διογενοῦς , καὶ τροπῇ τοῦ ο εἰς ε διογενεῦς γενικῆς γάρ ἐστι πτώσεως ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.112",
+    "lemma": "ἀπεμυθεόμην :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_112",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA113VN_0616@0.2041,0.7080,0.2450,0.04938"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:113v.9.109"
+    ],
+    "comment": "ἀπηγόρευον ἐκώλυον : γράφεται δὲ καὶ ἀπεμυθευόμην ἵν ᾖ ἀπελογιζόμην ⁑"
+  }
+]

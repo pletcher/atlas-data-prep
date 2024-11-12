@@ -1,0 +1,133 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.269r_1",
+    "comment": "κατ' οῦς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.8382,0.5217,0.06080,0.02365"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:20.269r_2",
+    "comment": "τόν γε .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7505",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.8220,0.6404,0.04956,0.01936"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.269r_1",
+    "comment": "οτ πάλιν ἀντιδιεστειλεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1203,0.3059,0.08401,0.03416"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.269r_2",
+    "comment": "οὐ γάρ τις καὶ οὐ γαρ έτι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7530",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1330,0.3983,0.05343,0.02434"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:20.269r_3",
+    "comment": "αρισταρχ ἐνέπρησεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7531",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1221,0.4718,0.07074,0.03416"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.269r_1",
+    "comment": "κατεσχε τοῦ φυγειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7612",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.5855,0.2209,0.09138,0.02213"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.269r_2",
+    "comment": "βραχ διασταλτ ἐπι τὸ ἐφορμηθεις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7613",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.6197,0.2831,0.1004,0.03582"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:20.269r_3",
+    "comment": "γρ καὶ κατ οὗς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7614",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.6116,0.5144,0.03150,0.02379"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:20.269r_1",
+    "comment": "αὐτοῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7557",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.3014,0.3386,0.02966,0.01093"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.269r_1",
+    "lemma": "Τρῶα δ' Ἀλαστορίδην ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7725",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.2117,0.07109,0.6299,0.06086"
+    },
+    "references": [],
+    "comment": "ἤτοι κομματικῶς εἶπεν ὡς ἔθος πολλάκις τοῖς ποιηταῖς . ὴ τὸ εξῆς ἐστι Τρῶα δ' Ἄλιστοριδην φασγάνω οῦτε καθ ῆπαρ~ ταῦτα δὲ ἐν παρεκβάσει εἰπῶν ἐπαναλαμβάνει δια τοῦ ὁ δὲ φασγάνω ὡς εἴωθεν~ οὔτω δὲ ἔσται τὰ λοιπὰ δια μέσου~ ἠ κοινὸν ἄνωθεν τὸ ἔτυψε ἀπο τοῦ τον δὲ σχεδὸν ἄορι τύψας ~"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.269r_2",
+    "lemma": "εἴπως εὐπεφίδοιτο .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7726",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.6328,0.3225,0.1982,0.2790"
+    },
+    "references": [],
+    "comment": "ἡ ευ ἀντωνυμία ἐν τῆ συντάξει ἐνεκλινε τὸν τόνον ἐστι γὰρ ἀπολυτος οὐχ ὅν τρόπον δ' οἴεται ὀ Ἀσκαλωνίτης τὸ πώς παντώς οξυτονηθήσεται ἐπεὶ ἤδη ἐμελέτησε καὶ ἄλλον ἐγκλιτικὸν ἐπιφερομένων τὸ πω καὶ τὸ πῶς τοῦτο μὴ πάσχειν οὔ πως έτ' Ἀγέλαε διοτρεφὲςδιοτρεφές . μήπως με προϊδών μ' ες θρόνον ΐζε διοτρέφεςδιοτρεφές . οὔπω μιν φασὶ φαγέμεν οὕτως οὖν καὶ τὸ εἴπως εὖ πεφίδοιτο οὐκ αναγκαστικὴν έξει τὴν ἐπι τοῦ πῶς ὀξείαν , ὁ μέντοι Ἀρίσταρχος γενόμενος κατα ταύτην τὴν προσῳδίαν τοῦτο μόνον ἀπεφήνατο εγκλινοντ δεῖν τῷ τόνῳ καὶ δασύνοντ λέγειν τὴν τρίτην συλλαβὴν σημαίνει γὰρ εἴπως αὐτοῦ δι ὃ καὶ ἡ διπλῆ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.269r_3",
+    "lemma": "οὐ γάρ τι γλυκύθυμος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7727",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.6437,0.5964,0.1802,0.06086"
+    },
+    "references": [],
+    "comment": "ὅτι οὐκ ἀνειμένος τῷ θυμῷ καὶ ηπιόφρων . ἀλλ ἐκ τοῦ ἐναντιου σκληρος καὶ χαλεπος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.269r_4",
+    "lemma": "ἐκ δέ οἰ ῆπαρ όλισθ ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7728",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1829,0.6521,0.6356,0.05892"
+    },
+    "references": [],
+    "comment": "ὀλισθηρὰ γὰρ ἡ φύσις τοῦ ἥπατος αἱμορραγίαι δὲ πολλὴ γέγονε δύο μεγίστων ἀγγείων διῃρημένων τοῦ ἥπατος καὶ τῆς κοιλίας ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:20.269r_5",
+    "lemma": "κόλπον ἐνέπλησε~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7729",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA269RN_0439@0.1805,0.6947,0.6253,0.05560"
+    },
+    "references": [],
+    "comment": "ἐνεπρησεν Φιλόξενος καὶ Ἀρίσταρχος περὶ δὲ τῆς γραφῆς Ἀρίσταρχου ἐν ποιήματι φησὶν~ οὕτως τὸ αἷμα ἀπο τοῦ ἥπατος ἐκρούνιζε χύδην καὶ τὸν τοῦ χιτῶνος κόλπον ἐνεφύσησεν ⁑"
+  }
+]

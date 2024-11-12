@@ -1,0 +1,138 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4083",
+    "comment": "τοί η",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2494",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.873249815770081,0.617427385892116,0.0265291083271923,0.0174273858921162"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.808"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.4084",
+    "comment": "αλλὰσεῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2495",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.861090641120118,0.667219917012448,0.0375829034635225,0.0171507607192255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.811"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4073",
+    "comment": "εἰδος ἀγητοί τῷ είδει μόνον θαυμαστοί·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.128592483419307,0.210788381742739,0.0692704495210022,0.027939142461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.787"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4075",
+    "comment": "οτι οὐ λέγει κατά τι ὅμοιον , ἀλλ' αντι τοῦ οὐδε όλως ὅμοιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.126750184229919,0.465836791147994,0.0596904937361828,0.0365145228215768"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.800"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.4076",
+    "comment": "τοῦτον τoν στίχον . οὐχ εὑρῆσθαι καθόλου φασὶν ἐν ταῖς Ἀριστάρχου · καὶ γὰρ ἀντιπράττει , καὶ προς τὸ δαίνυσθαί μιν ἄνωγον ἐνι μεγάροισιν ἕκηλον · καὶ οὐχ οἷόν τε ἐπιφέρειν , σοὶ δ' ἤτοι μὲν ἐγὼ παρά θ' ἵ¨σταμαι , ἠδὲ φυλάσσω ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2463",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.104642593957259,0.610511756569848,0.0840088430361091,0.131120331950207"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.808"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4059",
+    "comment": "ἐλέγχεα ὡς τείχεα οὐ γὰρ νῦν ἐπιθετικὸν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2408",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.469417833456153,0.197233748271093,0.148120854826824,0.0146611341632089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.787"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4060",
+    "comment": "Ἀρίσταρχος κακκελέχεες τὸ δὲ ἑξῆς διχῶς εἶδος ἄριστοι καὶ εἶδος ἄγητοί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2409",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.619749447310243,0.21881051175657,0.0899042004421518,0.0381742738589212"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.787"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:5.4061",
+    "comment": "ὅτι ἰδίως εἴρηκεν ἀντὶ του ο βαλων ἕλκος ἐποίησεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2410",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.619749447310243,0.356293222683264,0.0641120117907148,0.0354080221300138"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.795"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4036",
+    "lemma": "ἀν δ' ἴσχων·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2375",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.620486366985999,0.456154910096819,0.223286661753869,0.128907330567082"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.798"
+    ],
+    "comment": "ὡς λέγων ἔχων οὐδε γαρ δύναται ὀξύνεσθαι ὡς δευτέρου ἀορίστου ἄνευ γὰρ τοῦ ϊ ἐλέγετο ἂν σχών· ζητεῖται πότερον ΐσχων ὡς τρέχων ἢ ὡς νοῶν εὑρέθη γὰρ ΐσχηκα ὁ παρακείμενος· ἀλλα τουτο οὐδὲν συμβάλλεται προς τὴν Ὁμηρικην ἀναγνωσιν παρ αυτῷ γὰρ πάντα τὰ κινήματα ὡς ἀπὸ βαρυτόνου ΐσχεσθ' Ἀργεῖοι· ἴσχον γαρ πυργηδόν· ἥ τε πληθυντικῂ μετοχῇ χείρας τ' ἀνίσχοντες ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4037",
+    "lemma": "ἣ  ολιγόν οἷ παῖδα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2376",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.628960943257185,0.582019363762102,0.234708916728077,0.0788381742738589"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.800"
+    ],
+    "comment": "ὅτι οὐ λέγει κατα τί ὅμοιον . ἀλλ ἀντι του οὐδε ὅλως ὅμοιον τὸν δε ῆ περισπαστεον βούλονται γὰρ αὐτὸν ἰσυδυναμεῖν τὸ δῆ καὶ βεβαιωτικον εἶναι τοιοῦτος γὰρ ὁ κατ αρχην ε την δε ἀντωνυμίαν ὀρθοτονουσιν , ἐπεὶ εἰς σύνθετον μεταλαμβάνεται ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4038",
+    "lemma": "κούρους Καδμείων προκαλίζετο παντα δ' ἐνίκα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2377",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.624539425202653,0.6567081604426,0.239130434782609,0.0782849239280775"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.807"
+    ],
+    "comment": "ὅτι Ζηνοδοτος ὑποτάσσει τούτῳ στίχον ῥηϊδίως τοίη οἱ εγων ἐπιτάρροθος ἦα , ἐναντιοῦται δέ· ἡ γὰρ Αθηνὰ οὐ φησὶ παροτρύνειν ἀλλα κωλύειν κατήχθη δὲ οὐ δεόντως εκ τοῦ Αγαμεμνονος λόγου ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.4039",
+    "lemma": "ἤ νυ σέ που",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2378",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA078RN_0079@0.510316875460575,0.717842323651452,0.335298452468681,0.0381742738589212"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:78r.5.812"
+    ],
+    "comment": "ὁ η ὀξύνεται διαζευκτικος γάρ φυλάσσεται δὲ ἡ ὀξεῖα διὰ τὸ ἐπιφερόμενον νύ ἐγκλιτικὸν ὃ καὶ αὐτὸ ἔσχεν ὀξεῖαν δια τὴν σὲ ἐγκλιτικὴν ουσᾶν ⁑"
+  }
+]

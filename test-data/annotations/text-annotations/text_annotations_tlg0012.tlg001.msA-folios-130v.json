@@ -1,0 +1,116 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2008",
+    "comment": "εταῖρον καὶ συνεργὸν ἐπιλέξαι ὸν ἂν θελης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3930",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.597,0.3847,0.18,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2009",
+    "comment": "ακόλουθ  παραλαβεῖν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3931",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.724,0.4418,0.087,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2010",
+    "comment": "εἰς τὴν εὐγένειαν ἀφορῶν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3932",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.515,0.4591,0.119,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2011",
+    "comment": "καὶ ἐκ τοῦ φανεροῦ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3933",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.721,0.5935,0.084,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2013",
+    "comment": "ψέγε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3934",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.865,0.6499,0.038,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.2014",
+    "comment": "ανύεται τελειουτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3935",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.747,0.6875,0.068,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.2015",
+    "lemma": "ὡς ἔφαθ' ἔδδεισεν δὲ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3925",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.189,0.284,0.244,0.0796"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:130v.10.240"
+    ],
+    "comment": "ἀθετεῖται ὅτι περισσος ὁ στίχος καὶ παρέλκων καὶ μὴ ἐπιλεγόμενος ἀπαρτίζει τὴν διάνοιαν· ἡ δὲ διπλῆ ὅτι ἔξωθεν ἐκ τοῦ ἰδίου προσώπου ἀραφωνεῖ ὡς καὶ τὸ νήπιος . οὐδ' ἂρ ἔμελλε κακὰς ὑπο κήρας ἀλύξας · οὐδὲ ἐν τῇ· Ζηνοδότου δε ἦν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.2016",
+    "lemma": "κελευετέ μ' αὐτὸν ἐλέσθαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3926",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.187,0.3584,0.244,0.133"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:130v.10.242"
+    ],
+    "comment": "Ἀλεξίων τὸ ε τῇ ἀντωνυμίᾳ δίδωσιν αὐτῷ ῥήματι τελεικόν . καὶ δοκεῖ ὀρθοτονεῖν ὡς εἰ καὶ συνθέτως ἐλέγετο ἐμαυτον , καὶ τοῦτό γε ἐχρῆν εἶναι . ἀεὶ γὰρ αἱ τοῦ πρωτ  προσώπου ἀντωνυμίαι προτασσόμεναι τῆς αὐτὸς ὀρθοτονοῦνται· ὁ μέντοι Ἀσκαλωνίτης καὶ Ἀρίσταρχος ἐγκλητικῶς ἀνεγνώκασιν . ἐπι τὸν τε σύνδεσμον ποιοῦντες τὴν ὀξεῖαν ἵνα μὴ ὡς ἀκατάλληλον φανῇ τὸ ἑμαυτὸν ἑλέσθαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.2017",
+    "lemma": "εἰ μεν δὴ ἕταρον γε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3927",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.194,0.4876,0.244,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:130v.10.242"
+    ],
+    "comment": "ὅτι ἕταρον νῦν οὐ φίλον . ἀλλὰ συνεργὸν λέγει· ἡ δὲ ἀναφορὰ προς τὸ ἑταρίσσαιτὸ ἀντὶ του συνεργὸν λάβοι :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.2018",
+    "lemma": "οὗ περὶ μὲν πρόφρων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3928",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.195,0.5222,0.244,0.0639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:130v.10.244"
+    ],
+    "comment": "ἀληθῶς ὁ ἐν τοῖς κινδύνοις ἕπαινος χρήσιμος παρωσάμενος πᾶσαν αἰδῶ καὶ ἀμέλειαν ἅμα δὲ καὶ τοῖς ἄλλοις ἀπολογεῖται . οὐ δι ἀνδρείαν φησας αὐτὸν δέχεσθαι ἀλλα δια φρόνησιν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.2019",
+    "lemma": "τούτου γ' ἑσπομένοιο .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3929",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA130VN_0633@0.193,0.5808,0.244,0.0819"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:130v.10.246"
+    ],
+    "comment": "δύναται καὶ σπομένοιο ὡς φησὶν ὁ Ἀσκαλωνίτης . καὶ ὅμοιόν ἐστι τοῦ ὁ δε σπώμενος περὶ δουρί εἰ δὲ Ἀρίσταρχος δασύνει τὸ εῖ δε σὺ ὦ μέγ' ἀναιδὲς ἅμ' ἐσπόμεθ' ἀνάγκῃ πᾶσα κατ αυτὸν δασύνειν καὶ τὴν μετοχὴν καὶ ἀπο τοῦ ε ἄρχεσθαι ⁑"
+  }
+]

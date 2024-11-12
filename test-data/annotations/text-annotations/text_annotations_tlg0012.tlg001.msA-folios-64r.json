@@ -1,0 +1,60 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:5.6031",
+    "comment": "ἀμπεδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2500",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.80029477,0.41770401,0.03352985,0.01493776"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.96"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:5.6030",
+    "comment": "ἐπι τὸ ἀναχωρησας βραχὺ διασταλτ  ‡",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2470",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.11053795,0.62627939,0.07406043,0.02295989"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.107"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1030",
+    "lemma": "θώρηκος γύαλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2288",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.60980103,0.47109267,0.21997052,0.07717842"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.99"
+    ],
+    "comment": "ὅτι τὸ ὅλον κοῖτος τοῦ θώρακος γύαλον δια τὴν ποικιλότητα λέγει οὐ μέρος ὡρισμένον τοῦ θώρακος τὸ γύαλον ὅτἀν ἐπίθετον ᾖ ὀξύνεται εὐτ' ἀν ὁ παῖς ἀπο μὲν γυαλὸν λίθον ἀγκάσασθαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.1031",
+    "lemma": "ἀντικρὺ δὲ διέσχε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2289",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.61790715,0.54467497,0.21186441,0.09737206"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.100"
+    ],
+    "comment": "ὀξύνεται καὶ ἐκτείνεται ὅτἂν δὲ ἔχει τὸ σ συστέλλεται καὶ βαρύνεται· τὸ δὲ αἴτιον ἐν τῷ Περι ἐπιρῥήματος ἐροῦμεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:5.6133",
+    "lemma": "Λυκίηθεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2548",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA064RN_0065@0.615,0.5908,0.213,0.0548"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:64r.5.105"
+    ],
+    "comment": "Λυκίας χώρας ἧς ἐβασίλευσε Σαρπηδὼν ἔστι δὲ καὶ ἑτέρα τῆς Τρῳάδος πόλις ἧς ἐβασίλευε Πάνδαρος ⁑"
+  }
+]

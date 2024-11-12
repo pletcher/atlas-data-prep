@@ -1,0 +1,48 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.50",
+    "comment": "ἐν ἀλλῳ ροδοδάκτυλος ηως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7321",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326VN_0828@0.441,0.2913,0.068,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326v.24.785"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:24.51",
+    "comment": "ἐν αλλῳ ἀχνύμενοι κῆρ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7322",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326VN_0828@0.436,0.3251,0.065,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326v.24.786"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.105",
+    "lemma": "ὀστέα λευκά :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7480",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326VN_0828@0.232,0.4137,0.24,0.0405"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326v.24.793"
+    ],
+    "comment": "τινὲς ὀστέα προπαροξυτόνως ὡς χάλκεα ἄμεινον δὲ παροξύνειν·"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:24.106",
+    "lemma": "καὶ τά γε χρυσείην ἐς λάρνακα·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol7481",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA326VN_0828@0.237,0.4489,0.214,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:326v.24.795"
+    ],
+    "comment": "ἡ διπλῆ ὅτι τὴν σορὸν λάρνακα εῖπεν ⁑"
+  }
+]

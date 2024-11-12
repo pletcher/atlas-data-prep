@@ -1,0 +1,183 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.17",
+    "comment": "Ποσειδάωνι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4195",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.801,0.2018,0.063,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.728"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.86",
+    "comment": "γράφεται διαπραθέσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4560",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.5475,0.2968,0.0721,0.015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.733"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.335",
+    "comment": "ποτ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4460",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.29,0.1935,0.023,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.336",
+    "comment": "ἐν αγέλη έτι ούσαν ἀδάμαστ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4461",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.489,0.2153,0.104,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.337",
+    "comment": "οπότε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4462",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.202,0.3361,0.029,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.338",
+    "comment": "ὑπερέσχε συνεμάχησε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4463",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.4,0.3308,0.12,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.339",
+    "comment": "άμα συνηνέχθημεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4464",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.179,0.3526,0.095,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.340",
+    "comment": "τοῖς οδοῦσι τὴν γην έδακον θνήσκοντες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4465",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.238,0.5956,0.178,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.341",
+    "comment": "ε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4466",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.467,0.6227,0.01,0.0083"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.275",
+    "lemma": "‡ ταῦρον δ' Ἀλφειῷ , ταῦρον δὲ Ποσειδῶνι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4762",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.1491,0.0917,0.6486,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.728"
+    ],
+    "comment": "οικεῖα τὰ θύματα . τοῖς ποταμοῖς καὶ τῷ Ποσειδῶνι θύεσθαι λέγει ταύρους δια τὰς βίας τῶν ὑδάτων ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.276",
+    "lemma": "δόρπον ἔπειθ' ἑλόμεσθα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4763",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.1742,0.1074,0.6136,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.730"
+    ],
+    "comment": "ὅτι Ζηνόδοτος γράφει δεῖπνον δόρπον δὲ λέ  τὴν ἑσπερινὴν τροφὴν εὐθέως γὰρ κατακοιμῶνται ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.277",
+    "lemma": "‡ αλλά σφιν προπάροιθε ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4764",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.5856,0.3088,0.2032,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.734"
+    ],
+    "comment": "ὅτι τὸ προπάροιθε , οὐ τοπικῶς ἀλλα χρονικῶς πριν ὴ πορθῆσαι τὸ ἄστυ , ἐφάνη αὐτοῖς μέγας ὁ ἐσόμενος πόλεμος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.278",
+    "lemma": "εὖτε γὰρ ἡέλιος ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4765",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.5956,0.3591,0.1802,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.735"
+    ],
+    "comment": "ὅτι ἐξ ἡρωϊκοῦ προσώπου ὑπερ γῆς τὴν ἀνατολὴν λέγει αὐτὸς δὲ ἐκ τοῦ ἰδίου προσώπου ἐξ Ὠκεανοῦ"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.280",
+    "lemma": "ἣ τόσα φάρμακα ᾔδη ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4766",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.5816,0.4613,0.2062,0.2502"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.741"
+    ],
+    "comment": "Μήδεια ἐγένετο Ἀήτου μὲν θυγάτηρ , Ἱ̈άσωνος δὲ γυνη αὕτη μετὰ τὴν ἀπεργασθεῖσαν τεκνοκτονίαν φυγὰς εἰς Ἀθήνας ἀφίκετο καὶ ἐγαμήθη ἑκεῖ Αἰγεῖ τῷ Πανδίωνος , κακεῖ Θησέα τὸν ἐξ Αἴθρας γενόμενον τῷ Αἰγεῖ ἐπι τὸν τοῦ πρς  γνωρισμὸν ἐκ Τρόζηνος ἀφικόμενον πείθει τὸν Αἰγέα φάρμακον αὐτῷ δοῦναι θανάσιμον ἐπίβουλον αὐτοῦ τῆς βασιλείας εἰποῦσα παραγίνεσθαι : πεισθεὶς δὲ Αἱγεὺς , παραγενομένω τῷ παιδὶ φάρμακον έδωκεν . μελλοντος δὲ καταπίνειν ἐπιγνοὺς , τό τε ξίφος καὶ τὰ ὑπδήματα  , ταῦτα γὰρ ἐν Τρυζήνη γνωρίσματ  κατέλιπεν . τὸ μὲν φάρμακον ἀφείλετο τὴν δὲ Μήδειαν ἐξέβαλε τῆς Ἀττι  οἱκήσασα δὲ αὕτη τὴν πλησίον Ήλιδος Ἐφύραν πολυφάρμακον ἐποίησεν αὐτὴν ἐπονομασθῆναι : ἡ ἱστορία παρα Κράτητι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.281",
+    "lemma": "‡ ἡγεμόν' ἱππήων ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4767",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.1512,0.7115,0.4775,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.746"
+    ],
+    "comment": "τὸ ἱππήων ἑκατέροις δύναται προσδίδοσθαι , βέλτιον δὲ τοῖς ἐπάνω ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.283",
+    "lemma": "καὶ νύ κεν Ἀκτορίωνε Μολίωνε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4768",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.1622,0.737,0.6096,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.750"
+    ],
+    "comment": "ὅτι ἐντεῦθεν Ἡσίοδος Ἄκτορος κατ' επίκλησιν καὶ Μολιόνης αὐτοὺς γεγενεαλόγηκεν γόνω δὲ Ποσειδῶνος . οὐδέποτε δὲ Ὅμηρος ἀπο μρς  σχηματίζει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.284",
+    "lemma": "εἰ μή σφωε πατὴρ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4769",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA152RN_0324@0.1632,0.7513,0.6036,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:152r.11.751"
+    ],
+    "comment": "πρὸς τὰ περὶ τῆς φύσεως τῶν Ἄκτωρος παίδων πότερον μία , ἀμφοτέρων συμφυΐα , ἡ ἑκάτερος αὐτῶν διφυὴς ἢν ⁑"
+  }
+]

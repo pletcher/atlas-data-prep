@@ -1,0 +1,162 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.177",
+    "comment": "οτι περιττος ὁ καὶ συνδεσμ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2687",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.83640383,0.48506224,0.04568902,0.01396957"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.218"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.178",
+    "comment": "τὸ δέπας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2688",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.87140752,0.53167358,0.02266028,0.01009682"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.221"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.179",
+    "comment": "αντι του φειδώμεθα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2689",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.85372144,0.63139696,0.03352985,0.01535270"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.226"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.231",
+    "comment": "ἀποκοπ  τοῦ ἔκτάν ἐπι προμαχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2727",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.39019897,0.24190871,0.05453206,0.02005533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.205"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.233",
+    "comment": "οὐτ  ἀλλήλων Ζηνοδοτειος δέ ες ἡ ἀλλήλους ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2728",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.40770081,0.64384509,0.05140015,0.02337483"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.226"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.234",
+    "comment": "οἱον οὐκ επρίγει προς αλλήλους ἡμ ἀμφοτέρος μάχεσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2729",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.40696389,0.66721992,0.05526898,0.03609959"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.229"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A10",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2791",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.806,0.5357,0.028,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.221"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.A11",
+    "comment": "πε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2792",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.511,0.5763,0.028,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.223"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.72",
+    "lemma": "‡ ἔντ' ἐφύρῃ ἐγένοντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2603",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.18054532,0.32918396,0.21665438,0.04398340"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.210"
+    ],
+    "comment": "οτι οἱ μὲν ἥρωες Ἐφύραν παράγονται λέγοντες~ αὐτὸς δὲ Κόρινθ  λέγει τὴν π  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.73",
+    "lemma": "Οἰνεὺς μὲν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2604",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.18165070,0.36016598,0.21296979,0.02683264"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.198"
+    ],
+    "comment": "σημειοῦνται τινὲς οτι πρὸς τὸ πρῶτον ἀπήντηκεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.74",
+    "lemma": "ταύτης τοι γενεῆς καὶ αἵματος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2605",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.17796610,0.38395574,0.22881356,0.07302905"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.211"
+    ],
+    "comment": "σπέρματος , τὸ γὰρ αἷμα εἰς θορὸν μεταβάλλεται~ οἱ γοῦν συνεχῶς ἀφροδιάζοντες τὸ τελευταῖον , αἷμα φέρουσιν~ τὸ γὰρ μεταβαλλόμενον ἀναλώσαντες , τὸ ἀμετάβλητον ἐξέλκουσιν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.75",
+    "lemma": "κατέπηξεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2606",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.18533530,0.45532503,0.21849668,0.04868603"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.213"
+    ],
+    "comment": "γραφικῶς ἔχει καὶ τοῦτο ἵνα δὲ μὴκετί πόλεμος εἶναι δοκῇ , κατα πήγνυσι τὸ ἔγχος ὁ Διομήδης ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.76",
+    "lemma": "‡ ἔγχεσι δ' ὰλλήλων ἀλεώμεθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2607",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.19528371,0.72005533,0.69196758,0.07219917"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.226"
+    ],
+    "comment": "στικτέον κατα τὸ τελος τοῦ στίχου . ἀμφιβ  δὲ τὸ λεγόμενον . ἤτοι γὰρ ἀλλήλων παρακελεύεται φείσασθαι τόν τε Διομηδ  καὶ τον Γλαῦκον ~ καὶ πάλιν ἀλλήλων τὰ πλήθη τοὺς Λυκίους καὶ τοὺς Ἀργείους ~ ἵν' ὥσπερ σπονδὰς ἔχωσιν οὗτοι οἱ βασιλεῖς καὶ τὰ πλήθη~ ἠ καὶ ἐναλλὰξ~ καὶ οἱ βασιλεῖς των πληθῶν καὶ τα πλήθη τῶν βασιλέων~ ὡς δὲ συντομώτερον εἰπεῖν , πάντες πάντων~ Διὸμήδης Γλαῦκος . Ἀργεῖοι Λύκιοι ~ μειοῦνται γὰρ αἱ τῆς φιλίας συνθῆκαι εἰ μόνοι οἱ βασιλεῖς ἀλλήλων ἀφέξονται ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.77",
+    "lemma": "‡ ὄν κε δύνηαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2608",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084VN_0587@0.19638909,0.76901798,0.68920413,0.06390041"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84v.6.229"
+    ],
+    "comment": "ὡς λέγηαι καὶ φέρηαι οὐδέ κεν κακὸν οἶτον ὄληαι~ τυραννίων δὲ προπερισπᾶ καὶ δῆλον ὅτι καὶ τὸ πρῶτον αὐτοῦ πρόσωπον δώσει δυνῶμαι ὡς νικῶμαι~ ἀλλ' εἰ ἅπαξ ἐστι τὸ ὁριστικον κατα χρῆσιν δύναμαι δυνασαι καὶ ὁμολογεῖται ἀπο τῶν εἰς μι , ὁμοτονήσει τούτοις καὶ τὰ ὑποτακτικά . οὕτως καὶ Ἀρίσταρχος και οἱ ἄλλοι ⁑"
+  }
+]

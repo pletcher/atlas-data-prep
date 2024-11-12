@@ -1,0 +1,263 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.200",
+    "comment": "οἴ δε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_200",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.8719,0.3516,0.046,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.167"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:9.201",
+    "comment": "σπεῖσαν τε . πιον θ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAext_hmt_9_201",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.8128,0.5282,0.1091,0.0654"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.177"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.196",
+    "comment": "πρέσβεις ἐπιλέκτους ἢ ἐξ ὀνόματα καλέσαντες .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_196",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1069,0.3091,0.08032,0.04744"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.165"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.197",
+    "comment": "οτ  συγκέκοπται ἀντι τοῦ φέρετε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_197",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1201,0.4425,0.0701,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.171"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.198",
+    "comment": "δια νεύων τοῖς ὀφθαλμοῖς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_198",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1271,0.6191,0.0701,0.0316"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.180"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.199",
+    "comment": "ἐπεὶ παρα θάλασσαν ἐβάδιζον δια τοῦ το τὼ Ποσιδὼνι εὔχονται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_199",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1251,0.6702,0.0761,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.182"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.687",
+    "comment": "Ἀρίσταρχ  εγὼ ἄλλοι δὲ ἐγών ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_687",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.6066,0.3636,0.041,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.167"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.194",
+    "comment": "αντ  ἐπέσθωσαν γράφεται δὲ καὶ χωρὶς τοῦ ν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_194",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.6106,0.4087,0.041,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.170"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.195",
+    "comment": "περισπαστεον δεύτερος γα αο  ετς  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_195",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.3003,0.7122,0.1752,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.184"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.202",
+    "comment": "ι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_202",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.2487,0.3469,0.01732,0.008990"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.166"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.203",
+    "comment": "ἐπιλέξομαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_203",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.4086,0.3635,0.0522,0.0105"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.167"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.204",
+    "comment": "αντ  δία",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_204",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.2459,0.4553,0.0357,0.0133"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.172"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.205",
+    "comment": "εὐξόμεθα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_205",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.4001,0.4561,0.052,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.172"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.206",
+    "comment": "ἀρέσκοντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_206",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.4427,0.4746,0.0481,0.014"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.173"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.207",
+    "comment": "ἔπιόντε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_207",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.4189,0.5521,0.02690,0.01314"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.177"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.186",
+    "lemma": "‡ ὅσσον βασιλεύτερος ειμι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_186",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1762,0.1202,0.5255,0.018"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.160"
+    ],
+    "comment": "ὅτι τὸ ὅσσον οὐκ ἐστι πλήθους ἀλλ' ἀντὶ τοῦ καθ ὅσον εἰμὶ βασιλϊευκότερος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.187",
+    "lemma": "διδοῖς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_187",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1739,0.1198,0.6625,0.04260"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.164"
+    ],
+    "comment": "ὡς ορθοῖς : οὑτως καὶ Ἀρίσταρχος καὶ γὰρ τὸ τρίτον εἰ μὲν γὰρ μὴ δῶρα διδοῖ :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.188",
+    "lemma": "οἱ δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_188",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1832,0.1465,0.6577,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.167"
+    ],
+    "comment": "βαρυτονητέον : δύο γὰρ μέρη λόγου ἀντι τοῦ οὗτοι δὲ . εἰσὶ δε οἳ προπεριέσπασαν οὐκ εὖ χρεία γάρ ἐστι τοῦ δὲ συνδέσμου , ἐζήτηται δὲ πῶς μᾶλλον οὐ πρεσβεύει ὡς συνετώτερος : ἔστιν δὲ λέγειν ὅτι κατ οικονομιαν ὑπελείφθην ἵνα ἂν ἀπο τύχωσιν οἱ πε  οδ  αὐτὸς ὕστερον πείση : ἄτοπον γὰρ ἢν νῦν πρεσβεύειν τὸν Νέστορα : ὅτε δεῖ πάντως τὸν Ἀχιλλέα μὴ πεῖσθῆναι : ἀδοξία δὲ ἤν Νέστορα μη δυνηθῆναι πεῖσαι : οἱ δὲ φασὶν ὅτι ἐπει δὴ ἐχθρὸς ἤν Ἀχιλλέως λοιδορήσας ἀντὸν πρὸς Ἀγαμέμνονα . τοὺς δε δ' ἔα φθινύθει ἕνα καὶ δύο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.189",
+    "lemma": "Φοίνιξ μὲν πρώτιστα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_189",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1822,0.1923,0.6577,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.168"
+    ],
+    "comment": "ὅτι ὁ Φοίνιξ προέρχεται καὶ οὐ συμπρεσβεύει τοῖς περὶ τὸν Ὀδυσσέα ὥστε μὴ συγχεῖσθαι δια τῶν ἑξῆς τὰ δυϊκά ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.190",
+    "lemma": "αὐτὰρ ἔπειτ' Αἴας τὸ μέγας :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_190",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.6214,0.1967,0.2244,0.1052"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.169"
+    ],
+    "comment": "ἡ διπλῆ ὅτι τὸ ἔπειτα Ἀρίσταρχος ἀντι χρονικοῦ παραλαμβάνει ἀντι τοῦ μετα ταυτα ὡς καὶ Ἑρμείας μὲν ἔπειτα : βούλεται γὰρ πρῶτον τὸν Φοίνικα ἀπεληλυθότα εἰς τὸ σκήνωμα εἶτα τὸν Ὀδυσσέα καὶ τὸν Αἴαντα ὡς πρεσβεύοντας . ὁ δὲ Κράτης τὸ ἔπειτα ἀντι τοῦ δὴ συνδέσμου λαμβάνει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.191",
+    "lemma": "κηρύκων Ὀδίος τὲ καὶ Εὐρυβάτης :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_191",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.6181,0.2959,0.2196,0.06335"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.170"
+    ],
+    "comment": "ὅτι οὐ τὸν Ἀγαμέμνονος ὑποληπτέον νῦν λέγεσθαι . ἀλλὰ τὸν οδ  : ἐπεὶ κὰν ἐξωργίσθη τῆς δι αὐτοῦ γενομένης ἀφαιρέσεως ὑπομνησθείς ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.192",
+    "lemma": "δενδίλλων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_192",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.6216,0.3510,0.2111,0.1015"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.180"
+    ],
+    "comment": "ὅτι παρόντος τοῦ Φοίνικος . ἔτι ταῦτα ὁ Νέστωρ ποιεῖ . δι ὅ καὶ ἁρμόσει τὸ ἐς ἕκαστον πληθυντικῶς εἰς ἐνηνεγμένον . καὶ οὐκ εἰς ἑκάτερον ὅπερ ἐπι δύο τίθεται καὶ τὸ μάλιστα ὑπερθετικῶς εἰρημενον οὐ γὰρ παρὴν Φοῖνιξ ἐπεὶ καταισχύνεται διὰ τὸ Ὀδυσσῆϊ δὲ μάλιστα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.193",
+    "lemma": "τὼ δὲ βάτην :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_193",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA115RN_0287@0.1762,0.731,0.6927,0.0917"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:115r.9.182"
+    ],
+    "comment": "ὅτι ἐπι Ὀδυσσέως καὶ Αἴαντος τὸ δυϊκόν κεχώρισται γὰρ ὁ Φοῖνιξ μετὰ τὴν Νέστορος ἐντολήν οὗτοι δὲ μετα ταῦτα ζητοῦμεν δὲ εἰ καὶ Φοῖνιξ ἐστὶ πρεσβευτής . καὶ φασὶν . οἱ δύο πρεσβεύειν Αἴαντας καὶ Ὀδυσσέα Φοίνικος προεληλυθότος οὐκ εἰς το πρεσβεύειν ἀλλ εἰς τὸ πρεσβεύειν Αἴαντας καὶ Ὀδυσσέα Φοίνικος προέληλυθότος οὐκ εις τὸ πρεσβεύειν ἀλλ εἰς τὸ συλλαβέσθαι : καὶ δια τοῦτο ὁ ποιητής δυϊκῶς κέχρηται : καὶ χαίρετον ὦ φίλοι : ἔνιοι δὲ λέγουσιν συμπρεσβευκὲναι καὶ Φοίνικα καὶ οὐδὲν εἶναι τὸν Φοίνικα τὸν παρα τῷ ποιητῇ ἀριθμόν : πολλάκις γὰρ καὶ ἐπὶ πλειόνων αὐτὸν τετάχθαι ὡς καὶ ἐπι τοῦ μὴ νύ τοι οὐ χραίσμωσιν ὅσοι θεοί εἰς εν Ὀλύμπῳ ἆσσον ϊόντες καὶ ὡς ἐπι τοῦ τὼ κούρω κριθέντε δύο καὶ πεντήκοντα ⁑"
+  }
+]

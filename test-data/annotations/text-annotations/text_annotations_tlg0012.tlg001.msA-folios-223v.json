@@ -1,0 +1,268 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.1",
+    "comment": "αντ  τοῦ υπ  Τρώων δαμασθείς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5869",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.83,0.2502,0.072,0.024"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.2"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.2",
+    "comment": "τοῦ Μενε  ἡ τοῦ Πατρόκλου ὃ καὶ πιθανώτερον . ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5870",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.864,0.3606,0.047,0.0609"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.8"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:17.3",
+    "comment": "ὑπερβίως αὐχεῖν ο εστ  υπ  τὴν δύναμιν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5871",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.867,0.5657,0.047,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.19"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.1",
+    "comment": "οτ  αντ  ου ὅ εστ  αὐτοῦ Ζηνοδ  πρόσθε δε ου κακῶς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5944",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.44,0.3434,0.057,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.7"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.2",
+    "comment": "έδει πρωτ  ειπεῖν οὐ γάρ έστι προς ένα ἡ σύγκρισις προσ ὑπακουστέον δὲ τὸ εμοῦ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5945",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.435,0.4793,0.069,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.14"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:17.3",
+    "comment": "δια τοῦ α αἱ Ἀριστ  παρδ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5946",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.437,0.5973,0.059,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.20"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.1",
+    "comment": "καθ υπερβατ  ουκ ελ  δὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5910",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.4723,0.216,0.0726,0.0102"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.2",
+    "comment": "δαμάλει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5911",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.7875,0.2885,0.0335,0.0077"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.3",
+    "comment": "οἰκτρά ὀδυρτικη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5912",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.615,0.3031,0.0686,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.4",
+    "comment": "ὁ Εὐφορβος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5913",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.6721,0.3787,0.049,0.0102"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.5",
+    "comment": "προσηνῆ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5914",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.6765,0.5304,0.0416,0.0097"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.6",
+    "comment": "ἐπιρρώνυνται δεινὸν βλεπ  πέποιθεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5915",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.7506,0.622,0.1356,0.0108"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.7",
+    "comment": "πολεμικαὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5916",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.6857,0.6416,0.0523,0.0111"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.8",
+    "comment": "ἀδελφὸς Εὐφόρβου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5917",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.6879,0.6594,0.0726,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:17.9",
+    "comment": "ότε με ὕβρισεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5918",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.68,0.6762,0.085,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.1",
+    "lemma": "οὐδ' ἔλαθ' Ἀτρέος υἱὸν~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5995",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.223,0.1202,0.663,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.1"
+    ],
+    "comment": "Πατρόκλου πεσόντος πρὼτος αἰσθεται Μενέλαος φησὶ γὰρ ὃς κεῖται ἐμῆς ἔνεκ' ἐνθάδε τιμῆς . καὶ ὅτι ὁμότροποι ἄμφω γὰρ ἥπιοι οἱδε Μενέλαος , οὐ μόνον προς τοὺς ἀπχόμενους ήπιος ἦν , ἀλλ’ ήδη καὶ προς τὸυς πολεμίους ὥστε Ἄδραστον ζωγρήσας σὼζειν ἐβούλετο ἢ ὅτι καὶ περ  παντ  σπουδαῖος ὁρᾶται . δεόντος τον Μενέλαον εντῳ νῦν παρεισήγαγε καιρῷ , βοηθοῦντα καὶ ἀγωνιζόμενον . μάλιστα μεν δ  α τὸ τετρῶσθαι τοὺς αριστεῖς . ἔπει ταδὲ καὶ δί καιον ἡγεῖτο τὸυς δι αυτων τελευτήσαντας μὴ κατ  λιπεῖν , ἀλλα βοηθεῖν παντὶ σθένει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.2",
+    "lemma": "Τρώεσσι δαμεῖς .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5996",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.232,0.1629,0.668,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.2"
+    ],
+    "comment": "ἀμφίβολον πότερον Τρώεσσι συνήθως κατ' ἐναλλαγὴν πτώσεως παρείληπται . ἀντι τοῦ Τρώων ὡς Αἴαντι δὲ μάλιστα ἀντι τοῦ Αἴαντος ~ καὶ ἔστιν δαμεῖς ἐν Τρώων δηϊοτῆ́τι ἐν τῇ τῶν Τρώων μάχῃ ὡς το ἢν μὴ καὶ σὺ θάνῃς Ἀχιλῆϊ δαμασθεὶς , οὕτως Τρώεσσι δαμασθεὶς ἀντι τοῦ ὑπὸ Τρώων . δαμείς δὲ δαμασθείς · η αυτὸ δὲ τοῦτο διχῶς ἤτοι ἐπιπεσόντων πάντων τῶν Τρώων δαμεὶς ἢ ὑφ' Εκτορος ὥστε τὸ ἑνικὸν πληθυντικῶς ἐξενηνέχθαι καὶ Τρῶας κατα τὸ πληθυντικὸν ἔφη τόν τε Ἔκτορα καὶ τὸν Εὔφορβον ὑφ οῦ μὲν γὰρ ἐβλήθη . ὑφ οῦ δὲ οὐτάσθη ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.3",
+    "lemma": "ἀμφι δ' ὰρ' αὐτῶ βαῖν’ ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5997",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.221,0.2044,0.685,0.0789"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.2"
+    ],
+    "comment": "τὸ σημεῖον προς τὸ ὃς Χρύσην ἀμφιβέβηκας . πόρταξ δὲ καὶ πόρτις τὰ νέα τῶν βοῶν ἔκγονα δια τὸ σκιρτιτικὰ εἶναι~ τὸ δὲ αὐτὸ πόρτις καὶ πόρις ὅρα δὲ καὶ τὰς ἔξωθ  αὐξήσεις~ οὐ γὰρ ἔφη ὅστις περὶ πόρτακι βοῦς ~ ἕστηκεν , ἀλλὰ μηρ  τὸφιλοστοργότατον ὄνομα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.4",
+    "lemma": "πρωτοτόκος κινυρὴ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5998",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.231,0.272,0.206,0.0932"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.4"
+    ],
+    "comment": "ἡ οἰστρόφωνος κινύρασθαι γὰρ . τὸ θρηνεῖν~ ὑφ ἓν δὴ προενεκτέον πρωτοτόκος κινυρὴ ἡ περι , τὸν τόκον κινυρά~ τὸ δε πρωτοτόκος προ τέλους ἡ ὀξεῖα ἐστι γὰρ δραστικὸν καὶ μὴ ὑποπῖπτον τοῖς τρόποις τοῖς προπαροξύνουσιν~ τὸ δε προπαροξυνόμενον δηλοῖ τὴν πρῶτος τεχθεῖσαν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.5",
+    "lemma": "οὐδ' ἄρα Πάνθου υἱὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5999",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.226,0.3619,0.215,0.0601"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.5"
+    ],
+    "comment": "ὡς γὰρ ἐν κυνὴγεσίοις πρωτόλια τῷ πρώτῳ βαλόντι δίδοται οὕτω καὶ οὗτος τῶν ὅπλων ἀντιποιεῖται , εἰ γὰρ καὶ γεγύμνηται εἰκὸς αὐτῷ παρακεῖσθαι τὰ ὁπλα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.6",
+    "lemma": "ἐϋμμελία~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6000",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.225,0.417,0.226,0.0631"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.23"
+    ],
+    "comment": "καὶ ἐπι τούτου προ τέλους ἡ ὀξεια ὁμοτονεῖ γὰρ τοῖς ἑνικοῖς τὰ εἰς αι λήγοντα πληθυντικὰ ἐπι τῶν εἰς ας καὶ εἰς ης ἰσοσυλλάβως κλινομείνων καὶ βραχεῖα παραληγομένων ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.7",
+    "lemma": "Πάτροκλον βάλε δουρὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6001",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.226,0.4872,0.215,0.0541"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.9"
+    ],
+    "comment": "ὅτι βέβληται ὁ Πάτροκλος ὑπο τοῦ Εὐφόρβου καὶ οὐκ ούτασται , καθάπερ Ζηνόδοτος γράφει~ σχεδὸν οὔτασε Δάρδανος ἀνήρ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.8",
+    "lemma": "μη σε βάλω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6002",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.224,0.5334,0.084,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.15"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.9",
+    "lemma": "οὔτε συος κάπρου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6003",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.235,0.7192,0.658,0.0383"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.21"
+    ],
+    "comment": "κατ επίτασιν ἀλκι  τερος  γὰρ ὁ κάπρος~ δι ὃ ἐπὶ πᾶσι τέτακται οὐ κ’ἄλλα διὰ τὸ θυμικώτερον εἶναι τὸν κάπρον τῶν ἄλλων ζώων ἐπενήνοχε προς αὔξησιν καὶ ἔστιν σῦς μὲν τὸ γενικὸν , κάπρος δὲ τὸ εἰδικον , ἀπο τοῦ κάπτειν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:17.10",
+    "lemma": "οὐδε μὲν οὐδε βίη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6004",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA223VN_0725@0.234,0.7378,0.671,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:223v.17.21"
+    ],
+    "comment": "τὸ σημεῖον Διονύσιος δια τὸν Ὑπερήνορα φησὶ . προ εἴρηται γὰρ Ἀτρείδης δ ἂρ' ἔπειθ' Ὑπερήνορα ποιμείνα λαῶν λαὼν ούτασε καὶ ἴ̈σως κατα τὸ σιωπώμενον ἐκεῖ αὐτὸν ὠνείδισυεν ⁑"
+  }
+]

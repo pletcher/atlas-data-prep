@@ -1,0 +1,152 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.1046",
+    "comment": "ἀπηνήναντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2890",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.095,0.4108,0.0492,0.0219"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.185"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:7.1048",
+    "comment": "γράφεται οὐδε τε , ϊδρείη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2891",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.1092,0.6631,0.0925,0.0213"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.198"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1040",
+    "comment": "διχῶς καὶ θεοῖσι δὲ καὶ  θεοῖς ἰδὲ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2886",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.3892,0.248,0.0675,0.0369"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.177"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1041",
+    "comment": "οτ  ἀνέσειον τοὺς κλήρους οὐκ εξηροῦντο ὡς ἡμεῖς νῦν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2887",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.3967,0.3469,0.0567,0.0557"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.182"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1042",
+    "comment": "διχῶς  αλλ οτε δή ρ ἵ̈κοντο καὶ αλλ οτε δὴ τὸν ΐκανε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2888",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.3967,0.4214,0.055,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.186"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:7.1043",
+    "comment": "Ἀρισταρχ  δια τοῦ λ ελών",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2889",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.3967,0.6387,0.0492,0.0432"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.197"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1033",
+    "lemma": "‡ θεοῖς , ἰδὲ χεῖρας ἀνέσχον·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2879",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.1792,0.124,0.6725,0.0657"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.177"
+    ],
+    "comment": "ὁ Ἀσκαλωνίτης διαστέλλει·  ἰδὲ χεῖρας ἀνέσχον ὡς ἰδὲ κλέος ἐσθλὸν ἄροιτο · ἵνα γένηται καὶ χεῖρας ἀνέσχον· Ἀλεξίων δὲ τὴν κατειθισμένην παραλαμβάνει· λαοὶ δ' ἠρήσαντο . θεοῖσι δὲ χεῖρας ἀνέσχον οὕτως καὶ οἱ περι Ηρακλέωνα οὐκ ἀποδοκιμάζει μέντοι τὴν ετέραν ὁ Ἀλεξίων καὶ ἡμῖν οὕτως δοκεῖ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1034",
+    "lemma": "ἐνδέξια·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2880",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.1875,0.3845,0.2125,0.047"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.184"
+    ],
+    "comment": "ὅτ ἂν ἀντι ἐπιρρἥματος ἢ ἀντι τοῦ ἐπιδεξίως ἐνδέξια τρίτη ἀπο τέλους ἡ ὀξεῖα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1035",
+    "lemma": "ὅς μιν ἐπιγράψας·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2881",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.1775,0.422,0.23,0.0689"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.187"
+    ],
+    "comment": "ὅτι οὐ γράμμασι τῆς λέξεως ἀλλ' ἐγχαράξας σημεῖα· εἰ γὰρ κοινῶς ᾔδεσαν γράμματα· ἔδει τὸν κήρυκα ἀναγνῶναι καὶ τοὺς ἄλλους οἷς ἐπεδείκνυτο ὁ κλῆρος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1036",
+    "lemma": "σιγῇ ἐφ' ὑμείων·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2882",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.1792,0.4897,0.2325,0.0639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.195"
+    ],
+    "comment": "ἕως τοῦ ἔλπομαι ἐν Σαλαμῖνι στίχοι πέντε ἀθετοῦνται ὅτι οὐ κατα τὸν Αἴαντα οἱ λόγοι καὶ εαυτῷ ἀνθ' ὑποφέρει γελοίως·"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1037",
+    "lemma": "οὐδέ τ' ἀϊδρείῃ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2883",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.2025,0.7232,0.6683,0.0382"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.198"
+    ],
+    "comment": "δια τοῦ ϊ εἶχον αἱ Ἀριστάρχου · ἡ δὲ Ἀριστοφάνους οὐδὲ μὲν ἰδρείῃ . ἠθέτηντο δὲ καὶ παρα Ἀριστοφάνει , καὶ Ζηνοδότῳ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1038",
+    "lemma": "ἐπεὶ οὐδ' ἐμὲ ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2884",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.2067,0.7383,0.6692,0.0438"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.198"
+    ],
+    "comment": "ἐν ὀρθῇ τάσει ἀναγνωστέον ἵνα ᾖ ἀντιδιαστολὴ πρὸς ἄπειρα πολέμου τινὰ πρόσωπα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:7.1039",
+    "lemma": "γενεσθαί τε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2885",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA094VN_0597@0.2075,0.7539,0.665,0.0808"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:94v.7.199"
+    ],
+    "comment": "ἀλλ' ἐπάλληλοι ὀξεῖαι καίτοι σπονδειακον ἐστιν . ἀλλ' ἴσως ἐρ' ἵνα ἐκφύγωμεν τὸν διπλασιασμὸν τοῦ ῥήματος λέγω δὲ τοῦ τετράφεμεν τε ὡς καὶ ἐν τῇ τ τῆς παραλόγως ἐνεκλίναμεν , ἐν τῷ ἠῶθεν δὲ μάλ' ἤρη λοέσσαί τε χρῖσέν τε ἵνα μὴ πληθυντικὸν ῥῆμα ὑπολάβωμεν ⁑"
+  }
+]

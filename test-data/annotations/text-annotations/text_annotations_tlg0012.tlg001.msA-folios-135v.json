@@ -1,0 +1,274 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4591",
+    "comment": "πίφαυσκε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4126",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.132,0.2171,0.06,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.478"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4593",
+    "comment": "ήειρυεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4127",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.119,0.6251,0.079,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.499"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.4589",
+    "comment": "οτ  ἐπίσταται τὸ τοῦ Δόλωνος ὄνομα καὶ ἐνταῦθα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4124",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.828,0.2059,0.064,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.478"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.4590",
+    "comment": "ὅτι ἐπεζηγειτἐπεζήγειτο τίνα τὰ μήλα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4125",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.831,0.3734,0.056,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.486"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4583",
+    "comment": "ουτ  πληθυντικῶς οὕς ἐπι τῶν ἵππων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4118",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.403,0.2209,0.078,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.478"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4584",
+    "comment": "ὅτι οἱ νεώτεροι μέλεον τὸν ατυχῆ ὁδε Ὅμρ  αντι τοῦ ματαίως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4119",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.407,0.2585,0.078,0.0451"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.480"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4585",
+    "comment": "ουτ  Ἀρίσταρχ  ἄλλοι δὲ πλήξασκε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4120",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.423,0.4313,0.057,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.489"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4586",
+    "comment": "αντι τοῦ τρεισκαιδεκατ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4121",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.422,0.5447,0.057,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.495"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4587",
+    "comment": "κακὸς γὰρ αὐτῷ ἐπεστη όνειρος ὁ Διομήδης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4122",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.427,0.5657,0.057,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.496"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4588",
+    "comment": "οὔτε ἐν Ζηνοδότω οὔτε ἐν τῇ Ἀριστοφάνους ἐφέρετο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4123",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.438,0.5988,0.049,0.0646"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.498"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4594",
+    "comment": "ἐνεφάνιζεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4128",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.594,0.2171,0.069,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4595",
+    "comment": "ματέως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4129",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.604,0.2547,0.051,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4596",
+    "comment": "φόνευς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4130",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.631,0.2742,0.051,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4597",
+    "comment": "ἐνεργῶς ευτόνως :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4131",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.599,0.3118,0.082,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4598",
+    "comment": "τῷ ξίφει πληττομε  :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4132",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.514,0.3298,0.102,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4599",
+    "comment": "ἀφυλάκτοισιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4133",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.678,0.3509,0.081,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4600",
+    "comment": "ἐμπηδουηση :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4134",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.764,0.3719,0.065,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4601",
+    "comment": "ἀσυνήθεις ῆσαν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4135",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.708,0.4996,0.074,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4603",
+    "comment": "συνέδησεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4136",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.549,0.6138,0.051,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4604",
+    "comment": "τὴν ἐν φανερῶ κειμένην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4137",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.73,0.6326,0.111,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4576",
+    "lemma": "‡ ὡς δὲ λέων μήλοισιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4112",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.2,0.3546,0.234,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.485"
+    ],
+    "comment": "ὅτι μῆλα οἱ νεώτεροι πάντα τὰ τετράποδα , Ὅμηρος δὲ αίγας καὶ ὄϊς , μῆλ' ὀϊές τε καὶ αἶγες ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4577",
+    "lemma": "ὄφρα δυώδεκ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4113",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.202,0.3974,0.234,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.488"
+    ],
+    "comment": "ὅτι χωρὶς τοῦ Ῥήσου δώδεκα ἑταίρους αὐτοῦ ἀναιρεῖ ἀλλ οὐ σὺν αὐτῷ δώδεκα , ὡς τινὲς  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4578",
+    "lemma": "τὸν δ' Ὀδυσσεὺς μετόπισθε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4114",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.197,0.429,0.238,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.490"
+    ],
+    "comment": "ὅτι ἰδίως προειπὼν ἀτὰρ πολύμητις Ὀδυσσεύς ἐπενήνοχεν αὐτοῦ τὸ ὄνομα , τὸν δ' Ὀδυσεύς : καὶ ὅτι ὁ δέ σύνδεσμος περιττός ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4579",
+    "lemma": "τὸν τρισκαὶδέκατον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4115",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.193,0.4748,0.238,0.0639"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.495"
+    ],
+    "comment": "ὅτι νῦν μὲν τοὺς δώδεκα Θραξὶν ἐπαριθμεῖ τὸν Ῥῆσον τρεισκαιδέκατον σκοπόν . καὶ ὅτι ἐν σχήματι ἐξήνεγκε τὸν τρεισκαιδέκατον τὴν ψυχὴν ἀφείλετο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4580",
+    "lemma": "τὴν νύκτ' Οἰνείδαο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4116",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.195,0.5312,0.238,0.0744"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.497"
+    ],
+    "comment": "ἀθετεῖται ὅτι καὶ τῇ συνθέσει εὐτελής : καὶ μὴ ῥηθεντος δὲ νοεῖται ὅτι ὡς ὅναρ ἐφίσταται τῷ Ῥήσῳ . ὁ Διομήδης . καὶ τὸ δια μῆτιν Ἀθήνης λυπεῖ , μᾶλλον γὰρ δια τὴν Δόλωνος ἀπαγγελίαν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4581",
+    "lemma": "σὺν δ' ῄειρεν ϊμᾶσι καὶ ἐξήλαυνεν ὁμίλου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4117",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA135VN_0637@0.202,0.5995,0.248,0.0781"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:135v.10.499"
+    ],
+    "comment": "ἡ διπλῆ ὅτι καὶ νῦν ὅμιλον τὸ ἄθροισμα εἶπεν , δια τὴν περίστασιν δὲ ἀναγκασθέντες ἐπι γυμνοῖς τοῖς ἵπποις καθίζουσιν οἱ ἥρωες συναρτήσαντες αὐτοὺς τοῖς ϊμᾶσι καὶ μιμεῖται ὸ γινόμενον ἐν ταῖς ταραχαῖς ⁑"
+  }
+]

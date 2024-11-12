@@ -1,0 +1,117 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:6.295",
+    "comment": "δόλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2781",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.81871776,0.37372061,0.03831982,0.01355463"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.187"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.175",
+    "comment": "ουτ  Ἀρισταρχος ἄλλοι δὲ δια τοῦ ε ἐπερχομένω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2685",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.09874724,0.35822960,0.05858511,0.02517289"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.187"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:6.176",
+    "comment": "προς τὸ πάλιν οτι οὐ χρονικῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2686",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.09727340,0.39391425,0.06079587,0.03015214"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.189"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:6.230",
+    "comment": "γραφεται ὄφρα νέμοιτο ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2726",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.53610906,0.50899032,0.04126750,0.01632089"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.195"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:6.288",
+    "comment": "τεράστιον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2774",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.42630803,0.21327801,0.04237288,0.01189488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.180"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.64",
+    "lemma": "‡ καὶ τὴν μὲν κατ έπεφνε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2598",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.15567428,0.11964039,0.44325718,0.02240664"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.183"
+    ],
+    "comment": "ὅτι οὐδὲν περὶ τῆς κατὰ τὸν Πήγασον ῾ϊστορίας ἐμφαίνει ."
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.65",
+    "lemma": "κρίνας ἐκ Λυκίης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2599",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.16488578,0.13568465,0.33935151,0.01964039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.188"
+    ],
+    "comment": "βέλτιον τοῖς ἑξῆς σὺντάττειν τουτον τον στίχον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.66",
+    "lemma": "ἀλλ ὅτε δὴ γίνωσκε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2600",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.57645542,0.42337483,0.21849668,0.04204703"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.191"
+    ],
+    "comment": "οτι ἐκ των πραττομε  τοῦτο σύνεβαλεν . εἰς δὲ προσέκειτο καὶ ὁ Πήγασος πολὺ πλέον αυτου τὴν δόξαν επιστωσατο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.67",
+    "lemma": "καὶ μέν οἱ Λύκιοι τέμενος τάμον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2601",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.56798084,0.46265560,0.23139278,0.02738589"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.194"
+    ],
+    "comment": "οτι παρετυμολογεῖ τὸ τέμενος ἀπὸ του τεμεῖν καὶ ἀφορίσαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:6.71",
+    "lemma": "πάτον ἀνων  ἀλε είνων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2602",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA084RN_0256@0.15438467,0.74481328,0.62011791,0.04398340"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:84r.6.202"
+    ],
+    "comment": "πᾶτον ὡς λόγον τὰ γὰρ εἰς τὸς λήγοντα δισύλλαβα βραχείᾳ παραληγόμνα μονογενῆ βαρύνεται . κρότος~ κότος μίτος . Νότος . πότος . οὕτως ἄρα καὶ πάτος . δοκεῖ ἀντικεῖσθαι τὸ σρατος ~ τὸ γὰρ βροτὸς καταδύο τρόπους ἀποφεύγει οτι καὶ κοινον καὶ ἔχει ἀντέμφασιν ⁑"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:10.4669",
+    "comment": "απενιζοντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4174",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.826,0.5748,0.067,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.572"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.4666",
+    "comment": "ὅτι ϊδίως τὸν άνακτα αὐτοῖς ἀντι τοῦ αυτον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4172",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.113,0.3171,0.077,0.0361"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.559"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:10.4667",
+    "comment": "ὅσοι ἐκ Μουσῶν τίκτονται : Ορφευς εκ Καλιόπῃ ἠ κλειους Λίνος ἐκ Τερψιχώρης ἠ ὥς τινες Εὐτερπης : Ρῆσος εκ Τερψιχώρη ἠ Ευτερπης Θραξ εκ Θαλείας Παλαίφατος : ἐξ Ερατοῦς , Θάμυρις ὁ Θράξ Μελπομένης καὶ Ἀχελόους Σειρῆνες Πολυμνίας Τριπτόλεμος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4173",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.0961,0.5237,0.0921,0.2036"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.570"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4664",
+    "comment": "νῦν ἐνειρων οίας μέρει κεῖται : οὐ γὰρ ἐπαινεῖν πρέπει τοῖς πολεμίοις :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4170",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.48,0.3922,0.163,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.563"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:10.4665",
+    "comment": "ουτ  Αρισταρχ  ἄλλοι δὲ ἀφυσσάμεν  ἔστι κατάλληλον προς το λεῖβον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4171",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.41,0.7325,0.13,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.579"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4670",
+    "comment": "ο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4175",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.333,0.2727,0.026,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4671",
+    "comment": "νεωστι ἐληλυθότες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4176",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.389,0.2923,0.085,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4675",
+    "comment": "ἡδύ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4177",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.379,0.5011,0.043,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4676",
+    "comment": "ανθηρὸν σιτον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4178",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.469,0.5034,0.086,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4677",
+    "comment": "αντ  τοῦ ἐν νοῶς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4179",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.215,0.5199,0.077,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4678",
+    "comment": "αυχένα τράχηλον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4180",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.396,0.5815,0.095,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4679",
+    "comment": "πυελους παρα τὸ τὴν άμην ὅ εστ  τὸν ῥύπον μινύθειν καὶ μειοῦν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4181",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.225,0.6371,0.29,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4680",
+    "comment": "λιπαρῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4182",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.516,0.6551,0.052,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:10.4681",
+    "comment": "παρεκάθιζον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4183",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.3,0.6732,0.073,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4656",
+    "lemma": "θρηΐκιοι : τὸν δέ σφιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4163",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.649,0.3223,0.173,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.559"
+    ],
+    "comment": "ὅτι ἰδίως τὸν ἄνακτα αὐτοῖς ἀντι τοῦ αυτῶν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4657",
+    "lemma": "ὸν τεισκαιδέκατον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4164",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.636,0.3576,0.195,0.0917"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.561"
+    ],
+    "comment": "ὅτι τοῖς δώδεκα Θραξὶ τὸν Δόλωνα ἐπαριθμεῖ χωρίσας τὸν Ρῆσον δια τῶν προειρημένων τόν δε σφιν . ἄνακτ' ἀγαθὸς Διομηδης : πλανηθέντες δὲ  τινες γράφουσιν τὸν τετρακαιδέκατον σκοπὸν εἴλομεν :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4658",
+    "lemma": "νηῒ δ' ἐνι πρύμνη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4165",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.625,0.4433,0.195,0.0458"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.570"
+    ],
+    "comment": "ὅτι ἀντι τοῦ νεῶς πρύμνη καὶ ὅτι κοινῶς τὰ ἔναρα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4659",
+    "lemma": "θῆκ' Ὀδυσεὺς ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4166",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.622,0.4846,0.206,0.0759"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.571"
+    ],
+    "comment": "ὅτι περι μὲν τῆς θυσίας σαφῶς λέγει περι δὲ τῆς δόσεως τῶν δώρων εσιώπησεν . ἀρκεσθεὶς , τῷ ἄνω κεφαλαίωδῶς εἰρημένω ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4660",
+    "lemma": "ἐσβάντες κνήμας τε ἰδὲ λόφον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4167",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.614,0.55,0.206,0.1037"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.573"
+    ],
+    "comment": "ὅτι λόφον αὐτὸν νῦν τὸν τένοντα ἔνθεν καὶ ἐν καταλοφάδεια ἀντι τοῦ κατ  τὸν τένοντ  . βραχὺ δὲ διασταλτέον . μετὰ τὴν πρώτὴν λέξιν . καὶ ὅτι κοινή ἐστιν ἡ ἀμφὶ ἀμφί τε κνήμας καὶ λόφον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4661",
+    "lemma": "αὐτὰρ ἐπεί σφιν κῦμα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4168",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.618,0.6484,0.206,0.0669"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.574"
+    ],
+    "comment": "τοῦ ἐπει τὴν τελευταίαν ὀξυτονητέον ἐγκλητικὴ γὰρ ἡ σφὶν ἡ διπλῆ δὲ ὅτι δοτικῆ ἀντι γενικῆς ἐχρήσατο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:10.4663",
+    "lemma": "πλείου ἀφυσσόμενοι .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4169",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA137RN_0309@0.546,0.7528,0.284,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:137r.10.579"
+    ],
+    "comment": "ὅτι ἀντι τοῦ πλήρες , τὸ δὲ συγκριτικὸν ἀπο τοῦ πλείων πλείονος ⁑"
+  }
+]

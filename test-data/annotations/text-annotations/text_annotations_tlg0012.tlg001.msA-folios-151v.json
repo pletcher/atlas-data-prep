@@ -1,0 +1,167 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.47",
+    "comment": "γράφεται ἀμφί τε ἄστυ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4224",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.863,0.2813,0.067,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.706"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.85",
+    "comment": "βραχ  διασταλτ  ἐπι τὸ ῆλθον πρὸς τὸ σαφέστερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4559",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.449,0.3293,0.045,0.0578"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.708"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.330",
+    "comment": "διαφθεῖραι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4456",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.722,0.4179,0.059,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.331",
+    "comment": "παρεγένοντο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4457",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.694,0.4374,0.063,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.333",
+    "comment": "πο  Πύλου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4458",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.587,0.6054,0.042,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.334",
+    "comment": "μετα μεσημβρίαν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4459",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.559,0.6647,0.081,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.264",
+    "lemma": "μή τίς οι ἀτεμβόμενος κίος ἴσης :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4753",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.224,0.1455,0.714,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.705"
+    ],
+    "comment": "ὅπως μῆδεῖς ἀπέλθη στερηθεὶς τῆς ὁμοίας καὶ ἴσης τιμῆς ἴσης γὰρ τῆς τὸ δίκαι καὶ ἴσον ἐχούσης ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.265",
+    "lemma": "πανσυδίῃ μετα δέ σφι Μολίονε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4754",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.226,0.1583,0.697,0.0368"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.709"
+    ],
+    "comment": "ὅτι ἀπο μρς  ὅμρ  οὐ σχηματίζει μήποτ' οὖν ἀπο ταύτης πρς  Μόλου οὕτως αὐτοὺς εἶπεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.266",
+    "lemma": "Μολίονε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4755",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.228,0.171,0.697,0.045"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.709"
+    ],
+    "comment": "Ἄκτορος καὶ Μολίνης παίδας Κτέατον καὶ Εύρυτον κατά τινας δὲ Μολίνης καὶ Ποσειδῶνος . ἴσως δὲ μᾶλλον Μολίονος αὐτοὺς εἶπεν πολεμικοὺς ἀπο τοὺς κατ  τὴν μάχην μολύνσεως , οὐχ ὡς οἱ νεώτεροι ὅτι ἡ μηρ  αὐτῶν ἐκαλεῖτο Μολίονη , ἀπο μρς  γὰρ Ὅμηρος οὐδένα σημαίνει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.267",
+    "comment": "οὗτοι παρηλλαγμένην φύσιν τῶν λοιπῶν ἔσχον ἀνων  : διφυεῖς γὰρ : ῆσαν ἔχοντες ἑκάτερος δύο κεφαλὰς καὶ πόδας τοὺς ἴσους ἓν δὲ σῶμα . δια τοῦτο τοὺς πολεμίους καὶ γυμνικοὺς ἑνίκων αγῶνας , Ἡρακλῆς δὲ πολεμῶν καὶ μη δυνάμενος κατα τουμφανὲς αὐτῶν περιγενέσθαι συμμαχούντών Αὐγέα λοχήσας αὐτοὺς ἀνεῖλεν καὶ οὕτως ἐπύρθησε τὴν Ήλιν , ἡ ϊστορία παρα Φερεκύδει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4756",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.228,0.1905,0.697,0.081"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.709"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.268",
+    "lemma": "ἔστι δέ τις Θρυόεσσα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4757",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.227,0.2618,0.225,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.711"
+    ],
+    "comment": "ὅτι ἣν ἐν τῷ εἴρηκε Θρύον καὶ Θρύον Ἀλφειοῖο πόρον , νῦν Θρυόεσσαν λέγει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.270",
+    "lemma": "εἴα θωρήσσεσθαι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4758",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.228,0.3953,0.231,0.048"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.718"
+    ],
+    "comment": "προτρέπει τὸν Πάτροκλον . δι ὦν αὐτὸς καὶ νέος καὶ ὑπο πρς  κωλυόμενος ὅμως πεζὸς ἐξῆλθεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.271",
+    "lemma": "οὐ γάρ πω τί μ' ἔφη ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4759",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.226,0.4276,0.24,0.048"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.719"
+    ],
+    "comment": "ὀφείλει τὸ τί ὀξύνεσθ  δια τὴν μέ ἀντωνυμίαν : νῦν ἐγκλιτικὴν οὖσαν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.273",
+    "lemma": "ἐγγύθεν Ἀρήνης :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4760",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.226,0.5386,0.24,0.036"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.723"
+    ],
+    "comment": "ἤτοι τοῖς ἑξῆς ἢ τοῖς ἐπάνω προσδοτέον τὸ ἡμιστίχιον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.274",
+    "lemma": "ἔνθεν πανσυδίη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4761",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151VN_0653@0.224,0.5701,0.24,0.0713"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151v.11.725"
+    ],
+    "comment": "βραχὺ διασταλτέον κατα τὸ τελος τοῦ στίχου ὑπ ὅρθρον γὰρ ὁπλισθέντες . πρὸς τὴν Ἀρήνῃ ὤδευσαν καὶ κατα μέσον ἡμέρας ἐπι τὸν Αλφειὸν παρεγένοντο ⁑"
+  }
+]

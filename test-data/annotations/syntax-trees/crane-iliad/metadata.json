@@ -1,0 +1,13 @@
+{
+  "label": "Iliad Syntax Trees (Gregory Crane)",
+  "urn": "urn:cite2:exploreHomer:syntaxTree.v1:syntaxTree-tlg0012-tlg001-perseus-grc2",
+  "kind": "SyntaxTrees",
+  "schemes": {
+    "tag": "perseus",
+    "relation": "agdt",
+    "lemma": "lsj"
+  },
+  "trees": [
+    "trees-001.jsonl"
+  ]
+}

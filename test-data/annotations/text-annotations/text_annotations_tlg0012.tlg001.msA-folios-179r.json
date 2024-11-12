@@ -1,0 +1,159 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A10",
+    "comment": "ὅτι πάλιν συλληπτικῶς οἱ μὲν γὰρ ἐβέβληντο οἰ δὲ οὐταμένοι ᾖσαν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8549",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.1177,0.2035,0.07240,0.05781"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.764"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A11",
+    "comment": "ὅτι θηλυκῶς ἡ Ἴ+λιος καὶ τὸ τοι παρέλκει οὐ γὰρ αὐτῷ μόνῳ ἢν ὀλεθρ'  ἀλλα καὶ τοῖς ἄλλοις ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8550",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.1249,0.3733,0.06853,0.06252"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.773"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A12",
+    "comment": "ὅτι τὸ μέλλω ἀντ  τοῦ έοικεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8551",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.1207,0.4535,0.06706,0.02393"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.777"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:13.A13",
+    "comment": "αντ  αλεξησεως καὶ βοηθείας ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8552",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.1382,0.6221,0.06466,0.03071"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.786"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A22",
+    "comment": "ουτ  Ἀρισταρχ  ἄλλοι δὲ μεμαῶτες ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8152",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.593,0.1961,0.073,0.0488"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.785"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A23",
+    "comment": "ουτ  μετ  τοῦ συνδ  θεσπεσίῳ δ' ὁμάδω ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8153",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.578,0.3441,0.048,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.797"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A24",
+    "comment": "Ἀριστ  αύτως ἄλλοις ούτως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8154",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.576,0.3734,0.077,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.810"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:13.A25",
+    "comment": "ὅτι ελλειπ  ἡ δια δια πλοίου",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8155",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.609,0.5958,0.09,0.0346"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.820"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:13.A11",
+    "comment": "έπεισε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8553",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.3486,0.6526,0.03592,0.01342"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A42",
+    "lemma": "βεβλημένοι ουταμενοι τε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8355",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.172,0.0849,0.627,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.764"
+    ],
+    "comment": "ἀντι τοῦ οἱ μὲν ἀπο μήκους βεβλημένοι δόρατι ἢ ἰ+ῷ , οἱ δὲ ἐκ τοῦ ἐγγὺς τετρωμένοι ξίφει ἥ \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tτινι τοιοῦτο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A43",
+    "lemma": "κατάκρης",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8356",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.289,0.1014,0.473,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.772"
+    ],
+    "comment": "ἕως τῆς ἀκροπόλεως~ τινὲς δὲ κρῆς μονοσυλλάβως , ἐπεὶ καὶ κρῆθεν φησίν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A44",
+    "lemma": "ποῦ τοι Δηΐφοβός ε ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8357",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.178,0.1165,0.647,0.0225"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.770"
+    ],
+    "comment": "ἠθικῶς ὁποῦ ἐνταῦθα οὐ γὰρ πάρελκει , ἀλλ' ἐχει χώραν κυριωτάτην , ἐπεὶ καὶ τὸ ὄλον δι Ἀλέξανδρον πράττει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A45",
+    "lemma": "οἴχεσθον μακροῖσι τετυμμένῳ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8358",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.171,0.695,0.645,0.0376"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.782"
+    ],
+    "comment": "ὅτι συλληπτικῶς τὸ τῷ ἑτέρῳ συμβεβηκῶς ἐπ' αμφοτέρων τέταχεν , οὐ γὰρ ἀμφότεροι ἐπύτησαν . \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tἀλλ' ὁ μεν ἕλενος ἐβλήθη ὁ δε δηΐφοβος ἐτύπη ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:13.A46",
+    "lemma": "παρ δύδαμιν οὐκ έστι καὶ ἐσσύμενον πολεμίζειν~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol8359",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA179RN_0350@0.174,0.7122,0.645,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:179r.13.787"
+    ],
+    "comment": "τὸ ἑξῆς οὐκ έστι πολεμίζειν τὸ δὲ ἐσσύμενος διὰ μέσου οὕτως οὖν διορθωτέον διαστολῇ \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tἑκατερωθεν ⁑"
+  }
+]

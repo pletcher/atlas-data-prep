@@ -1,0 +1,175 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.1",
+    "comment": "ἐπιστεφέες .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4186",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.8156,0.4895,0.0621,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.3",
+    "comment": "ουτ  Ϊακῶς τὸ στήριξε·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4198",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.1052,0.2602,0.0711,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.28"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.4",
+    "comment": "πολεμικὴ ἣν εὐκίνητον καὶ κοῦφιν τῷ φοροῦντι : ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4199",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.0902,0.3286,0.0691,0.0556"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.32"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.3",
+    "comment": "Ζηνοτ  ἐριδεσσιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.5661,0.2406,0.0301,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.27"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.13",
+    "comment": "ταῖς ἐν τῷ ουνω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4236",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.348,0.2341,0.071,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.14",
+    "comment": "σ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4237",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.357,0.2446,0.01,0.0045"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.15",
+    "comment": "τοῖς ἀπαιωροῦσιν τὸ ξίφος ἱμᾶσι·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4238",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.391,0.3136,0.124,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.18",
+    "comment": "ουτ  Αριστ  γράφεται δὲ καὶ ἐπ αυτῶ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4239",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.462,0.4486,0.115,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.19",
+    "comment": "ἀπ αυτων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4240",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.436,0.5641,0.055,0.009"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.11",
+    "lemma": "‡ κυάνεοι δε δράκοντες :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4577",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.161,0.1104,0.532,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.26"
+    ],
+    "comment": "ἐν τῇ Ἀριστοφάνους σμερδαλέοι δὲ δράκοντες ἐλειχμῶντο :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.14",
+    "lemma": "χρύσειοι πάμφαινον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4578",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.164,0.1614,0.657,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.30"
+    ],
+    "comment": "ὅτι νῦν μὲν χρυσόηλον ἐν ἄλλοις δὲ ἀργυρόηλον , ἤτοι κατ επιφορὰν ἢ δια τὴν ἀριστίαν κοσμεῖ διαφορώτερᾳ πανοπλίᾳ :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.15",
+    "lemma": "ἀν δ' έλετ' ἀμφιβρότην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4579",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.172,0.1712,0.644,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.32"
+    ],
+    "comment": "ὅτι ἀνδρομήκεις αἱ ἀσπίδες : προ δὲ τῆς πόλεως περικεφαλαίας ἀναλαμβάνει τὴν ἀσπίδα ὡς ἂν διὰ ἀν διὰ ἀναφορέων χρωμένων ταῖς ἀσπίσιν ὁ δὲ Ζηνόδοτ  ἐπι τοῦ Ἀλεξάνδρου τὸν ὁπλισμὸν ἐνήλλαχεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.16",
+    "lemma": "χάλκεοι ἦσαν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4580",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.266,0.1952,0.552,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.33"
+    ],
+    "comment": "ἐὰν σὺν τῷ ϊ γράφηται ἤϊσαν περιεπορεύοντο εἰ δε μὴ ἀναστρεπτέον ἵνα ἦ περὶ ἦν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.17",
+    "lemma": "λευκοί",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4581",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.585,0.2087,0.23,0.0931"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.35"
+    ],
+    "comment": "ὀξυτονητέον ἵνα ἐπι τῶν ὀφθαλμῶν κέηται . εἰσὶ δὲ οἲ περισπῶσται  ἵνα γενικῇ γένηται ἐπίθετον τοῦ κασσιτέρου κακῶς ἔθος γάρ ἐστι , παρα τῷ ποιητῇ τὴν Θεσσαλικὴν ταύτην καλουμένην γενικὴν εὑρίσκεσθαι εἰ μη μέτρον κωλύοι εἰ γὰρ κωλύοι ἡ κοινὴ παραλαμβάνεται παρεκτεταται τὸ κεφαλαιον Ἡρῳδιανῷ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.18",
+    "lemma": "τῇ δ' ἐπι μὲν γοργῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4582",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.583,0.3003,0.231,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.36"
+    ],
+    "comment": "ἡ ἐπι προς το ἐστεφάνωτο συντάσσεται δι ὃ τὸν τόνον φυλακτέον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.19",
+    "lemma": "τῆς δ' ἐξ αργύρεος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4583",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA138RN_0310@0.602,0.3258,0.205,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:138r.11.38"
+    ],
+    "comment": "ὅτι ἐκ τελαμώνων αἱ ἀσπίδες ἤρτηντο ⁑"
+  }
+]

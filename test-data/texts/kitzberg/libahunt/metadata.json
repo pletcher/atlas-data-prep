@@ -1,0 +1,56 @@
+{
+  "urn": "urn:cts:estLit:kitzberg.libahunt:",
+  "group_urn": "urn:cts:estLit:kitzberg:",
+  "node_kind": "work",
+  "lang": "est",
+  "title": [
+    {
+      "lang": "est",
+      "value": "Libahunt: Draama wiies vaatuses"
+    }
+  ],
+  "versions": [
+    {
+      "urn": "urn:cts:estLit:kitzberg.libahunt.est1:",
+      "format": "tsv",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "est",
+      "first_passage_urn": "urn:cts:estLit:kitzberg.libahunt.est1:1-16",
+      "citation_scheme": ["line"],
+      "label": [
+        {
+          "lang": "est",
+          "value": "Libahunt"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "@@@"
+        }
+      ]
+    },
+    {
+      "urn": "urn:cts:estLit:kitzberg.libahunt.eng1:",
+      "format": "tsv",
+      "node_kind": "version",
+      "version_kind": "edition",
+      "lang": "eng",
+      "first_passage_urn": "urn:cts:estLit:kitzberg.libahunt.eng1:1-16",
+      "citation_scheme": ["line"],
+      "label": [
+        {
+          "lang": "eng",
+          "value": "Libahunt Translation"
+        }
+      ],
+      "description": [
+        {
+          "lang": "eng",
+          "value": "@@@"
+        }
+      ]
+    }
+  ]
+}

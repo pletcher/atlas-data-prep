@@ -1,0 +1,198 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.8",
+    "comment": "ἔνθ' εἴη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5474",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.16,0.3569,0.036,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.12",
+    "comment": "οτ  οὐδαμοῦ τὸν Αχιλλέα πτολίπορθον⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5503",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.861,0.2517,0.049,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.77"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.13",
+    "comment": "ταυτ  ὁ Δίδυμος τῷ Ἀριστονικῳ λε  πε  τῆς γραφῆς τῆς δέπασσι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5504",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.871,0.42,0.059,0.0511"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.86"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.12",
+    "comment": "ουτ  Ἀρισταρχ  ἔνθ' εἴην μετα τοῦ η καὶ δια τῶν β η μενοινηῃσί τε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5594",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.42,0.3494,0.072,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.82"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.13",
+    "comment": "οτ  πτῶσις ήλλακται καὶ πρόθεσις παρεῖται αντ  τοῦ παρα Θεμιδος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5595",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.423,0.4508,0.056,0.0609"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.87"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.14",
+    "comment": "ἐν άλλω βοῶπις πότνια Ήρῃ ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5596",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.431,0.5424,0.048,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.92"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.15",
+    "comment": "Ἀρίσταρχ  κείνου Ϊακῶς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5597",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.43,0.5838,0.047,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.94"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.4",
+    "comment": "εδεξιοῦντο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5552",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.725,0.4215,0.047,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.5",
+    "comment": "τεταραγμένη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5553",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.71,0.4981,0.054,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.6",
+    "comment": "καρὸν σχήσειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5554",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.692,0.6491,0.062,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.7",
+    "comment": "ἰλαρος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5555",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.853,0.6672,0.028,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.28",
+    "lemma": "ὡς δ' ὅτ ἂν ἀΐξῃ νόος ἀνέρος⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5689",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.204,0.124,0.699,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.80"
+    ],
+    "comment": "ὅτι τὸ κατα διάνοιαν θεῖον ταχος τῆς ἐπιπτήσεως τῶν τόπων τὸ κατα κίνησιν ἀντιπαρέθηκεν ὑπερβολικῶς , καὶ ὅτι τὸ παροιμιακὸν τὸ διέπτατο δ' ὥστε νόημα ἐκ τούτων καὶ τῶν κατα τὴν Ὀδύσσειαν σύγκειται τῶν νέες ὠκειαι ὡσεὶ πτερὸν ἠε νόημα οὐκ ὂν παρ ουδενὶ ποιητῆ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.29",
+    "lemma": "ὡς δ' ὅτ ἂν ἀΐξῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5690",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.217,0.1548,0.686,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.80"
+    ],
+    "comment": "ὥσπερ δὲ νοῦς ἀνδρὸς πολλὴν ἐπεληλυθότος γῆν καὶ πολλὰ ἱστορηκότος ἐν ὑπομνήσει ποιεῖται τὰ ἱστορημένα καὶ ταχέως ἄλλο τε ἐπ ἄλλο μεταβαίνει , ουτ  καὶ ἡ ἡμέρα τό τε ἐκ τῆς ἴδης ὀξέως παρεγένετο εἰς τὸν Ὄλυμπον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.30",
+    "lemma": "πάντες ἀνήϊξαν⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5691",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.207,0.4125,0.232,0.1826"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.86"
+    ],
+    "comment": "Ἀρίσταρχος σημειοῦται ὅτι οὗτως  μόνως γραπτέον δεπάσσι · φησὶ γοῦν ἐν τοῖς ἑξῆς Θέμιστι δὲ καλλιπαρήω δεκτο δέπας , ἐν ενίοις δὲ κάλεον τέ μιν εἰς ἓ ἕκαστος οὐκέτι· ἰδίαν γὰρ ἔχει καθεδραν πῶς οὖν προς εαυτὸν ἕκαστος καλεῖ . ἐπι μὲν τῆς Ἴριδος ἁρμόζει τῆς προς τοὺς ἀνέμους παραγεγονυίας ἀλλα μὴν οὐδ' ἐπέεσσι γραπτέον ἐπιδίδωσι γὰρ ἡ Θέμις αὐτῇ τὸ ποτήριον ὁ δε Θρᾶξ Διονύσιος παρακεῖσθαι φασὶ τὸ σημεῖον ὅτι δια παντὸς τοὺς θεοὺς συνίστησι πίνοντας καὶ ταύτην ἀρίστην διαγωγὴν ἔχοντας προς τὸ ἐν οὐ γαρ ἔγωγε τι φημὶ τέλος χαριέστερον εἶναι . ἢ ὅτ ἂν εὐφροσύνη μὲν ἔχῃ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.31",
+    "lemma": "οἷος ἐκείνου θυμὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5692",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.209,0.583,0.228,0.0691"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.94"
+    ],
+    "comment": "ὅτι τὸ ὑπερφίαλος νῦν μὲν ἐπι ψόγου ὁ ὑπέρσπονδος βέλτιον δὲ ὁ ὑπέρμετρος· ἐν ἄλλοις δὲ ἐν τάξει ἐγκωμιου οὐκ αγαπᾶς ὁ ἕκηλος ὑπερφιάλοισι μεθ' ἡμῖν ἀντι τοῦ ἀγαθοῖς ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.32",
+    "lemma": "οἷα Ζεὺς κακὰ ἔργα πιφαύσκεται ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5693",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.207,0.6409,0.237,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.97"
+    ],
+    "comment": "δύναται καὶ καθ εαυτὸ τὸ ἡμιστίχιον ἀναγινώσκεσθαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.1000",
+    "comment": "ἵν ῇ θαυμαστικὸς ὁ λόγος . βέλτιον δε τὸ σύνηθες ὡς καὶ ἐπάνω οἶσθα καὶ αὐτὴ οἷος ἐκείνου θυμός ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5694",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.224,0.6634,0.206,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.97"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.33",
+    "lemma": "οὔτε θεοῖς εἴπερ τις έτι νῦν δαίνυτ  εὔφρων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5695",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA192VN_0694@0.211,0.6935,0.486,0.0609"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:192v.15.99"
+    ],
+    "comment": "ὁ νοῦς . οὐκέτι οἶμαι τὸν Δία · οὐδενὶ τῶν πάντων θεῶν ἠ ἀνθρώπων ϊλαρὸν ἔσεσθαι εἰ ἄρα καί τις ἐν τῷ παρόντι τῇ αὐτοῦ προσηνείᾳ εὐωχεῖται ἐν ἰλαρότητι ⁑"
+  }
+]

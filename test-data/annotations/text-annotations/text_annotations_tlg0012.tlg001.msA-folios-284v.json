@@ -1,0 +1,232 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.10",
+    "comment": "διχῶς καὶ κατακτειναντι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6772",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.88,0.238,0.037,0.0353"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.109"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.11",
+    "comment": "γρ  ὅσα τε πτόλις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6773",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.877,0.4144,0.036,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.12",
+    "comment": "γρ  ομουμαι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6774",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.87,0.4294,0.053,0.0135"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.119"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.13",
+    "comment": "πρὸς τὴν ἐπανάληψιν τὸ πυκνῶς ἐν Ἰλιάδη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6775",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.87,0.5751,0.05,0.027"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.128"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.14",
+    "comment": "αἱ κατα ἄνδρα πολὺ κάλλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6858",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.447,0.2177,0.047,0.039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.108"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.15",
+    "comment": "Αρισταρχ  ἀλλ' ἀποδάσσεσθαι διὰ τ  ε ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6859",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.443,0.4024,0.046,0.0465"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.118"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.16",
+    "comment": "ουτ  χω  τοῦ δ αλλα τι η μοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6860",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.441,0.458,0.055,0.045"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.122"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.17",
+    "comment": "ἐν αλλω όφρα τάχιστα τουτ  δὲ ἑκατέρωθι δύναται προσδίδοσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6861",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.442,0.5968,0.051,0.0758"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.129"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.17",
+    "comment": "τῆ πατρίδι δηλον ἐστιν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6814",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.709,0.3116,0.079,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.18",
+    "comment": "ικετεύσω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6815",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.6535,0.4812,0.04643,0.009129"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.19",
+    "comment": "ὅτι τῷ Ἄρεϊ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6816",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.5,0.6479,0.05,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.20",
+    "comment": "τῷ Ἄρηι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6817",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.567,0.6471,0.039,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.30",
+    "lemma": " ‡ἠέ κεν αὐτῷ ὀλέσθαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6923",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.25,0.1014,0.64,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.110"
+    ],
+    "comment": "ὅτι ὁ κεν περισσὸς . καὶ ὅτι ἀμφίβολον πότερον εμοὶ αὐτῷ ὀλέσθαι · ἠ καθ Ὁμηρικὴν συνήθειαν ἀντι τοῦ ὑπ αυτοῦ ὀλέσθαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.31",
+    "lemma": "εἰ δέ κεν ἀσπίδα μὲν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6924",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.256,0.1209,0.64,0.0698"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.111"
+    ],
+    "comment": "ἤρτηται μέχρι τοῦ  ἀλλὰ τίη μοι ταυτα καὶ οὐδὲν αὐτοῖς ἀνταπεδόθη ἤτοι οὖν διαπορητικός ἐστι κἀνταῦθα ὁ λόγος ὡς ἐλέγομεν , κ' ἂν τῇ Φ̄ .  ἄρα τὴν ἀσπίδα καταθῶμαι καὶ τὴν περικεφυλαίαν .  προς δε τὸ τεῖχος ἐρείσας τὸ δόρυ αὐτὸς προσέλθω Ἀχιλλεῖ ,  καὶ τὰ καὶ τὰ ποιήσω· ἠ κομματικῶς εἰρῆσθαι ὑποληπτέον ὡς καὶ ἡμῖν σύνδεσμος πολλάκις . ἀν δὲ κατὰ θῶμαι καὶ πορευθῶ δύναται δὲ καὶ ἠθικῶς ὁ Ἕκτωρ ἅπαξ ἐν μετανοίᾳ γενόμενος πρὶν ἀνταποδοῦναι διακόψαι τὸν λόγον· τὸ ὅμοιον νοητέον καὶ ἐπι τῶν ὑπ Αγήνορος ἀνωτέρῳ λεγομένων στίζομεν δὲ ταυτα ὡς πλῄρῃ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.32",
+    "lemma": "δωσέμεν Ἀτρείδῃσιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6925",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.239,0.3829,0.204,0.042"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.117"
+    ],
+    "comment": "ὅτι ἀντι τοῦ ἀμφι δάσασθαι · διχὰ μερίσεσθαι · πάλιν δὲ ὁ δε̄ σύνδεσμος περισσός ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.33",
+    "lemma": "μή μιν ἐγὼ μὲν ί̈κωμαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6926",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.239,0.4212,0.209,0.1074"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.123"
+    ],
+    "comment": "τινὲς ὡς φιλῶμαι ἀναγινόσκουσιν  ἵνα τὸ ϊκετεύσω σημαίνῃ οὐκ ἀναγκαῖον δὲ ἐναλλάσσειν τὸν τόνον καὶ γὰρ βαρυνόμενον ταυτὸν ὑπισχνεῖται καὶ ἀκόλουθόν ἐστι μέσῳ δευτέρω ἀορίστω ὁριστικ  τῷ τὴν ϊκόμην φεύγων . ὡς οὖν ἐλιπόμην , λίπωμαι , οὕτως ϊκόμην ϊκωμαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.34",
+    "lemma": "μή μιν ἐγὼ μὲν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6927",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.236,0.5248,0.207,0.0503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.123"
+    ],
+    "comment": "ὅτι τὸ ί̈κωμαι  ἀντι τοῦ ϊκετεύσω , παράκειται οὖν τὸ  ϊὼν  ἐπεὶ προσεγγιζομένοις ἂν προσφέρωμεν ϊκετείαν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.35",
+    "lemma": "οὐδέ τι μ' αἰδέσεται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6928",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.237,0.5713,0.219,0.039"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.124"
+    ],
+    "comment": "ὅτι  αἰδέσεται  ὡς ϊκέτην προσδέξεται αἰδεῖσθαί θ' ἱερῆα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.36",
+    "lemma": "οὐ μέν πως νῦν έστιν ἀπὸ δρυὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6929",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.242,0.6074,0.646,0.1299"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.126"
+    ],
+    "comment": "οὐκ έστι φησίν ἄντικρυς Ἀχιλλεως  μύθους διηγεῖσθαι· ὁποίους ἄν παρθένοι καὶ ἠί̈θεοι· οἱ γὰρ παλαιοὶ τὰ ἐκτιθέμενα βρέφη παρὰ δρυσιν ἠ πέτραις εὑρίσκοντες , ἐνόμιζον ἐκ τούτων γεγένησθαι  . ἐκ τοιούτου δὲ ἐγένετο ἡ ὑπόληψις· οἱ παλαιοὶ νομάδι ἐχρῶντο τῷ βίῳ , οἰκίας μηδέπω κεκτημένοι· αἱ οὖν γυναῖκες τίκτουσαι ἐν τοῖς ὄρεσιν ὑπο τὰ κοιλώματα τῶν πετρῶν καὶ δρυῶν εὑρίσκοντες δέ τινες νομίζοντες ἐκεῖθεν γεγενῆσθαι ἀνέτρεφον· ἡ ϊστορία παρα Διδύμῳ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.37",
+    "lemma": "οὐ μέν πως νῦν εστ  ἀπο δρυὸς ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6930",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.245,0.7192,0.651,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284v.22.126"
+    ],
+    "comment": "οὐκ έστιν ἀρχαῖα μυθολογεῖν τῷ Ἀχιλλεῖ νηπίων δίκην ὡς τῶν πρώτων ἀνθρώπων ἐκ δρυῶν καὶ πετρῶν γεγεννῆσθαι λεγομένων  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.38",
+    "lemma": "παρθένος ἠΐθεός τ' ὀαρίζετον·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6931",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284VN_0786@0.236,0.7425,0.559,0.0165"
+    },
+    "references": [],
+    "comment": "ὁ ἀρισμός ἐστιν ἀνδρὸς καὶ γυναικὸς ὁμιλίᾳ ὀάραι γὰρ αἱ γῦναῖκες ⁑"
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.14",
+    "comment": "λιγυρῇ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4193",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.7946,0.3256,0.0571,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.532"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.63",
+    "comment": "Ἀρισταρχ  δουρὶ κατ  δοτικήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4540",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.5942,0.4737,0.0711,0.0271"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.539"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.64",
+    "comment": "δια τὸν Αἴαντα ὅπερ καὶ επάγει Αἴαντος δὲ ἀλέειν καὶ τὰ ἑξῆς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4541",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.5932,0.497,0.0802,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.540"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.65",
+    "comment": "τὸ ἐφ ομίλου βελτιον τοῖς ἐπάνω προσδιδόναι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4542",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.5802,0.5737,0.0922,0.0481"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.546"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.233",
+    "comment": "τῆ ὀξὺν ῆχον ἀποτελούση ἡ λιγεῖς καὶ ὀξεῖς τοὺς ἵππους ποιούση κατ  τὸν δρόμον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4383",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.155,0.3166,0.285,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.234",
+    "comment": "αισθόμενοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4384",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.48,0.3203,0.056,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.235",
+    "comment": "πατοῦντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4385",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.202,0.3593,0.051,0.012"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.236",
+    "comment": "τῶν ὀνύχων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4386",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.358,0.3946,0.061,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.237",
+    "comment": "ρανίδες :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4387",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.448,0.3953,0.049,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.238",
+    "comment": "τὰ εκτὸς τῶν τροχῶν ἐπι τὴν γὴν κυλιομ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4388",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.264,0.4134,0.136,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.239",
+    "comment": "τὸν τῶν ανδρῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4389",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.208,0.4284,0.091,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.240",
+    "comment": "ἵνα εὐκόλως τῷ δόρατι χρίσηται :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4390",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.394,0.4486,0.143,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.241",
+    "comment": "δια δέος ὑπεχώρησεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4391",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.187,0.5611,0.074,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.243",
+    "comment": "εδίωκον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4392",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.19,0.6219,0.05,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.244",
+    "comment": "καλλιστον οιονεὶ λιπαρόν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4393",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.417,0.6399,0.097,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.245",
+    "comment": "κρεῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4394",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.416,0.6624,0.041,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.246",
+    "comment": "ἐρῶν ἐπιθυμῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4395",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.494,0.6602,0.081,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.198",
+    "lemma": "κεῖσ' ἵππους τε καὶ ἅρμ'α :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4708",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.588,0.2063,0.185,0.0675"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.528"
+    ],
+    "comment": "ὅτι Ζηνόδοτος γράφει κεῖθ' ἵππους : γίνεται δὲ ἐν εκείνῳ τῷ τόπῳ : τὸ δὲ εκεῖσε εἰς ἐκεῖνον τὸν τόπον ὃ δὴ νῦν ἁρμόζει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.200",
+    "lemma": "ἃς άρ' ἀφ' ἱππείων ὁπλέων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4709",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.59,0.3256,0.191,0.063"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.536"
+    ],
+    "comment": "οὐ χωριστέον τὸν ἑξῆς ἐπιφερόμενον αἵ τ' ἀπ' ἐπισσώτρων ὁ γὰρ λόγος οὗτος : ἃς αἱ ρανίδες ἔβαλλον αἱ ἀπό τε τῶν ἱππείων ὁπλῶν καὶ αἱ ἀπὸ τῶν ἐπισσώτρων :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.201",
+    "lemma": "μίνυθα δὲ χάζετο ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4710",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.605,0.3833,0.181,0.0443"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.539"
+    ],
+    "comment": "ἐκεῖθεν ὅπου ἦν ὁ Αἴας . ἔλασσον δόρατος βολῆς , ἀνεχώρει"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.203",
+    "lemma": "στῆ δὲ ταφὼν ὅπιθεν δὲ σάκος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4711",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.146,0.6977,0.565,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.545"
+    ],
+    "comment": "ὅτι ἐκ τελαμώνων ἀνηρτηντο αἱ ἀσπίδες οὐ γὰρ ἂν ἄλλως ἠδύνατο εἰς τουπίσω μεταλαμβάνεσθαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.204",
+    "lemma": "ὡς δ' αἴθωνα λέοντα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4712",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.15,0.7142,0.616,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.548"
+    ],
+    "comment": "ὅτι ἀπο τούτου Ζηνόδοτος ἀθετεῖ ἕως τοῦ ἥϊε πολλ' ἀεκων ἴσως ὅτι νῦν μὲν λέοντι παραβέβληκεν ἑξῆς δὲ ὄνῳ ἔστι δὲ πρὸς διαφορα σημαινόμενα : ὁ μὲν γὰρ λέων πρὸς τὴν πρᾶξιν ὁ δὲ ὄνος πρὸς τὴν ὑπομονήν : καὶ γὰρ τοῦτον ἐπιτριβῇ πληγῶν λαμβάνει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.205",
+    "comment": "δια τί . ὁτε μὲν λέοντι ὁτὲ δὲ ὄνῳ παραβάλλει τὸν Αἴαντα ῥητεον οὖν ὅτι αἱ μὲν παραβολαὶ τριῶν ἕνεκα γίνονται αὐξήσεως ἐνεργείας σαφηνείας . εἰς τὸ πρόσφορον δὲ ἓν ἑκάτερον διετήρησεν . ὁ ποιητὴς εἰπὼν Αἴαντα καὶ φονεύοντος δίκην καὶ τῶν πολεμίων ἀναχωρεῖν ὡς ὄνον ταῖς γὰρ φύσεσι τῶν ζῴων καὶ τὸ ὀκνηρὸν προσφυγὴν καὶ τὸ ταχὺ πρὸς μαχην τοῦ ἥρωος δεδήλωκεν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4713",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.148,0.7322,0.616,0.0533"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.548"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.206",
+    "lemma": "ὁ δὲ κρειῶν ἐρατίζων :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4714",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA148RN_0320@0.148,0.7757,0.621,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:148r.11.551"
+    ],
+    "comment": "περισπαστέον ἡ γὰρ κρεῶν γενικὴ ἐπλεόνασε τὸ ϊ , ἥτις περισπᾶται δια τὸ ἔχειν εντελεστεραν τὴν κρεάων ⁑"
+  }
+]

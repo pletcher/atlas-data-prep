@@ -1,0 +1,150 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.A2",
+    "comment": "Ποσείδαον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5450",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.14056743,0.31230982,0.07700811,0.02323651"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.357"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:14.A3",
+    "comment": "μεθίεμεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5451",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.16285925,0.44094053,0.06982314,0.02226833"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.364"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:14.A2",
+    "comment": "λειπ  τὸ ῄ ὃς ἔαν ᾖ διὸ ὑποστιγμὴ καὶ επι τῷ μρμος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5391",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.89609433,0.65089903,0.04789978,0.05532503"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.376"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.A3",
+    "comment": "οτ  συν τ  ν νη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5333",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.38559322,0.24564315,0.06392778,0.01258645"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.354"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.A4",
+    "comment": "ἐν αλλῷ κωμ' ἐκαλυψα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5334",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.39683125,0.34287690,0.05858511,0.02461964"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.359"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.A5",
+    "comment": "ὑποστικτεον κατ  τὸ τέλος τοῦ στίχου λείπει γαρ τὸ εισί ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5335",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.43809875,0.57413555,0.03131909,0.06168741"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.371"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:14.A6",
+    "comment": "Αρισταρx  δια τῆς ει διφθόγγου ἔχει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5336",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.42538688,0.66071923,0.03758290,0.04937759"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.376"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:14.A2",
+    "comment": "παρώρμησεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5426",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.84303611,0.40511757,0.04845247,0.01120332"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.363"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.A7",
+    "lemma": "Ἀργεῖοι καὶ δ' αῦτε μεθείεμεν Εκτορι νίκην :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5257",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.23913043,0.42213001,0.18570376,0.04757953"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.364"
+    ],
+    "comment": "ταυτ  καὶ τὰ ἑξῆς κατ επερώτησιν ἀναγνωστέον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.A8",
+    "lemma": "ἀλλ ὁ μὲν οὕτω φησι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5258",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.24207811,0.46417704,0.18533530,0.04647303"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.366"
+    ],
+    "comment": "ὅτι Ζηνoδ  γράφει καὶ ἕλπεται ἁρμόζει δὲ τῷ προσώπῳ τὸ εὔχεται καυχᾶται ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.A9",
+    "lemma": "παναίθησιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5259",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.23655122,0.50843707,0.20302137,0.23789765"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.372"
+    ],
+    "comment": "τὸ παναίθησιν οἱ πλείους προπερισπῶσιν Εὐφράνωρ δὲ βαρύνει φιλεῖ δὲ τὰ εἰς η λήγοντα θηλυκὰ δισύλλαβα ὀξυνόμενα συντιθέμενα καὶ μὴ γινόμενα κύρια· \t\t\t\t\t\t\t\tτότε μὲν φυλάσσειν τὸν τόνον ὅτε μετα προθεσεως συντίθεται τότε δὲ ἀναβιβάζειν ὅτε οὐ μετα \t\t\t\t\t\t\t\tπροθέσεως ἐπι τὸ μή ἀνοχή · συνοχή · ἱστοδόκη δὲ καὶ καπνοδόκη λατύπη οἰνοχόη . εἴπερ οὖν καὶ τὸ παναίθη οὐ μετα προθεσεως ἐστι βαρυτονηθήσεται τάχα \t\t\t\t\t\t\t\tδὲ καὶ παρώνυμον ἐστι καὶ πάλιν ὀφείλει βαρύνεσθαι ὡς γὰρ παρὰ τὸ καλὸς ἐγένετο πάγκαλος καὶ παγκάλη . οὕτως καὶ παρα τὸ αῖθος πάναιθος ὦ ἀκόλουθον τῷ παναίθη ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.A10",
+    "lemma": "ὃς δέ κ' ἀνὴρ μενέχαρμος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5260",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.25239499,0.73360996,0.64885777,0.05172891"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.376"
+    ],
+    "comment": "οὗτος καὶ ὁ ἑξῆς ἀθετοῦνται ὅτι γελοῖον μὴ τὰ ἁρμόζοντα ἀναλαμβάνειν ἀλλα μείζονα εἰς \t\t\t\t\t\t\t\tἐμποδισμὸν τῆς χρήσεως . Ζηνόδοτος δὲ προηθέτει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:14.A11",
+    "lemma": "ὀλίγον σάκος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5261",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA187VN_0689@0.24834193,0.75020747,0.66764923,0.04730290"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:187v.14.376"
+    ],
+    "comment": "μικρὰν ἀσπίδα· ἔστι δὲ ποσότης ἀντι πηλικότητος ⁑"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.21",
+    "comment": "αϊξας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5487",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.163,0.5695,0.04,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:15.22",
+    "comment": "ῶσεν ὄπισθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5488",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.208,0.5627,0.054,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.52",
+    "comment": "ἱππεύηται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5543",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.866,0.308,0.052,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.681"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:15.53",
+    "comment": "Ἀρίσταρχ  ὡσέν όπισθ  τ χωρὶς τοῦ ρ καὶ ἀντιος διὰ τοῦ ς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5544",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.887,0.5394,0.072,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.71",
+    "comment": "γράφεται διώκῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5653",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.44,0.3095,0.07,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.681"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.72",
+    "comment": "γράφεται βιβῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5654",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.451,0.4087,0.06,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.686"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.73",
+    "comment": "γράφεται ἀΐξας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5655",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.449,0.559,0.058,0.0323"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.694"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:15.74",
+    "comment": "οτ  ὡς προς τινα διαλέγεται οὐκ έστι δὲ ἀλλ' ἔστι φαὶη  τίς ἂν  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5656",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.45,0.6176,0.07,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.34",
+    "comment": "ἱππεύειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5580",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.666,0.2675,0.051,0.0195"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:15.35",
+    "comment": "μεταβαίνει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5581",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.769,0.3614,0.054,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.183",
+    "lemma": "κολλητὸν βλήτροισι δύω καὶ εἰκοσί πηχυ ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5845",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.237,0.1187,0.693,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.678"
+    ],
+    "comment": "τὸ μὲν βλῆτρον βαρυτονητέον· ἐπεὶ πάντα τὰ εἰς τρον λήγοντα μονογενῆ οὐδέτερα βαρύνεται σεσημειωμένου τοῦ λουτρον τὸ δε δύο καὶ εἰκοσί πηχυ ὑφ ἕν ἀναγνωστέον , τοὺς γὰρ ἀριθμοὺς οὕτω προφέρει . δια δε τοῦ ἰ ὼς εἰκοσινήριτα ⁚ τινὲς δὲ καὶ κατα παράθεσιν ὡς τὸ „ τρις και δέκατος “ καὶ τὸ θηλυκὸν τρις και δεκάτη ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.184",
+    "lemma": "ὡς δ' ὅτ' ἀνὴρ ἵπποισι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5846",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.256,0.1443,0.686,0.0616"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.679"
+    ],
+    "comment": "ὅτι κέλητα αὐτὸς μὲν οἷδε χρωμένους δὲ τοὺς ἥρωας οὐ συνίστησι , το δε κελητίζειν κέλητι ἱππεύειν καὶ ἐν ἀμφ' ἑνὶ δούρατι βαῖνε κέληθ' ὡς ἵππον ἐλαύνων · παράγωγον δέ ἔστι τὸ ῥῆμα παρα τὴν κέλητος γενικὴν ἀντι γὰρ τοῦ ἱππεύειν κακῶς οὖν ὅσοι διαστέλλουσι καὶ γαρ ἐλέγχονται ἐκ τῆς τοῦ τ μόνης ἐνότητος"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.185",
+    "lemma": "βοσκομενάων ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5847",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.244,0.4974,0.222,0.0526"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.691"
+    ],
+    "comment": "εἰ αρσενικῶς ἔλεγοντο οἱ κύκνοι , πάντως ἂν ἐπεκράτησε· καὶ τὰς γεράνους γάρ φησι καὶ τὰς χῆνας ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:15.186",
+    "lemma": "ἄντεσθ' ἐν πολέμῳ ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol5848",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA204VN_0706@0.244,0.719,0.703,0.0759"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:204v.15.698"
+    ],
+    "comment": "Tυραννίων παροξύνει ὡς λαβέσθαι πυθέσθαι ἐκδεχόμενος μέσον δεύτερον ἀόριστον οὐχ ὑγιῶς σημαίνει γὰρ παρατατικὸν καὶ ἔστιν τὸ ῥῆμα παρ' αὐτῷ καὶ βαρυνόμενον , τὸ γὰρ ἤντησ' οὐδὲ ἴδον καὶ ἀντήσω γὰρ ἐγὼ τοῦδ' ἀνέρος ἀπο περισπωμένου κέκλιται τὸ δὲ ὡς ὰν τίς σε συναντόμενος , ὡς ἁπτόμενος καὶ ἤντετο γάρ τοι Φοῖβος ὡς ἥπτετο ὁμολογεῖ τὴν βαρεῖαν τάσιν οἷς ἀκόλουθον καὶ τὸ ἄντεσθαι· στικτέον δὲ ἐπι τῷ πολέμῳ καὶ τὸ ἑξῆς καθ αυτὸ μᾶλλον γὰρ ἐμφαίνει τὸ ἀσύνδετον ⁑"
+  }
+]

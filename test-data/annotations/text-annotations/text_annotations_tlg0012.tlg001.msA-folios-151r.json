@@ -1,0 +1,273 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.15",
+    "comment": "χρέως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4194",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.808,0.3659,0.051,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.686"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.39",
+    "comment": "διασταλτέον επι το πολλὰ προς τὸ σαφεστερον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4218",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.094,0.3223,0.074,0.0391"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.684"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.40",
+    "comment": "ουτ  Ἀρίσταρχ  χρεῶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4219",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.099,0.3614,0.07,0.0188"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.686"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.41",
+    "comment": "οτ  σπανίως Ηλείους καλεῖ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4220",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.095,0.4027,0.063,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.688"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.43",
+    "comment": "οτ  θρέμματ  δηλον ὅτι τριακόσια ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4221",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.09,0.5672,0.063,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.697"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.44",
+    "comment": "οτ  εκατέροις δύναται προσδιδοσθαι ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4222",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.087,0.6063,0.063,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.699"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.45",
+    "comment": "ητοι ελατῆρα ἵππων ἠ ἀκαχήμενον περὶ ἵππων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4223",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.134,0.6672,0.17,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.702"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.83",
+    "comment": "οὐκ εν πο  ἦμεν ὡς ένιοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4558",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.57,0.4179,0.042,0.0435"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.689"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.311",
+    "comment": "δια τῆς νυκτὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4449",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.196,0.2971,0.066,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.313",
+    "comment": "τοὺς  παρεῖναι συλλεγῆναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4450",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.207,0.3563,0.117,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.315",
+    "comment": "εχρεωστεῖτο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4451",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.424,0.3608,0.059,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.316",
+    "comment": "ἐμέριζον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4452",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.21,0.3991,0.046,0.0113"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.317",
+    "comment": "οἱ Ήλειοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4453",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.404,0.3991,0.046,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.318",
+    "comment": "βραχὺ διασταλτ  ἐπι τὸ παύροι πρὸς ἔμφασιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4454",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.268,0.4164,0.173,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.319",
+    "comment": "ὑβριστικὰ άδικα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4455",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.382,0.5281,0.067,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.250",
+    "lemma": "‡ πώεα :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4743",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.166,0.0908,0.271,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.678"
+    ],
+    "comment": "παρὰ τὸ πόᾳ χρῆσθαι ἤτις ἐστὶν αὐτόποιητος :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.251",
+    "lemma": "ἐννύχιοι προτι ἄστυ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4744",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.169,0.096,0.633,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.683"
+    ],
+    "comment": "ὅτι διαφωνοῦσιν οἱ νεώτεροι τὸν Νηλέα λέγοντες ἀνῃρῆσθαι ὑφ Ἡρακλέους ὅτε τὴν Πύλον ἐπόρθησεν . φαίνεται γὰρ καθ Ὅμηρον περιῶν καὶ μετὰ τὸ πορθηθῆναι , ὁ γὰρ πρὸς Ἠλείους πόλεμος τῶν Πυλίων μεταγενέστερος τοῦ πρὸς Ἡρακλέα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.253",
+    "lemma": "ἅμ' ἡοῖ φαινομένηφι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4745",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.6,0.2123,0.196,0.1035"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.685"
+    ],
+    "comment": "τοῦτο τὸ ἡμιστίχιον καὶ τοῖς ἐπάνω δύναται προσδίδοσθαι καὶ τοῖς ἑξῆς . ἥτοι γὰρ ἡμερας γενομένης ἐκήρυσσον ὅπως ἐκεῖνοι συναχθῶσιν ἠ ἄλλοτε ἐκήρυσσον ἵνα ἐκεῖνοι ὑπο τὸν ὄρθρον ἔλθωσι . καὶ ἀμφότερα λόγον ἔχει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.254",
+    "lemma": "τοὺς ἴμεν οἶσι χρέως ὠφείλετ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4746",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.606,0.3053,0.197,0.0578"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.686"
+    ],
+    "comment": "ὅτι τὰ περιελασθέντα ἐκ τῆς Πύλου ὑπο τῶν Ἐπειῶν θρέμματα χρέω  καλεῖ , Ἀριστοφα  δὲ χρεῖος καὶ ὠφείλετο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.255",
+    "lemma": "δίη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4747",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.596,0.3563,0.197,0.072"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.686"
+    ],
+    "comment": "θαυμαστή ϊερά , ἐν αυτῆ γὰρ ετιμᾶτο Ὀλύμπιος Ζεὺς οὗ καὶ πανήγυρις παρα τριετῆ χρόνον ἤγετο τὰ Ὀλύμπια ἔνθα ε ἡγωνίζοντο , οἵ ἀπο τῆς Ἑλλάδος πάντες , ἐστι δὲ πόλις τῆς Πελοποννήσου ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.256",
+    "lemma": "δαίτρευον πολέσιν γὰρ Ἐπειοὶ χρεῖος ὄφειλον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4748",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.604,0.4209,0.2,0.114"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.688"
+    ],
+    "comment": "ἤτοι στικτέον κατα τὸ τέλος τοῦ στίχου ἡ συναπτέον τῷ ἑξῆς ὃ καὶ βέλτιον . τὸ γὰρ ὃς . ἀντι τοῦ ὅτι ἐστὶ κείμενον καὶ ἐὰν χωρίσωμεν δὲ , καὶ ἀκούωμεν καὶ οὕτως ἕσται θαυμαστικὸς ὁ λόγος περι τῆς καταφρονήσεως ἣν ἐποιήσαντο οἱ Ήλιοι περι τῶν Πυλίων ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.257",
+    "lemma": "Ἐπειοὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4749",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.592,0.5244,0.222,0.0698"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.688"
+    ],
+    "comment": "οἱ Ήλειοι ἀπο Ἐπειοῦ βασιλέως οὕτως Ποσειδῶνος καὶ Εὐρυπύλης τῆς Ἐνδυμίωνος παῖς Ήλειος ὁ κτίσας Ήλιδα : κλείου δὲ Ἄλεξις καὶ Ἐπειὸς ἀφοῦ Ἐπειοὶ ὡς φησὶν Ἀριστοτε  ἐν τῶ Πέπλῳ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.258",
+    "lemma": "δώδεκα γὰρ Νηλῆος ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4750",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.158,0.5866,0.645,0.147"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.692"
+    ],
+    "comment": "πρὸς τοὺς Χωρίζοντας ὅτι ἐν μὲν δώδεκα Νηλῆος παῖδας λέγει , ἐν δὲ τῇ τρεῖς γεγονέναι ὡς γενεαλογεῖ καὶ Χλωρὶν ἴδον περικαλλέα , καὶ ἐν τοῖς ἑξῆς Νέστορά τε Χρόμιόν τε Περικλύμενόν τ' ἀγερωχον , ἐνδέχεται δὲ προγεγονότων αὐτῷ . ἐξ ετέρας γυναικὸς παίδων ὕστερον ἐκ Χλωρίδος τοὺς τρεῖς γεγονέναι . καὶ γὰρ ὁ Πρίαμος φησὶ πεντηκοντά μοι ἦσαν ὅτ' ήλυθον υἷες Ἀχαιῶν . ἐννεακαίδεκα μέν μοι ϊῆς ἐν κνιδ τοὺς δ' ἄλλους μοι ἔτικτον ἐνι μεγάροισιν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.260",
+    "lemma": "δώδεκα γὰρ Νηλῆος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4751",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.154,0.7479,0.631,0.042"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.692"
+    ],
+    "comment": "τὸν Νέστορα φησὶ μόνον περισωθῆναι τῶν λοιπῶν τοῦ Νηλέως παίδων . ἥτοι ὅτι νέος ὑπάρχων ἔξω ἐτρέφετο παρα τοῖς Γερήνοις , ῆ ἐπεὶ συνεβούλευσεν εἰς ἀχθῆναι τὸν Ἡρακλέα ὥς τινες φασὶν  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.261",
+    "lemma": "ταύθ' ὑπερηφανέοντες Ἐπειοὶ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4752",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA151RN_0323@0.159,0.7712,0.619,0.0345"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:151r.11.694"
+    ],
+    "comment": "ὅτι ἔν τισι γράφεται Ἀχαιοὶ τοὺς δε Ἡλείους Ἐπειοὺς καλεῖ Ὅμηρος ⁑"
+  }
+]

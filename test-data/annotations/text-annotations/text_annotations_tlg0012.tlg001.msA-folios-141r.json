@@ -1,0 +1,146 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.95",
+    "comment": "κατόπιν ἐδίωκε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4289",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.377,0.2222,0.068,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.96",
+    "comment": "τὸν ἔσχατον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4290",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.404,0.2417,0.054,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.97",
+    "comment": "ἐπι πρόσωπον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4291",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.29,0.2575,0.058,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.98",
+    "comment": "αντ  περισσος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4292",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.363,0.2785,0.049,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.100",
+    "comment": "κελευέτω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4293",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.516,0.4512,0.054,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.101",
+    "comment": "βληθεὶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4294",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.358,0.488,0.044,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.103",
+    "comment": "ευκώπους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4295",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.414,0.5285,0.051,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.104",
+    "comment": "ΐση ανέμοις κατ  τὸ τάχος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4296",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.443,0.5653,0.121,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.84",
+    "lemma": "‡ πολλοὶ δὲ πρηνεῖς τε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4626",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.166,0.0938,0.625,0.0473"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:141r.11.179"
+    ],
+    "comment": "ἀθετοῦνται ἀμφότεροι καὶ ἀστερίσκοι παράκεινται ὅτι κατα τὴν Πατρόκλου ἀριστίαν τάξιν ἔχουσι , νῦν δὲ οὐ προείρειται γὰρ πολλοὶ δ' ἐριαύχενες ἵπποι κεῖν όχεα κροτάλιζον ἀνὰ πτολέμοιο γεφύρας : Ζηνόδοτ  οὐκ έγραφεν : Ἀριστοφάνης δὲ ἠθέτει τὸν Ἀτρείδεω ὑπο χερσὶ χερσί ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.85",
+    "lemma": "Ἴδης ἐν κορυφῇσι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4627",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.183,0.1254,0.602,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:141r.11.183"
+    ],
+    "comment": "ὅτι δια τούτων συνίστησι τὸν Δία ἐπι τὴν Ἴδην πεπορευμένον , ἐκ τοῦ Ὀλύμπου ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.86",
+    "lemma": "ἀστεροπην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4628",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.181,0.1396,0.603,0.045"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:141r.11.184"
+    ],
+    "comment": "ἀστεροπὴν λέγει οὐ τὴν ἀποτελουμενην ἀστραπήν , ἀλλα τὸ ὀμώνυμον ὄργανον ὅπερ τινασσόμενον τὴν αστραπὴν ἀποτελεῖ βῆ ῥ ίμεν ἀστεροπῇ ἐναλίγκιος ἥν τε Κρονίων χειρὶ λαβὼν ἐτίναξεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.87",
+    "lemma": "βάσκ' ἴθι Ἴρει ταχεῖα ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4629",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.592,0.3926,0.197,0.0961"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:141r.11.186"
+    ],
+    "comment": "ὅτι οὐ κατ επίθετον τὸ ταχεῖα . ἀλλ αντι τοῦ ταχέως ὁ λόγος δὲ ερεῖ στίζειν τελεία ἐπι τὸ ταχεῖα δύο γὰρ λόγοι αυτοτελης πορευθητι ταχέως Ἰρι τοῦτον εἰπὲ τὸν λόγον Ἕκτορι : ἡ δὲ συνήθεια : καὶ τὰ τοιαῦτα συνάπτει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.88",
+    "lemma": "αὐτὰρ ἐπεί κ' ἢ δουρὶ τυπεὶς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4630",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.591,0.485,0.197,0.033"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:141r.11.191"
+    ],
+    "comment": "πρὸς τὴν διαφορὰν τοῦ τύψαι καὶ βαλεῖν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.89",
+    "lemma": "εἰς ἵππους ἄλλεται",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4631",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA141RN_0313@0.155,0.5105,0.638,0.2688"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:141r.11.192"
+    ],
+    "comment": "ὅτι ἀντι τοῦ ἅληται ψιλοῦται εἴτε ἐπι τοῦ ἐκκλίνειν τάσσηται ὡς φησὶν ὁ Ἀσκαλωνίτης , εἴτε ἐπι τοῦ συστραφῆναι ὡς καὶ Τυραννίων ᾧ καὶ μᾶλλον συγκατατίθεμαι , πολλὴ δὲ ἡ κίνησις αὐτοῦ παρὰ τῷ ποιητῇ ὁριστικὸς μὲν γὰρ δεύτερος ἀόριστος τῇ ὑπο πᾶς ἑάλη καὶ πληθυντικὸν τρίτον κατα συγκοπὴν οἳ δή τοι εἰς ἄστυ άλεν , ἀπαρεμφατον τε . ἣ λαοὺς ἐς τείχος , ὁμοκλήσειεν ἀλῆναι καὶ ὥσπερ ἡ φανεὶς μετοχῇ . οὕτως καὶ ἡ αλεῖς : οἴμησεν δὲ ἀλείς καὶ οὐδέτερον ᾖ χειμεριον ἀλὲν ὕδωρ καὶ πληθυντικὸν ἀρσενικὸν , αὐτὰρ ἐπεί κ' ἐς τεῖχος ἁναπνεύσωσιν ἀλέντες καὶ γενικῇ πόλις δ' ἔμπλητο ἀλέντων , τούτου τοίνυν ὑποτακτικὸν ἄληται ὡς λάβηται . συστολῆ οὖν ἐγένετο ἡ μεταβολῇ ἐγκλίσεως ὁμοίως τῷ ἐπεὶ άρ κεν ἀμείψεται ἔρκος ὀδόντων ὄφρα καὶ ἄλλος πτωχὸς ἀλεύεται ἠπεροπευτης καὶ τὸ ῆ αὐτὸς φθίεται πρῴτῳ ἐν ομίλῳ τὸ δὲ όλον γέγονεν ἀπο τοῦ ἀλῶ ὃ σημαντικόν ἐστι τοῦ πλανῶ ὅπερ ψιλοῦται ⁑"
+  }
+]

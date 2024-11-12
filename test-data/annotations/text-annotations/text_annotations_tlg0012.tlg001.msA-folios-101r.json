@@ -1,0 +1,203 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:8.33",
+    "comment": "ὅταν θελήσω ἐρύσαι φησίν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3192",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.1241,0.4282,0.0611,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.23"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.30",
+    "comment": "ὀργή ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3137",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.6086,0.6732,0.018,0.0301"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.39"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:8.31",
+    "comment": "εἰρωνευεται αὐτήν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3138",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.5886,0.695,0.036,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.40"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.2000",
+    "comment": "α",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3261",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.231,0.3501,0.014,0.0098"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.34",
+    "comment": "ἐργάτης τῆς τῶν κατα τὴν μάχην ἔργων ἔμπειρος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3230",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.3143,0.3434,0.2132,0.0188"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.35",
+    "comment": "τὸ ἀκροτήριον τοῦ όρους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3231",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.4521,0.4045,0.0832,0.0153"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.36",
+    "comment": "μετέορα ἐφ ύψους",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3232",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.4489,0.4235,0.0784,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.37",
+    "comment": "διαφε  τῇ δυνάμει",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3233",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.3807,0.4408,0.0725,0.0153"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.38",
+    "comment": "σαφῶς δὴ καὶ ἡμεῖς ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3234",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.2288,0.5348,0.0907,0.0145"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.39",
+    "comment": "μόρον θάνατον",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3235",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.3684,0.5731,0.0628,0.0149"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:8.40",
+    "comment": "τὸ ἐκ φρονήσεως καὶ διαθέσεως ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3236",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.2175,0.684,0.109,0.0177"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.13",
+    "lemma": "Τάρταρος ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2997",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.1938,0.137,0.6313,0.0444"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.13"
+    ],
+    "comment": "τὸ ὑπὸ τὴν γῆν ἐσκοτισμένον . μέρος κατώτατον τοῦ Ἅδου · καὶ ἐν βαθυτάτῳ κείμενον τόπῳ . ἢ τὸν χαλεπὸν καὶ δυσχερῆ λέγει . ὠνόμασται δὲ . δια τὸ ἐκτετάχθαι καὶ συγκεχύσθαι τὰ ἐν αυτῷ πάντα· οἱ δὲ τὸ ἀφώτιστον τῆς οἰκουμένης μέρος ἀπεδέξαντο ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.14",
+    "lemma": "τόσσον ἔνερθ' Ἀΐδεω ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2998",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.1907,0.1606,0.6352,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.16"
+    ],
+    "comment": "τοσοῦτον φησὶ τὸν Τάρταρὸν . ἀφεστᾶναι τοῦ Ἅιδου ὅσον οὐνος  τῆς γῆς . δια δὲ τούτων σφαιροειδ  τὸν κόσμον συν ἵστησι κέντρου λόγον ἐπέχουσαν εἰσαγαγὼν τὴν γῆν καὶ τὰς ἁπ αυτῆς . ἐμβαλλομένας εὐθείας εἰς εκάτερα τὰ περατα ἴσας λέγων εἶναι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.15",
+    "lemma": "εἰ δ' ἄγε πειρήσασθε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol2999",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.1884,0.197,0.6497,0.0369"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.18"
+    ],
+    "comment": "πείραν λάβετε τῷ ἀποτόμως ἀπειλοῦντι , καὶ τὴν ῥώμην οὐκ ἄτοπον ἐνδείκνυσθε· μεγάλα δὲ ὄντα τὰ προστάγματα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.16",
+    "lemma": "σειρὴν χρυσείην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3000",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.6301,0.2227,0.1992,0.0905"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.19"
+    ],
+    "comment": "ὅτι εἰ μη ἐκδεξώμεθα Ὄλυμπον τὸ ἐπὶ Μακεδονίας ὄρος· οὐ συμφωνήσει τῇ διαθέσει ταύτη ἐπι γὰρ τοῦ οὐνου  στὰς φησὶν τὸν Ὄλυμπον ἀνέλκειν τῆς πειρᾶς ἐκ τοῦ ῥίου ἐκδεθείσης καὶ ὅτι ἡ εξ περισσή ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.17",
+    "lemma": "σειρὴν χρυσείην",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3001",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.6166,0.2964,0.2181,0.1307"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.19"
+    ],
+    "comment": "χρυσῆν προσέθηκεν βουλόμενος τὸ πρᾶγμα ποιητικὸν δεῖξαι καὶ οἱ μὲν κυρίως οὕτως· οἱ δὲ ἀλληγορικῶς τὸν ☉  σειρὴν ἐξ ουρανῶθεν κρεμάσαντες καὶ τὰ ἑξῆς . κατὰ τὸν μῦθον ὁ Ζεὺς ἑαυτὸν τάσσει ἐπεὶ τοῦ οὐνου  ὃ κλήρῳ λεχὼν στοιχεῖον εἶχεν τοὺς δὲ λοιποὺς θεοὺς ἐπι τῆς γῆς ὡς αυτῆς κοινῆς ὑπαρχούσης ὥστε ἢ αὐτὸν καθελκυσθῆναι ὑπ αυτοῦ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.18",
+    "lemma": "ἵνα εἴδετ  πάντες·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3002",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.6187,0.421,0.2027,0.1078"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.18"
+    ],
+    "comment": "ὡς λέγετε ἢ συστολὰς μὲν τὰ τοιαῦτα παραληπτέον ἢ ἐναλλαγὰς ἐγκλίσεων· ὄφρ' εῦ πᾶσαι εἴδετ' ἀκούουσαι . μηδ' ὡς Πάτροκλον εἵπετ' αὐτόθι τεθνειῶτι ὄφρα καὶ αὐτῴ μοι σαώσετον ἐκ πολέμου . αἴ κέν πως ἀρνῶν κνίσης αἰγῶν τὲ τελείων βούλεται ἀντιάσας ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.19",
+    "lemma": "πρόφρων ἐθέλοιμι ἐρρῦσαι ~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3003",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.6187,0.5142,0.2027,0.0542"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.23"
+    ],
+    "comment": "Ἀρίσταρχος δια τοῦ ω ἐθέλωμι Πτολεμαῖος δὲ τ ὁ τοῦ Ὀροάνδου ἀντὶ τοῦ πρόφρων πρόσσω γράφει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:8.4000",
+    "lemma": "σειρὴν μέν κεν~",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol3004",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA101RN_0273@0.6171,0.5615,0.2027,0.05"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:101r.8.26"
+    ],
+    "comment": "ὅτι Ζηνόδοτος ἀμφοτέρους ἠθέτηκεν δι αυτῶν δὲ διδασκόμεθα πᾶσαν τὴν γῆν σὺν τῆ θαλάσση ⁑"
+  }
+]

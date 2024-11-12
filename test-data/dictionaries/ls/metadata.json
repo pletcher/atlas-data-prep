@@ -1,0 +1,13 @@
+{
+    "label": "Lewis and Short Latin Dictionary",
+    "urn": "urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2",
+    "kind": "Dictionary",
+    "entries": [
+      "entries-001.jsonl",
+      "entries-002.jsonl",
+      "entries-003.jsonl",
+      "entries-004.jsonl",
+      "entries-005.jsonl",
+      "entries-006.jsonl"
+    ]
+  }

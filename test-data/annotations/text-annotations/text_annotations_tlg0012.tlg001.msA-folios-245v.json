@@ -1,0 +1,98 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.32",
+    "comment": "ἐρυθρὰν ποιῆσαι τῷ αἵματ  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6188",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.869,0.2524,0.067,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.329"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.37",
+    "comment": "δια τοῦ α αύτως πάσαι εῖχον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6289",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.431,0.4185,0.065,0.0563"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.338"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.38",
+    "comment": "προς το λιτη ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6290",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.428,0.6799,0.062,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.352"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.14",
+    "comment": "μετα καμάτου ἐκτησάμεθα⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6228",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.605,0.4703,0.121,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.15",
+    "comment": "λιπαρας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6229",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.515,0.4936,0.039,0.0105"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.16",
+    "comment": "περιεῖπεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6230",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.716,0.5995,0.042,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.118",
+    "lemma": "‡ οὐδε Θέτις μηρ  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6445",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.236,0.3028,0.215,0.0887"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.332"
+    ],
+    "comment": "ὅτι συνεβίω ἡ Θέτις τῷ Πηλεῖ καὶ ὅτι οὐκ απεκόμιζον τὰ ὀστᾶ· τῶν τετελευτηκότων ἐπι ξένης εἰς τὰς πατρίδας . ἡ δὲ ἀναφορὰ προς τὸ ὅς κ' ὀστέα παισὶν ἕκαστος οἴκαδ' ἄγει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.119",
+    "lemma": "‡ ἐν δ' ὠτειλὰς πλῆσαν⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6446",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.231,0.7145,0.702,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.351"
+    ],
+    "comment": "οὕτως ὡς φαρμακώδη δύναμιν ἔχοντος τοῦ παλαιοῦ ἐλαίου . ὅτι ὑπὸ μὲν Εὐφόρβου βέβληται ὁ Πάτροκλος ὑπο δὲ Ἕκτορος οὔτασται καὶ συλληπτικῶς εἴρηκε πάντα τὰ τραύματα ὠτειλάς ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.120",
+    "lemma": "λιτί⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6447",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA245VN_0747@0.231,0.7303,0.702,0.0969"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:245v.18.352"
+    ],
+    "comment": "λιτῷ καὶ ἀποικίλτῳ ὑφ ἅσματι ὅ ἐστι λινῷ οἱ δὲ ἐξ αντιφράσεως τὸ ποικίλον . οἱ δὲ ὅ φασιν Ἀττικὸς ληΐδιον . δεῖ δὲ ὀξυτόνως ἀναγινώσκειν τὸ λιτί · κατα τὸν κανόνα τοῦ ῃρῳδιανοῦ · πᾶσα δοτικῇ δισύλλαβος ἐπι ονομάτων ὀξύνεσθαι θέλει· φωτί παντί θιτί οὕτως γὰρ καὶ ἐν τῇ Ἰλιακῇ προσῳδίᾳ ἐν τῇ λέγει ὅτι δεῖ ὀξύνειν κατα τοῦτὸν τὸν κανόνα οὕτως γὰρ καὶ Ἀρίσταρχος · εἰσὶ δὲ οἳ περισπῶσιν οὐ καλῶς . εἶτα ἐπάγει οὕτως· παραιτητεον δὲ τὸν Ἀσκαλωνίτην οιόμενον ἀπο τῆς λίς εὐθείας κεκλῆσθαι τὴν λιτὶ δοτικὴν καὶ τὴν λιτ  αἰτιατικήν· οὐ γάρ ποτε ἐμελέτησε τὰ εἰς ις μονοσύλλα  δια τοῦτος κλίνεσθαι , μεταπλασμὸς οὖν ἐστι τῆς λιτῶ δοτικῆς ὡς ἡ κλαδί . τῆς κλαδῷ καὶ ἡ αιτιατικῇ λιτὰ λῖτα . μεταπέπλασται εκ τῆς λιτός . ὡς κρόκα ἐκ τῆς κρόκην· τὸ δὲ παρα τῷ ποιητῇ κάθηράν τε ῥύπα πάντα εἰ μὴ ἔστι πληθυντικὸν οὐδέτερον τοῦ προκειμένου μεταπλασμοῦ ἔχεται , οὐχ ὁμότονος δὲ ἐγένετο ἡ λῖτα τῇ λιτόν . ἐπεὶ πᾶσα αἰτιατικῇ εἰς α λήγουσα ἐβαρύνετο ὑπεσταλμένης τῆς τινά κατ  αόριστον προφοράν ⁑"
+  }
+]

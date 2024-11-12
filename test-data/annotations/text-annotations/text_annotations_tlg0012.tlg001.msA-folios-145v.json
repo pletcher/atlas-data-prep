@@ -1,0 +1,267 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAext.hmt:11.8",
+    "comment": " ρ εoντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4191",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.109,0.5536,0.029,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.418"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:11.16",
+    "comment": "γράφεται χαλκῷ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4209",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.91,0.6047,0.027,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.421"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.45",
+    "comment": "ὅτι νῦν φανερῶς φοβος ἡ φυγη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4528",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.439,0.2453,0.061,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.402"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.46",
+    "comment": "ὅτι έξωθ ἡ εἶς προθ  εἰς πληθ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4529",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.444,0.3046,0.052,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.405"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.47",
+    "comment": "βραχὺ διασταλτ  ἐπι τὸ σφίσι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4530",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.453,0.4584,0.055,0.0263"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.413"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.48",
+    "comment": "γράφεται ὕπερθε μετάλμενος ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4531",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.459,0.6069,0.059,0.0308"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.421"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.49",
+    "comment": "γράφεται καὶ ἀί̈σσοντ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4532",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.467,0.6474,0.051,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.423"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:11.50",
+    "comment": "ουτ  Ἀρισταρχ  δουρὶ κατα πρότμηστιν ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4533",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.47,0.6707,0.042,0.0315"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.424"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.193",
+    "comment": "ἐμονώθη",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4360",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.524,0.2161,0.062,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.194",
+    "comment": "ὅτι αντ  φύγω",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4361",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.871,0.2843,0.046,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.195",
+    "comment": "λειφθῶ συσχεθῶ :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4362",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.842,0.3001,0.082,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.196",
+    "comment": "αντ  τοῦ ἐν μαχ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4363",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.694,0.3743,0.057,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.197",
+    "comment": "ακονῶν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4364",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.53,0.5056,0.04,0.018"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.198",
+    "comment": "επικαμπέσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4365",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.768,0.5079,0.071,0.0143"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.200",
+    "comment": "επ αυτὸν δὲ ὁρμῶσι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4366",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.543,0.5259,0.091,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.201",
+    "comment": "ταχέως",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4367",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.724,0.5461,0.034,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:11.203",
+    "comment": "τῷ αγκῶν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4368",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.858,0.6819,0.054,0.0135"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.155",
+    "lemma": "‡ ὃς δέ κ' ἀριστεύῃσι .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4674",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.208,0.2056,0.231,0.1245"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.409"
+    ],
+    "comment": "ὅτι περισσὸς ὁ καὶ ἀμφίβολος δὲ ἡ στιγμη , ἤτοι γὰρ ἐπι τὸ ἀριστεύῃσι ἢ ἐπι τὴν πρόθεσιν καὶ ἐὰν μὲν τὸ πρότερον τὸ ἀριστευῃσι ληψώμεθα ἀντι τοῦ ἄριστος ᾖ . οἶον ἄξιον τὸν ἐν εἰρηνῃ τιμώμενον ἀνδραγαθεῖν ἐν πολέμῳ : τὸ δὲ δεύτερον . ἐπεὶ τὸν ἐπαγγελλόμενον κατα μάχην ἄριστον εἶναι . ἑστάναι δεῖ καὶ τὸν κίνδυνον ὑπομένειν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.156",
+    "lemma": "τόν δε μάλα χρεω ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4675",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.221,0.3256,0.249,0.183"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.409"
+    ],
+    "comment": "Ἀλεξίων τόνδε ἓν μέρος λο  ἐκδέχεται καὶ παροξύνει ἵνα ἰσοδυναμῇ , ἀναφορικῇ τῇ τούτὼν  Τυραννίων δὲ δύο με  λο  ποιεῖ ἵνα ᾖ τοῦτον δὲ κατὰ ἀναφορὰν ὁμοίως , ἔφαμεν δὲ ὅτι παρα τῷ ποιητῇ , ἡ δια τοῦ δὲ ἐπι ταύτης τῆς ἀντωνυμίας . ἐπέκτασις . σπανίως μὲν εὑρέθη , ἐπ αναφορᾶς , ὁπότε διελαμβάνομεν , περι τούτους δὲ ἀ φθινύθειν , ὥστε οὐδὲν κεκώλυκε καὶ ἐνθάδε τὸ τοιοῦτο παραδέξασθαι δια το ἤδη πεπεῖσθαι τὴν παράδοσιν : βεβαιοτέρα μέντοι ἐστιν ἡ τοῦ Τυραννίωνος , ἀνάγνωσις , οὐδὲν γὰρ ἐναντιουτ  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.157",
+    "lemma": "ἑστάμεναι κρατερῶς ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4676",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.237,0.5064,0.241,0.1335"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.410"
+    ],
+    "comment": "ἥτοι συναπτέον ὅλον τὸν στίχον , βραχὺ διασταλτέον παντελῶς ἐπι τὸ κρατερῶς καὶ ἐπι τὸ ἔβλητο ἵνα ὁ ᾗ σύνδεσμος κέηται , ἀντι συναπτικοῦ : ὁ δὲ λόγος . ἑστάναι δεῖ . εἴτε ἐβλήθη εἴτε ἔβαλλεν ἄλλον οἶον εἴτε βληθείη εἴτε βάλλοι τινά : ἢ στικτέον ἐπι τὸ κρατερῶς ὃ καὶ βελτιον ἔσονται γὰρ διαζευκτικοὶ οἱ σύνδεσμοι . ὁ δὲ λόγος , ὶσχυρως ἑστάναι δεῖ , ἠ γὰρ ἐβλήθη ἢ ἔβαλεν ἄλλον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.158",
+    "lemma": "ἔλσαν δ' ἐν μέσσοισι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4677",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.24,0.6332,0.247,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.413"
+    ],
+    "comment": "ψιλωτέον τὸ ἔλσαν ὅτι Αἰολικωτέρα ἡ κλίσις . τὸ δὲ ἑξῆς ἐστιν ἐν μέσοις αὐτοῖς συνέκλεισαν τὸν οδ  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.160",
+    "lemma": "μετα σφίσι ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4678",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.254,0.7194,0.39,0.0338"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.413"
+    ],
+    "comment": "ὀρθοτονητέον , εἰς σύνθετον γὰρ ἡ μετάληψις , καὶ κατέχεται ὑπὸ τῆς προθ  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.161",
+    "lemma": "οὔτασεν ὦμον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4679",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.25,0.7247,0.687,0.054"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.421"
+    ],
+    "comment": "ὑπερθεν ἑπαλμενος : καὶ ἐνθάδε διασταλτέον πρὸς τὸ σαφέστερον , ἀμφίβολον δὲ καὶ τὸ ἑξῆς . ἤτοι γὰρ μετάλμενος ὀξέϊ δουρί οἶον σὺν τῷ δόρατι ἐφαλλόμενος ὡς εκεῖ καὶ αὐτο φαρεῖ ἀναΐξας λαβε δίσκον , ἢ καὶ ὑπερβατὸν οὔτασεν ὀξέϊ δουρὶ . καθ ὃ διαστελοῦμεν βραχὺ επι τὸ μετάλμενος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.4001",
+    "lemma": "αὐτὰρ ἔπειτα Θόωνα . καὶ Ἔννομον ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4680",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.249,0.7517,0.687,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.422"
+    ],
+    "comment": "ὅτι οὗτος ὁ Ἔννομος ὁμώνυμος ἐστι τῷ ἐν τῷ δια κόσμῳ , Μυσῶν δὲ Χρόμις ῆρχε καὶ Ἔννομος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:11.163",
+    "lemma": "πρότμησιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol4681",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA145VN_0647@0.253,0.7922,0.677,0.0465"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:145v.11.424"
+    ],
+    "comment": "Διονύσιος ὁ Θρᾷξ τὴν ὀσφῦν Φιλότιμος ϊατρὸς τὸν τραχηλον Ἀρίσταρχ  τὸ ἀπο τῆς ἥβης ἕως τοῦ ὀμφαλοῦ τὸ ἴτρον : Παρμενίσκος δὲ τὸν ὀμφαλὸν . δια τὸ τοῦτον πρῶτον ἐκτέμνεσθαι γενωμένου τοῦ βλέφους : ἠ ὅτι κατ αυτ  εἰς δύο τέμνεται ἴσα ὁ ἄνος  ‡"
+  }
+]

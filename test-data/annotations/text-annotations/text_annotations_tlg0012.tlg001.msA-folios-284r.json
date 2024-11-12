@@ -1,0 +1,143 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:22.9",
+    "comment": "ουτ  διὰ τ  τ εἴποτέ τοι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6771",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.142,0.1982,0.058,0.0435"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.83"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.12",
+    "comment": "ουτ  Αρισταρχ  ἄλλοι δὲ ἰων ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6856",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.618,0.238,0.057,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.85"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:22.13",
+    "comment": "γράφεται φίλον θάλος· ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6857",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.629,0.2793,0.057,0.0293"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.87"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.13",
+    "comment": "τὸν λήθην ἐμποιοῦντα τοῖς παισὶ τῶν κακῶν ἁπαντα",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6810",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.369,0.1914,0.097,0.0173"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.14",
+    "comment": "ἐν όρει διατρίβων",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6811",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.454,0.3889,0.087,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.15",
+    "comment": "ὡρμησεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6812",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.466,0.5563,0.045,0.015"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:22.16",
+    "comment": "φρενοβλαβίαις",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6813",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.444,0.5923,0.088,0.0165"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.24",
+    "lemma": "αὐτὴν εἴποτέ τοι·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6917",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.199,0.0833,0.602,0.036"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.84"
+    ],
+    "comment": "ἤτοι συναπτέον μέχρι τοῦ ἐπέσχον εἶτα ἀπ' άλλης ἀρχῆς , τῶν μνῆσει  φίλε τέκνον· ῆ στικτέον αὐτή . εἶτ' ἀπ' άλλης ἀρχῆς . εἴποτέ τοι λάθη κηδέα ἔστι δὲ ὑποστιγμὴ μετα τὸ ἐπέσχον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.25",
+    "lemma": "τῶν μνῆσαι φίλε τέκνον·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6918",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.182,0.1149,0.547,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.84"
+    ],
+    "comment": "ὅτι ἰδίως  φίλε τέκνον  ἀντι τοῦ φίλον τέκνον . καὶ  ἄμυνε  ἀντι τοῦ ἀμύνου ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.26",
+    "lemma": "τείχεος ἐντὸς",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6919",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.205,0.1269,0.356,0.0165"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.85"
+    ],
+    "comment": "ὅτι σαφῶς  πρόμος  ὁ πρόμαχος οὐχ ὁ βασιλεύς  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.27",
+    "lemma": "οὐδ' ἄλοχος πολύδωρος :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6920",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.2,0.1269,0.613,0.0285"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.88"
+    ],
+    "comment": "ὅτι ἔδνα ἐδίδοσαν οἱ παλαιοὶ ταῖς θυγατράσι· καὶ πολύδωρον λέγει τὴν πολύεδνον  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.28",
+    "lemma": "πολλὰ λισσομένω·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6921",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.207,0.1404,0.604,0.0248"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.91"
+    ],
+    "comment": "ὅτι ὑπερβίβασται ὁ δε   Ἔκτορι δὲ θυμὸν οῦκ ἔπειπον  προς τὸ οὐδ' ἴ̈κετο γήραος οὐδόν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:22.29",
+    "lemma": "ὡς δε δράκων ἐπι εχειῆ  ·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6922",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA284RN_0454@0.624,0.3799,0.194,0.1239"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:284r.22.93"
+    ],
+    "comment": "ὅτι τὴν τῶν ὄφεων κατάδυσιν χειὰν εἴρηκεν ἀπο τοῦ χεῖσθαι ὅ ἐστι χωρῆσαι . εἰς αυτὸ γὰρ μόνον μηχανῶνται οἱ ὄφεις εἰς τὸ χωρῆσαι τὸ σῶμα ὥσπερ ἕλυτρον . οὐδ' ὡς δ' ἀμφοτέρους ὅδε χείσεται · ἔνιαι δὲ τῶν κατα πόλεις δια τοῦ  ν ὀρέστερον , καὶ ἀντι τοῦ μένῃσι δοκεύῃ ⁑"
+  }
+]

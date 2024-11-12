@@ -1,0 +1,226 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.23",
+    "comment": "οἷον ὁ αρτίως κινήσας ἡμῖν τὸν θόρυβον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6179",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.129,0.2847,0.068,0.0661"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.257"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.24",
+    "comment": "καὶ τουτ  καθ εαυτὸ μαλλον γὰρ ἐμφαίνει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6180",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.132,0.3839,0.067,0.0496"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.262"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:18.25",
+    "comment": "ἐμφαίνει οτ  οὐ δια δειλίαν ταυτ  συμβουλεύει ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6181",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.125,0.4508,0.07,0.0616"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.266"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.30",
+    "comment": "ὁ δὲ αντ  τοῦ γὰρ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6282",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.617,0.266,0.069,0.021"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.256"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.31",
+    "comment": "ἐν αλλω μαχέσσετ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6283",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.604,0.4335,0.055,0.0466"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.265"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.32",
+    "comment": "κακόν τι πεισόμενος ὑπ αυτοῦ δηλοτ  ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6284",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.594,0.5124,0.067,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.269"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:18.33",
+    "comment": "ἐν αλλῳ πιθοίμεθα ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6285",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.608,0.5935,0.055,0.0218"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.273"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.9",
+    "comment": "ὑπάρχομεν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6223",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.576,0.2502,0.047,0.0203"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.10",
+    "comment": "ἐπαυλιζόμε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6224",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.567,0.3178,0.086,0.0158"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:18.11",
+    "comment": "φροντίζοντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6225",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.509,0.5808,0.073,0.0128"
+    },
+    "references": []
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.92",
+    "lemma": "‡ ἀγορήσατο καὶ μετέειπεν·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6419",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.188,0.0917,0.62,0.0173"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.253"
+    ],
+    "comment": "τοῦτο σημειωτέον πρὸς τὸ ὁ δὲ φῆ κώδειαν ἀνασχών πέφραδέ τε Τρώεσσι καὶ εὐχόμενος ἔπος ηύδα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.93",
+    "lemma": "ἀμφι μάλα φράζεσθε φίλοι⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6420",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.197,0.1074,0.592,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.254"
+    ],
+    "comment": "οὐδέποτε τὸ φράσαι ἐπι τοῦ εἰπεῖν ὁ ποιητὴς τίθησιν . ἀλλ επι τῆς διανοίας . ἐστιν οὖν περισκέψασθαι· τῇ διανοία· μάλα περισσῶς βουλεύσασθαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.94",
+    "lemma": "τόφρα δὲ ῥηΐτεροι⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6421",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.415,0.1172,0.414,0.0195"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.258"
+    ],
+    "comment": "τοῦτέστιν εὐκαταμαχητότεροι ὥστε τὸ πολεμίζειν αντ  τοῦ πολεμίζεσθ  ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.95",
+    "lemma": "ἐν μέσῳ ἀμφότεροι .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6422",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.652,0.4057,0.154,0.0616"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.264"
+    ],
+    "comment": "διαιροῦνται τὸν πόλεμον παρ ὅσον ὃτε  μὲν οὗτοι ὁτὲ δὲ οἱ ἕτεροι νικῶσιν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.96",
+    "lemma": "ἀλλα περι πτολιος τε μαχήσετ  ⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6423",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.66,0.4591,0.16,0.0676"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.265"
+    ],
+    "comment": "τοῦτο σημειωτέον προς τὸ ἀμυνέμεναι ώρεσσι ὅτι κακεῖ γυναιξὶ λέγει καθάπερ ἐνθάδε ῥητῶς ἐξηγούμενος ἐκεῖνο λέγει ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.97",
+    "lemma": "αὔριον ὁρμηθεις·",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6424",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.658,0.5184,0.179,0.0518"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.269"
+    ],
+    "comment": "οὐδε τοῦτο ἀργὸν . ὑποβάλλει γὰρ ὅτι καὶ νῦν δια τὸ ἄνοπλος εἶναι ἀπέχετο τοῦ πολέμου ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.98",
+    "lemma": "ὅς κε φύγῃ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6425",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.647,0.5657,0.199,0.0856"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.271"
+    ],
+    "comment": "οὐ κατάρατα καὶ βλάσφημα ταῦτα ἀλλα φόβου ἕνεκα λέγεται· ἐπάγει γὰρ τὸ ῆθος ἑαυτοῦ ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.99",
+    "lemma": "εἰ δ' ὰν ἐμοῖς ἐπέεσσι⁚",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6426",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.645,0.6476,0.198,0.0563"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.273"
+    ],
+    "comment": "ἡ ὑποστιγμὴ ἤτοι ἐπι το πιθώμεθα· ἢ κατα τὸ τέλος τοῦ στίχου· καὶ λόγον ἔχει ἀμφότερα ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.100",
+    "lemma": "νύκτα μὲν εἰν αγορῇ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6427",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.185,0.7002,0.489,0.0158"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.274"
+    ],
+    "comment": "πρὸς τὸ σημαινόμενον ὅτι ἐστι βουλευσόμεθα τῇ βουλῇ κρατήσομεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:18.101",
+    "lemma": "νύκτα μὲν εἰν αγορῇ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:schol6428",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA244RN_0415@0.185,0.6995,0.632,0.0428"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:244r.18.274"
+    ],
+    "comment": "τὴν νύκτα κατ ἰσχύσομεν καὶ κρατήσομεν τῇ βουλῇ . ἄλλως . ὃ λέγει τοιοῦτόν ἐστιν διεσπαρμένην συλλέξομεν καὶ τοὺς ἀνα τοῦ πεδίου καὶ τοὺς ἀνα τῆς πόλεως φυλάττοντας νῦν· ὕστερον δὲ ἅμα ἡμέρᾳ ἡμεῖς πολεμήσομεν ⁑"
+  }
+]

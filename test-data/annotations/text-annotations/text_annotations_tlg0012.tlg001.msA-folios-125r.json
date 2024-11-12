@@ -1,0 +1,298 @@
+[
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.650",
+    "comment": "οτ  τὸ ηπήλησε νῦν κατα τὴν ἡμετέραν χρησιν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_650",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.09506,0.5574,0.08254,0.03914"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.682"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAint.hmt:9.651",
+    "comment": "απο τοῦ διηγηματικοῦ ἐπι τὸ μιμητικον μετέβη :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAint_hmt_9_651",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.0901,0.6138,0.0861,0.0413"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.685"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.647",
+    "comment": "ἐν άλλω ἀμυνόμεναι",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_647",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.5666,0.4125,0.0671,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.674"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.648",
+    "comment": "Ἀρισταρχ  σοώς καὶ σάῳς .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_648",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.5806,0.5364,0.0551,0.0255"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.681"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAim.hmt:9.649",
+    "comment": "οτ  θηλυκῶς τὴν Ἴλιον ⁑",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAim_hmt_9_649",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.5956,0.6416,0.035,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.686"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.652",
+    "comment": "πο  Φρυγίας",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_652",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.2202,0.2811,0.04919,0.01480"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.668"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.653",
+    "comment": "ὑψηλήν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_653",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.3353,0.2863,0.042,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.668"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.654",
+    "comment": "υς  Διονύσο",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_654",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.4234,0.2885,0.0571,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.688"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.655",
+    "comment": "ἀναστάντες",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_655",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.4314,0.3456,0.0571,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.671"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.656",
+    "comment": "πολλὺ ἐπαίνου άξιε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_656",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.3093,0.3847,0.0821,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.673"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.657",
+    "comment": "ἀπηγόρευσε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_657",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.2312,0.4185,0.0821,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.675"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.658",
+    "comment": "διωρίσατο εῖπεν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_658",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.2763,0.5545,0.0821,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.682"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.659",
+    "comment": "οὐρήσετε",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_659",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.4805,0.6131,0.048,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.685"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.660",
+    "comment": "τέλος",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_660",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.5495,0.6146,0.048,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.685"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msAil.hmt:9.661",
+    "comment": "ὑπερασπίζει :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msAil_hmt_9_661",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.2983,0.6491,0.0681,0.0113"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.687"
+    ]
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.637",
+    "lemma": "‡τῷ δ' ἄρα παρκατέλεκτο :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_637",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1516,0.09170,0.6875,0.04467"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.664"
+    ],
+    "comment": "ὅτι Ζηνοδοτος γράφει τῷ δε γυνὴ παρέλεκτο Κάειρ' ἣν Λεσβόθεν ἦγε . πῶς δε δύναται ἡ Καρίνη Λεσβία εῖναι εἰ μη ἄρα ρἡτέον ὅτι τὴν Λέσβον τότε Κᾶρες κατώκουν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.638",
+    "lemma": "Σκῦρον ἑλών .",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_638",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1832,0.1187,0.6476,0.0406"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.668"
+    ],
+    "comment": "ὅτι δια τούτων καὶ τὴν Σκῦρον πεπολιορκουμενην ὑπο Ἀχιλλέως μετὰ τῶν ἄλλων πόλεων παραδίδωσιν . Σκῦρου δὲ ἐστι νῆσος καὶ πολις τῆς νῦν Φρυγίας πρότερον δὲ ηλικίας : μία δὲ τῶν Κυκλάδων ἣν οὐ πορθήσας . ἀλλ' ειρηνικῶς καταλαβών ἐλαφυραγώγησεν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.639",
+    "lemma": "εἴπ' ἄγε μ' : εν :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_639",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.6301,0.3576,0.1917,0.0884"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.673"
+    ],
+    "comment": "ήτοι στικτέον κατ  τὸ τελος τοῦ στίχου ἵνα ἀφ ετέρας ἀρχῆς ἀναγινώσκωμεν η ρ' ἐθέλει νήεσσι καὶ ὁ λόγος ῃ πευστικός : ἆρα βούλεται βοηθεῖν . ἢ διασταλτέον ἐπι τὸ Ἀχαιῶν ἵνα ᾗ τοιοῦτος ὁ λόγος : ἄγε εἰπέ μοι , εἰ βούλεται βοηθῆσαι ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.640",
+    "lemma": "σβέσαι χόλον :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_640",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.6319,0.4442,0.1856,0.047"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.678"
+    ],
+    "comment": "πυρώδης γὰρ ὁ θυμός ἐντεῦθεν δὲ καὶ ωρίσαντο οἱ φιλόσοφοι θυμός ἐστι ζέσις τοῦ περὶ καρδίαν αἵματος ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.641",
+    "lemma": "αυτόν σε φράζεσθαι :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_641",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.6175,0.4845,0.2079,0.1607"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.680"
+    ],
+    "comment": "ὁ Ασκαλωνίτης ορθοτονεῖ τὴν σὲ ἐπεί φησὶν ἀεὶ μετὰ τῆς επιταγματικῆς αἱ πρωτότυποι φιλοῦσιν ὀρθοτονεῖσθαι ἐχρῆν δὲ αὐτὸν ἐπι τοῦ πρώτου καὶ δευτέρου προσώπου ορίσασθαι , παραιτήσασθαι δὲ τινα Ὁμηρικὰ ἄλλως ἀνεγνωσμένα δι αιτίαν τινὰ : κελεύετέ μ' αὐτὸν ἐλέσθαι , εἰ μή τις σ αὐτόν , ἄλλως τε αἱ πρὸ τῆς αὐτός εἰσιν αἱ ορθοτονούμεναι οὐχ αἱ μετὰ τὴν αὐτὸς . ἐγκλιτικῶς οὖν ἀναγνωστέον :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.642",
+    "lemma": "ὅππως κεν νῆάς τε σόῃς :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_642",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1400,0.6834,0.6938,0.05187"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.681"
+    ],
+    "comment": "ἐν τῇ ἑτέρα τῶν Ἀρισταρχ  δια τοῦ α σαῲς τάχα παρὰ τὸ σαωσέμεν . καὶ ἠὲ σαωθῆναι χρῆται δὲ δὲ καὶ ἐκεῖνο . σῶον δ' ἀνένευσεν : διχῶς οὖν ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.643",
+    "lemma": "οἴκαδ' ἀποπλείειν",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_643",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1522,0.7122,0.6627,0.0278"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.685"
+    ],
+    "comment": "ὅτι ἀπέστροφε τὸν λόγον οὐ γὰρ εῖπε δήουσιν ἀλλὰ δήετε ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.644",
+    "lemma": "Ἰλίου αἰπεινῆς ,",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_644",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.2272,0.725,0.2773,0.0203"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.686"
+    ],
+    "comment": "ἡ διπλῆ , ὅτι θηλυκῶς τὴν Ἴλιον ⁑"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.645",
+    "lemma": "ὡς ἔφατ' , εἰσὶ καὶ οἵδε :",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_645",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1622,0.7265,0.6757,0.0331"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.688"
+    ],
+    "comment": "ἀθετοῦνται στίχοι πέντε ἕως τοῦ αὔριον ἢν ἐθέλῃσιν ὅτι καὶ νεώτεροι τοῖς νοήμασι καὶ τῇ συνθέσει πεζότεροι καὶ ὅτι ὡς ἀπιστησόμενος μάρτυρας ἐπισπᾶται :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.646",
+    "lemma": "ὡς ἔφατ'",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_646",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1622,0.7385,0.6607,0.0398"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.688"
+    ],
+    "comment": "στικτέον ἐπι τὸ ἔφατο . δύναται δὲ καὶ ὑποστίζεσθαι ἵν ᾗ ὁ λόγος ὡς εἶπεν καὶ οῦτοι μαρτυρήσουσιν : εἰ δὲ ἐπιτετήδευται ἡ ἀνάγνωσις οὐ θαυμαστὸν καὶ γὰρ ὅλοι ἀπρεπεῖς οἱ στίχοι :"
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg5026.msA.hmt:9.697",
+    "comment": "συντέμνει τὸ ἀηδὲς τῆς ὑποθέσεως : καὶ ἄλλως ἵνα μὴ δόξῃ ἀτιμάζειν τοὺς λόγους : τούτους δὲ τοὺ στίχους Ἀριστοφάνης ἠθέτει Ζηνόδοτος τὸν αὔριον μόνον . καὶ τὸ μῦθον ἀγασσάμενοι Ζηνόδοτος μὲν οὐ γράφει Ἀρίσταρχος δὲ ἀθετεῖ",
+    "dse": {
+      "urn": "urn:cite2:hmt:va_dse.v1:tlg5026_msA_hmt_9_697",
+      "image_roi": "urn:cite2:hmt:vaimg.2017a:VA125RN_0297@0.1612,0.7671,0.6356,0.0233"
+    },
+    "references": [
+      "urn:cts:greekLit:tlg0012.tlg001.msA-folios:125r.9.694"
+    ]
+  }
+]
