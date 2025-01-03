@@ -1,0 +1,31 @@
+{
+  "label": "Middle Liddell",
+  "urn": "urn:cite2:scaife-viewer:dictionaries.v1:middle-liddell",
+  "kind": "Dictionary",
+  "entries": [
+    "entries_02.jsonl",
+    "entries_03.jsonl",
+    "entries_04.jsonl",
+    "entries_05.jsonl",
+    "entries_06.jsonl",
+    "entries_07.jsonl",
+    "entries_08.jsonl",
+    "entries_09.jsonl",
+    "entries_10.jsonl",
+    "entries_11.jsonl",
+    "entries_12.jsonl",
+    "entries_13.jsonl",
+    "entries_14.jsonl",
+    "entries_15.jsonl",
+    "entries_16.jsonl",
+    "entries_17.jsonl",
+    "entries_18.jsonl",
+    "entries_19.jsonl",
+    "entries_20.jsonl",
+    "entries_21.jsonl",
+    "entries_22.jsonl",
+    "entries_23.jsonl",
+    "entries_24.jsonl",
+    "entries_25.jsonl"
+  ]
+}
