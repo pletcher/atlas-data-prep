@@ -20,7 +20,6 @@ Data has been sourced from [Persian Translations of Crito](https://docs.google.c
 - `crito-alignment.tsv`
 - `greek_tokens.tsv`
 - `find_substring.py`
-- `greek_tokens.tsv`
 - `merge.py`
 - `new-approach-jtauber.py`
 - `persian_token_numbering_corrected.txt`
