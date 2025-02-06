@@ -69,7 +69,6 @@ def generate_key(greek_lemma):
     return "".join(key)
 
 def get_entries(root):
-    seen_ids = set()
     # first div element has metadata, second div element has introduction
     for i, entry in enumerate(root.xpath("ns:text//ns:div", namespaces=nsmap)):
         if entry.attrib["type"] == "edition":
