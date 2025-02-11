@@ -107,6 +107,30 @@ def check_urns(jsonl_filepath, urns = {}):
             urns[new_urn] = (jsonl_filepath, i)
     return urns
 
+def make_metadata(label, kind, desto_path, urn = None):
+    if urn is None:
+        try: 
+            urn = URN_PREFIX
+        except:
+            print("No URN provided, so no metafile has been generated.")
+            return None
+
+    entry_list = []
+    for filename in sorted(desto_path.glob("*.jsonl")):
+        entry_list.append(str(filename).split('/')[-1])
+
+    metadata = {
+        "label": label,
+        "urn": urn,
+        "kind": kind, 
+        "entries": entry_list
+    }
+
+    with open(f"{desto_path}/metadata.json", "w") as f:
+        json.dump(metadata, f)
+    
+    print("metadata.json file written")
+
 urns = {}
 for filename in sorted(ANABASIS_REPO.glob("*.xml")):
     tree = etree.parse(filename)
@@ -120,5 +144,6 @@ for filename in sorted(ANABASIS_REPO.glob("*.xml")):
             f.write("\n")
 
     urns = check_urns(f"{DESTO_DIR}/entries_001.jsonl", urns)
+    make_metadata("Anabasis Mather", "Dictionary", DESTO_DIR)
 
 
