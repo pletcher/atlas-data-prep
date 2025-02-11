@@ -144,6 +144,7 @@ for filename in sorted(ANABASIS_REPO.glob("*.xml")):
             f.write("\n")
 
     urns = check_urns(f"{DESTO_DIR}/entries_001.jsonl", urns)
-    make_metadata("Anabasis Mather", "Dictionary", DESTO_DIR)
+
+make_metadata("Anabasis Mather", "Dictionary", DESTO_DIR)
 
 
