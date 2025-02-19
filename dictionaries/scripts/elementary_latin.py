@@ -29,6 +29,23 @@ def to_string(el):
     )
 
 
+def get_senses(entry, urn):
+    for sense in entry.xpath("sense"):
+        sense_orig_id = sense.attrib["id"]
+        sense_urn = f"{urn}-{sense_orig_id}"
+
+        if len(sense.xpath("sense")) == 0:
+            contents = to_string(sense).strip()
+            yield {"definition": contents, "urn": sense_urn, "children": []}
+
+        else:
+            contents = to_string(sense.text).strip() if sense.text else ""
+            senses = [sub_sense for sub_sense in get_senses(sense, sense_urn)]
+
+            # in effect, this creates a generator within a generator within a generator, which might be ill-advised
+            yield {"definition": contents, "urn": sense_urn, "children": senses}
+
+
 def get_entries(root):
     # first div element has metadata, second div element has introduction
     for entry in root.xpath("text//entry"):
@@ -39,13 +56,22 @@ def get_entries(root):
 
         head = entry.attrib["key"]
 
-        contents = to_string(entry).strip()
+        contents = []
+        for child in entry.iterchildren():
+            if child.tag != "sense":
+                text = child.xpath("normalize-space()")
+                if text:
+                    contents.append(to_string(child))
+        contents = "".join(contents).strip()
+
+        senses = get_senses(entry, urn)
 
         yield {
             "headword": head,
             "data": {
                 "content": contents,
                 "key": entry_key,
+                "senses": [sense for sense in senses],
             },
             "urn": urn,
         }
