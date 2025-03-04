@@ -110,6 +110,7 @@ Any additional information we want to transfer to json format gets included unde
       "data": {
           "type": "hapax",
       }
+    }
 ```
 
 Note that this format is subject to change and feedback is very welcome.
