@@ -19,7 +19,7 @@ def process_senses(senses, error_counts):
         if "definition" not in sense:
             error_counts["Missing sense definition"] += 1
 
-        for key in entry.keys():
+        for key in sense.keys():
             if key not in [
                 "label",
                 "urn",
@@ -27,7 +27,7 @@ def process_senses(senses, error_counts):
                 "children",
                 "citations",
             ]:
-                error_counts[f"Unexpected sense propery '{key}'"] += 1
+                error_counts[f"Unexpected sense property '{key}'"] += 1
 
         if sense["urn"] in sense_urns:
             error_counts[f"Duplicate sense urn '{sense['urn']}'"] += 1
@@ -47,14 +47,14 @@ def process_citations(citations, error_counts):
         if "ref" not in citation:
             error_counts["Missing citation ref"] += 1
 
-        for key in entry.keys():
+        for key in citation.keys():
             if key not in [
                 "urn",
                 "ref",
                 "quote",
                 "target",
             ]:
-                error_counts[f"Unexpected sense propery '{key}'"] += 1
+                error_counts[f"Unexpected sense property '{key}'"] += 1
 
         if citation["urn"] in citation_urns:
             error_counts[f"Duplicate citation urn '{citation['urn']}'"] += 1
