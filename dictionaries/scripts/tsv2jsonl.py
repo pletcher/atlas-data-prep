@@ -16,9 +16,7 @@ for line in open("defs.tsv"):
     i += 1
     entry = {
         "headword": headword,
-        "data": {
-            "content": definition
-        },
+        "definition": definition,
         "urn": f"{URN_PREFIX}-{i}"
     }
     print(json.dumps(entry, ensure_ascii=False))
