@@ -4,7 +4,7 @@
 Work-in-progress script to convert Lewis and Short elementary Latin dictionary to JSONL for Scaife ATLAS.
 
 Note this treats each `div1` as a blob of plain text with no attempt (yet)
-to retain formatting, extract senses or citations.
+to retain formatting or citations.
 This will all come later (see LSJ).
 """
 
@@ -29,6 +29,240 @@ def to_string(el):
     )
 
 
+def get_senses(entry, urn):
+    parent_senses = []
+    for sense in entry.xpath("sense"):
+        sense_orig_id = sense.attrib["id"]
+        contents = to_string(sense).strip() if sense.text else ""
+
+        if sense.attrib["level"] == "0":
+            sense_urn = f"{urn}-{sense_orig_id}"
+            parent_senses.append(
+                {
+                    "label": sense.attrib.get("n"),
+                    "definition": contents,
+                    "urn": sense_urn,
+                    "children": [],
+                }
+            )
+
+        elif sense.attrib["level"] == "1":
+            if len(parent_senses) == 0:
+                parent_senses.append(
+                    {
+                        "definition": "",
+                        "urn": f"{urn}-0",
+                        "children": [],
+                    }
+                )
+            parent_urn = parent_senses[-1]["urn"]
+            sense_urn = f"{parent_urn}-{sense_orig_id}"
+            parent_senses[-1]["children"].append(
+                {
+                    "label": sense.attrib.get("n"),
+                    "definition": contents,
+                    "urn": sense_urn,
+                    "children": [],
+                }
+            )
+
+        elif sense.attrib["level"] == "2":
+            if len(parent_senses) == 0:
+                parent_senses.append(
+                    {
+                        "definition": "",
+                        "urn": f"{urn}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"]) == 0:
+                parent_senses[-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            parent_urn = parent_senses[-1]["children"][-1]["urn"]
+            sense_urn = f"{parent_urn}-{sense_orig_id}"
+
+            parent_senses[-1]["children"][-1]["children"].append(
+                {
+                    "label": sense.attrib.get("n"),
+                    "definition": contents,
+                    "urn": sense_urn,
+                    "children": [],
+                }
+            )
+
+        elif sense.attrib["level"] == "3":
+            if len(parent_senses) == 0:
+                parent_senses.append(
+                    {
+                        "definition": "",
+                        "urn": f"{urn}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"]) == 0:
+                parent_senses[-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"][-1]["children"]) == 0:
+                parent_senses[-1]["children"][-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['children'][-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            parent_urn = parent_senses[-1]["children"][-1]["children"][-1]["urn"]
+            sense_urn = f"{parent_urn}-{sense_orig_id}"
+            parent_senses[-1]["children"][-1]["children"][-1]["children"].append(
+                {
+                    "label": sense.attrib.get("n"),
+                    "definition": contents,
+                    "urn": sense_urn,
+                    "children": [],
+                }
+            )
+
+        elif sense.attrib["level"] == "4":
+            if len(parent_senses) == 0:
+                parent_senses.append(
+                    {
+                        "definition": "",
+                        "urn": f"{urn}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"]) == 0:
+                parent_senses[-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"][-1]["children"]) == 0:
+                parent_senses[-1]["children"][-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['children'][-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"][-1]["children"][-1]["children"]) == 0:
+                parent_senses[-1]["children"][-1]["children"][-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['children'][-1]['children'][-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            parent_urn = parent_senses[-1]["children"][-1]["children"][-1]["children"][
+                -1
+            ]["urn"]
+            sense_urn = f"{parent_urn}-{sense_orig_id}"
+
+            parent_senses[-1]["children"][-1]["children"][-1]["children"][-1][
+                "children"
+            ].append(
+                {
+                    "label": sense.attrib.get("n"),
+                    "definition": contents,
+                    "urn": sense_urn,
+                    "children": [],
+                }
+            )
+
+        elif sense.attrib["level"] == "5":
+            if len(parent_senses) == 0:
+                parent_senses.append(
+                    {
+                        "definition": "",
+                        "urn": f"{urn}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"]) == 0:
+                parent_senses[-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"][-1]["children"]) == 0:
+                parent_senses[-1]["children"][-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['children'][-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            if len(parent_senses[-1]["children"][-1]["children"][-1]["children"]) == 0:
+                parent_senses[-1]["children"][-1]["children"][-1]["children"].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['children'][-1]['children'][-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            if (
+                len(
+                    parent_senses[-1]["children"][-1]["children"][-1]["children"][-1][
+                        "children"
+                    ]
+                )
+                == 0
+            ):
+                parent_senses[-1]["children"][-1]["children"][-1]["children"][-1][
+                    "children"
+                ].append(
+                    {
+                        "definition": "",
+                        "urn": f"{parent_senses[-1]['children'][-1]['children'][-1]['children'][-1]['urn']}-0",
+                        "children": [],
+                    }
+                )
+
+            parent_urn = parent_senses[-1]["children"][-1]["children"][-1]["children"][
+                -1
+            ]["children"][-1]["urn"]
+            sense_urn = f"{parent_urn}-{sense_orig_id}"
+
+            parent_senses[-1]["children"][-1]["children"][-1]["children"][-1][
+                "children"
+            ][-1]["children"].append(
+                {
+                    "label": sense.attrib.get("n"),
+                    "definition": contents,
+                    "urn": sense_urn,
+                    "children": [],
+                }
+            )
+
+    return parent_senses
+
+
 def get_entries(root):
     # first div element has metadata, second div element has introduction
     for entry in root.xpath("text//entry"):
@@ -38,16 +272,25 @@ def get_entries(root):
         urn = f"{URN_PREFIX}-{entry_orig_id}"
 
         head = entry.attrib["key"]
+        entry_type = entry.attrib["type"]
 
-        contents = to_string(entry).strip()
+        contents = []
+        for child in entry.iterchildren():
+            if child.tag != "sense":
+                text = child.xpath("normalize-space()")
+                if text:
+                    contents.append(to_string(child))
+        contents = "".join(contents).strip()
+
+        senses = get_senses(entry, urn)
 
         yield {
             "headword": head,
-            "data": {
-                "content": contents,
-                "key": entry_key,
-            },
             "urn": urn,
+            "definition": contents,
+            "key": entry_key,
+            "senses": senses,
+            "type": entry_type,
         }
 
 
