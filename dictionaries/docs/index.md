@@ -12,7 +12,7 @@ In short, the following capabilities may exist depending on the data available:
 * navigate from a lemmatized token to a dictionary entry
 * navigate from a word-sense-disambiguated token to a dictionary entry sense
 * determine which tokens in a lemmatized text are covered by a dictionary
-* determine which chunks or tokens in a lemmatized text are cited in a dictionary entry
+* determine which chunks or tokens in a text are cited in a dictionary entry
 
 ## The Data Format for Ingestion
 
@@ -36,10 +36,10 @@ The `metadata.json` gives the dictionary a label and urn along with what the ent
 
 ### Entries
 
-In the entry `jsonl` files, each line is a JSON object. At a minimum, the entry object should contain a `headword`, `urn`, and a `data` object containing `content`.
+In the entry `jsonl` files, each line is a JSON object. At a minimum, the entry object should contain a `headword`, `urn`, and `definition`.
 
 ```
-{"headword": "μῆνις", "data": {"content": "wrath, anger"}, "urn": "urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:short-def-56795"}
+{"headword": "μῆνις", "definition": "wrath, anger", "urn": "urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:short-def-56795"}
 ```
 
 Here is the equivalent entry in the Cambridge Greek Lexicon (without senses or citations):
@@ -48,11 +48,9 @@ Here is the equivalent entry in the Cambridge Greek Lexicon (without senses or c
 {
   "headword": "μῆνις",
   "urn": "urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:cambridge-greek-lexicon-26128"
-  "data": {
-    "headword_display": "<b>μῆνις</b>",
-    "content": "<NE><HG><HL>μῆνις</HL><DL><Lbl>dial.</Lbl><FmHL>μᾶνις</FmHL></DL><Infl>ιος</Infl><PS>f</PS></HG> <nS1><Def>resentful or vengeful anger</Def><Tr>anger, wrath<Expl>of persons, gods, the spirits of the dead, or sim.</Expl></Tr><Au>Hom. Hes. Thgn. Lyr. Hdt. Trag.<NBPlus/></Au><nS2><Indic>pl.</Indic><Au>AR.</Au></nS2><nS2><Indic>personif.</Indic><Tr>Wrath</Tr><Au>A.</Au></nS2></nS1></NE>",
-    "key": "μῆνις"
-  },
+  "definition": "<NE><HG><HL>μῆνις</HL><DL><Lbl>dial.</Lbl><FmHL>μᾶνις</FmHL></DL><Infl>ιος</Infl><PS>f</PS></HG> <nS1><Def>resentful or vengeful anger</Def><Tr>anger, wrath<Expl>of persons, gods, the spirits of the dead, or sim.</Expl></Tr><Au>Hom. Hes. Thgn. Lyr. Hdt. Trag.<NBPlus/></Au><nS2><Indic>pl.</Indic><Au>AR.</Au></nS2><nS2><Indic>personif.</Indic><Tr>Wrath</Tr><Au>A.</Au></nS2></nS1></NE>",
+  "headword_display": "<b>μῆνις</b>",
+  "key": "μῆνις"
 }
 ```
 
@@ -65,16 +63,14 @@ Notice here the top-level properties include `senses` and `citations` lists.
 
 Senses have a `label`, `urn`, `definition` and `citations`.
 
-Citations have a `urn` and `data` object consisting of `ref` and optional `quote` and `urn` properties.
+Citations have a `urn`, `ref` and optional `quote` and `target` properties.
 
 
 ```
     {
       "headword": "μῆνις",
       "urn": "urn:cite2:exploreHomer:entries.atlas_v1:1.6424",
-      "data": {
-        "content": "<p>ἡ.</p>"
-      },
+      "definition": "<p>ἡ.</p>",
       "senses": [
         {
           "label": "1",
@@ -83,19 +79,14 @@ Citations have a `urn` and `data` object consisting of `ref` and optional `quote
           "citations": [
             {
               "urn": "urn:cite2:scholarlyEditions:citations.v1:1.13168_1",
-              "data": {
-                "ref": "Il. 1.1",
-                "quote": "μῆνιν ἄειδε Ἀχιλῆος",
-                "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1"
-              }
+              "ref": "Il. 1.1",
+              "quote": "μῆνιν ἄειδε Ἀχιλῆος",
+              "target": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.1"
             },
             {
               "urn": "urn:cite2:scholarlyEditions:citations.v1:1.13168_2",
-              "data": {
-                "ref": "Il. 1.75",
-                "quote": null,
-                "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.75"
-              }
+              "ref": "Il. 1.75",
+              "target": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.75"
             }
           ]
         },
