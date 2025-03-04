@@ -100,4 +100,16 @@ Citations have a `urn`, `ref` and optional `quote` and `target` properties.
     }
 ```
 
+Any additional information we want to transfer to json format gets included under the top-level property "data". One common example of this is "type", which can contain information such as whether an entry is a ***hapax legomenon*** (i.e. only attested once). If we had this information about μῆνις, for instance, we might have
+
+```
+    {
+      "headword": "μῆνις",
+      "urn": "urn:cite2:exploreHomer:entries.atlas_v1:1.6424",
+      "definition": "<p>ἡ.</p>",
+      "data": {
+          "type": "hapax",
+      }
+```
+
 Note that this format is subject to change and feedback is very welcome.
