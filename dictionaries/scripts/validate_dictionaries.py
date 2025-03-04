@@ -105,6 +105,7 @@ for dictionary_dir in dictionaries_path.iterdir():
                     "senses",
                     "citations",
                     "key",
+                    "type",
                     "headword_display",
                 ]:
                     error_counts[f"Unexpected entry property '{key}'"] += 1
