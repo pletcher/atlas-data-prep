@@ -56,12 +56,11 @@ Here is the equivalent entry in the Cambridge Greek Lexicon (without senses or c
 
 Here, a custom CSS stylesheet has to be applied to render the content. The `key` exists because more than one entry may have the same headword. For example, in the Cambridge Greek Lexicon there are two "headword": "μήν". They have "headword_display": "<b>μήν</b><sup>1</sup>" and "headword_display": "<b>μήν</b><sup>2</sup>" but also "key": "μήν_1" and "key": "μήν_2".
 
-
 And here is a truncated version of the Cunliffe entry where senses and citations are included.
 
 Notice here the top-level properties include `senses` and `citations` lists.
 
-Senses have a `label`, `urn`, `definition` and `citations`.
+Senses have a `label`, `urn`, `definition` and `citations` as well as `children` which is list of sub-senses.
 
 Citations have a `urn`, `ref` and optional `quote` and `target` properties.
 
@@ -97,19 +96,6 @@ Citations have a `urn`, `ref` and optional `quote` and `target` properties.
           "citations": [ … ]
         }
       ]
-    }
-```
-
-Any additional information we want to transfer to json format gets included under the top-level property "data". One common example of this is "type", which can contain information such as whether an entry is a ***hapax legomenon*** (i.e. only attested once). If we had this information about μῆνις, for instance, we might have
-
-```
-    {
-      "headword": "μῆνις",
-      "urn": "urn:cite2:exploreHomer:entries.atlas_v1:1.6424",
-      "definition": "<p>ἡ.</p>",
-      "data": {
-          "type": "hapax",
-      }
     }
 ```
 
