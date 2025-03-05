@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# This script can be used from the CLI by passing in a directory path.
+
 import collections
 import json
 import pathlib
@@ -13,7 +15,6 @@ citation_urns = set()
 
 def process_senses(senses, error_counts):
     for sense in senses:
-
         if "urn" not in sense:
             error_counts["Missing sense urn"] += 1
         if "definition" not in sense:
@@ -41,7 +42,6 @@ def process_senses(senses, error_counts):
 
 def process_citations(citations, error_counts):
     for citation in citations:
-
         if "urn" not in citation:
             error_counts["Missing citation urn"] += 1
         if "ref" not in citation:
@@ -77,7 +77,6 @@ for dictionary_dir in dictionaries_path.iterdir():
     assert metadata["kind"] == "Dictionary"
 
     for entries_filename in metadata["entries"]:
-
         error_counts = collections.Counter()
 
         try:
@@ -113,3 +112,4 @@ for dictionary_dir in dictionaries_path.iterdir():
             print(f"  Errors in {entries_filename}:")
         for error, count in error_counts.items():
             print(f"    {error}: {count}")
+
