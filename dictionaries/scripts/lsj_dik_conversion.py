@@ -96,8 +96,35 @@ def process_citations(child, counter):
     bibl_entries = []
     for bibl in child.xpath("bibl"):
         urn = bibl.attrib.get("n", "")
+
+        # to get format work_urn:cited_book.cited_line
+        # so from Helma's format
+        # Perseus:abo:tlg,0012,001:8:409
+        # we want urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:8.409
+
+        # these four lines deal with citation urns that have book and line number
+        pattern = r"(,\d+:\d+)(:*)(\d*)"
+        if (
+            len(re.findall(pattern, urn)) > 0
+            and len(re.findall(pattern, urn)[0][2]) > 0
+        ):
+            replacement = r"\1.\3"
+            urn = re.sub(pattern, replacement, urn)
+
         urn = re.sub("Perseus:abo", "urn:cts:greekLit", urn)
-        urn = re.sub(",", ".", urn)
+
+        # we want to replace the first "," with "" and the second "," with "."
+        # we also want to insert tlg after tlg#.
+        pattern = r"(.+)(,)(.+)(,)(.+)"
+        replacement = r"\1\3.tlg\5"
+        urn = re.sub(pattern, replacement, urn)
+
+        # go from urn:cts:greekLit:tlg0012.tlg001:8.409
+        # to urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:8.409
+        pattern = r"(.+)(\.)(.+)(:)(.+)"
+        replacement = r"\1\2\3.perseus-grc2\4\5"
+        urn = re.sub(pattern, replacement, urn)
+
         bibl_text = normalize_whitespace(to_string(bibl).strip())
         bibl_entries.append((bibl_text, urn))
 
