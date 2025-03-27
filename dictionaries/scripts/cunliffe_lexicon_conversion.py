@@ -140,18 +140,16 @@ def process_citations(child, counter):
 
         ref = normalize_whitespace(to_string(bibl))
 
-    citation = (
-        {
-            "urn": f"urn:cite2:scaife-viewer:citations.atlas_v1:cunliffe_lex-{counter['citation_count']}",
-            "data": {"quote": quote, "ref": ref, "urn": ref_urn},
-        }
-        if ref and ref_urn
-        else None
-    )
-    if ref and ref_urn:
-        counter["citation_count"] += 1
+    if not (ref and ref_urn):
+        return []
 
-    return citation
+    citation = {
+        "urn": f"urn:cite2:scaife-viewer:citations.atlas_v1:cunliffe_lex-{counter['citation_count']}",
+        "data": {"quote": quote, "ref": ref, "urn": ref_urn},
+    }
+    counter["citation_count"] += 1
+
+    return [citation]
 
 
 def get_entries(root, counter: dict):
@@ -179,7 +177,7 @@ def get_entries(root, counter: dict):
 
         for child in entry.iterdescendants():
             if child.tag == f"{{{nsmap['ns']}}}cit":
-                citations.append(process_citations(child, counter))
+                citations.extend(process_citations(child, counter))
 
         yield {
             "headword": head,
