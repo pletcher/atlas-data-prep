@@ -21,9 +21,14 @@ def TEI(tag):
 def to_string(el):
     return re.sub(
         r"\s+", " ",
-        etree.tostring(el, with_tail=True, encoding="utf-8", method="text").decode("utf-8")
+        etree.tostring(el, with_tail=True, encoding="unicode", method="text")
     ).strip()
 
+def to_xml(el):
+    return re.sub(
+        r"\s+", " ",
+        etree.tostring(el, with_tail=True, encoding="unicode", method="xml")
+    ).strip()
 
 def get_glossae():
     tree = etree.parse(SRC_FILE)
@@ -42,7 +47,14 @@ def get_glossae():
 
         for gchild in child:
             if gchild.tag == TEI("p"):
-                yield (corresp, to_string(gchild))
+                for ggchild in gchild:
+                    assert ggchild.tag in [
+                        TEI("foreign"),
+                        TEI("emph"),
+                        TEI("title"),
+                        TEI("bibl"),
+                    ], ggchild.tag
+                yield (corresp, to_xml(gchild))
             else:
                 assert gchild.tag == TEI("div"), gchild.tag
                 assert gchild.attrib["type"] == "textpart"
@@ -51,7 +63,18 @@ def get_glossae():
                     corresp2 = gchild.attrib["corresp"]
                 else:
                     corresp2 = TEXT_URN + gchild.attrib["n"]
-                yield (corresp2, to_string(gchild))
+                for ggchild in gchild:
+                    assert ggchild.tag == TEI("p")
+                    for gggchild in ggchild:
+                        assert gggchild.tag in [
+                            TEI("app"),
+                            TEI("foreign"),
+                            TEI("cit"),
+                            TEI("emph"),
+                            TEI("bibl"),
+                            TEI("title"),
+                        ], gggchild.tag
+                yield (corresp2, to_xml(gchild))
 
 with open(DESTO_DIR / "glossae_001.jsonl", "w") as f:
     idx = 0
