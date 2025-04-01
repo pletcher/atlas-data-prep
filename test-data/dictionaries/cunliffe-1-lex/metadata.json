@@ -1,8 +1,1 @@
-{
-  "label": "Cunliffe (Lex Entries)",
-  "urn": "urn:cite2:scaife-viewer:dictionaries.v1:cunliffe-lex",
-  "kind": "Dictionary",
-  "entries": [
-    "entries-001.jsonl"
-  ]
-}
+{"label": "cunliffe_lex", "urn": "urn:cite2:scaife-viewer:dictionaries.v1:cunliffe_lex", "kind": "Dictionary", "entries": ["entries_01.jsonl"]}

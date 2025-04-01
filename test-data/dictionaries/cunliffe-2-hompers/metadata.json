@@ -1,8 +1,1 @@
-{
-  "label": "Cunliffe (Hompers)",
-  "urn": "urn:cite2:scaife-viewer:dictionaries.v1:cunliffe-hompers",
-  "kind": "Dictionary",
-  "entries": [
-    "entries-001.jsonl"
-  ]
-}
+{"label": "cunliffe_hompers", "urn": "urn:cite2:scaife-viewer:dictionaries.v1:cunliffe_hompers", "kind": "Dictionary", "entries": ["entries_01.jsonl"]}
