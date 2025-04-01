@@ -85,6 +85,29 @@ def normalize_whitespace(text):
     return text
 
 
+def process_citation_urn(urn: str):
+    # these four lines deal with citation urns that have book and line number
+    pattern = r"(,\d+:\d+)(:*)(\d*)"
+    if len(re.findall(pattern, urn)) > 0 and len(re.findall(pattern, urn)[0][2]) > 0:
+        replacement = r"\1.\3"
+        urn = re.sub(pattern, replacement, urn)
+    urn = re.sub("Perseus:abo", "urn:cts:greekLit", urn)
+
+    # we want to replace the first "," with "" and the second "," with "."
+    # we also want to insert tlg after tlg#.
+    pattern = r"(.+)(,)(.+)(,)(.+)"
+    replacement = r"\1\3.tlg\5"
+    urn = re.sub(pattern, replacement, urn)
+
+    # go from urn:cts:greekLit:tlg0012.tlg001:8.409
+    # to urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:8.409
+    pattern = r"(.+)(\.)(.+)(:)(.+)"
+    replacement = r"\1\2\3.perseus-grc2\4\5"
+    urn = re.sub(pattern, replacement, urn)
+
+    return urn
+
+
 def process_citations(child, counter):
     quote_parts = []
     for quote in child.xpath("quote"):
@@ -96,34 +119,7 @@ def process_citations(child, counter):
     bibl_entries = []
     for bibl in child.xpath("bibl"):
         urn = bibl.attrib.get("n", "")
-
-        # to get format work_urn:cited_book.cited_line
-        # so from Helma's format
-        # Perseus:abo:tlg,0012,001:8:409
-        # we want urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:8.409
-
-        # these four lines deal with citation urns that have book and line number
-        pattern = r"(,\d+:\d+)(:*)(\d*)"
-        if (
-            len(re.findall(pattern, urn)) > 0
-            and len(re.findall(pattern, urn)[0][2]) > 0
-        ):
-            replacement = r"\1.\3"
-            urn = re.sub(pattern, replacement, urn)
-
-        urn = re.sub("Perseus:abo", "urn:cts:greekLit", urn)
-
-        # we want to replace the first "," with "" and the second "," with "."
-        # we also want to insert tlg after tlg#.
-        pattern = r"(.+)(,)(.+)(,)(.+)"
-        replacement = r"\1\3.tlg\5"
-        urn = re.sub(pattern, replacement, urn)
-
-        # go from urn:cts:greekLit:tlg0012.tlg001:8.409
-        # to urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:8.409
-        pattern = r"(.+)(\.)(.+)(:)(.+)"
-        replacement = r"\1\2\3.perseus-grc2\4\5"
-        urn = re.sub(pattern, replacement, urn)
+        urn = process_citation_urn(urn)
 
         bibl_text = normalize_whitespace(to_string(bibl).strip())
         bibl_entries.append((bibl_text, urn))
@@ -147,6 +143,18 @@ def process_sense_levels(sense, urn: str, parent_senses: list, counter: dict):
     for child in sense.iterchildren():
         if child.tag == "cit":
             citations.append(process_citations(child, counter))
+        # handle citations outside of "cit" tag, i.e. without quotation
+        if child.tag == "bibl":
+            ref = normalize_whitespace(to_string(child).strip())
+            ref_urn = child.attrib.get("n", "MISSING")
+            ref_urn = process_citation_urn(ref_urn)
+            counter["citation_count"] += 1
+            citations.append(
+                {
+                    "urn": f"urn:cite2:scaife-viewer:citations.atlas_v1:lsj-{counter['citation_count']}",
+                    "data": {"quote": "", "ref": ref, "urn": ref_urn},
+                }
+            )
         text = normalize_whitespace(to_string(child))
         if text:
             contents_list.append(text)
