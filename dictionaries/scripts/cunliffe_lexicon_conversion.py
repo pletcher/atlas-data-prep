@@ -165,15 +165,25 @@ def get_entries(root, counter: dict):
         )
         entry_urn = f"{URN_PREFIX}-n{counter['entry_count']}"
         counter["entry_count"] += 1
+        citations = []
         contents = []
         for child in entry.iterchildren():
             if child.tag != "sense":
                 text = normalize_whitespace(to_string(child))
                 if text:
                     contents.append(text)
+        for child in entry.xpath(".//ns:bibl[not(ancestor::ns:cit)]", namespaces=nsmap):
+            ref = normalize_whitespace(to_string(child).strip())
+            ref_urn = child.attrib.get("n", "MISSING")
+            ref_urn = process_citation_urn(ref_urn)
+            citations.append(
+                {
+                    "urn": f"urn:cite2:scaife-viewer:citations.atlas_v1:cunliffe_lex-{counter['citation_count']}",
+                    "data": {"quote": "", "ref": ref, "urn": ref_urn},
+                }
+            )
+            counter["citation_count"] += 1
         contents = " ".join(contents).strip()
-
-        citations = []
 
         for child in entry.iterdescendants():
             if child.tag == f"{{{nsmap['ns']}}}cit":

@@ -6,7 +6,7 @@ dir = Path.cwd()
 n_files = len([file for file in dir.glob("*.jsonl")])
 files = dir.glob("*.jsonl")
 
-seen_urns = []
+seen_urns = set([])
 
 
 def read_cit_urns(urn_list, citations):
@@ -31,12 +31,12 @@ for file in tqdm(files, total=n_files):
             for sense in line["senses"]:
                 read_from_senses(buffer_list, sense)
             for urn in buffer_list:
-                if urn in set(seen_urns):
+                if urn in seen_urns:
                     print(f"Matching urn is {urn}")
                     print(f"urns for entry are {buffer_list}")
                     print(f"file of current urn is {file}")
                     print(f"file of previous match is {urn_to_file[urn]}")
                     break
                 else:
-                    seen_urns.append(urn)
+                    seen_urns.add(urn)
                     urn_to_file[urn] = file
