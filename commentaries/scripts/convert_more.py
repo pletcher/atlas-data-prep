@@ -38,7 +38,7 @@ for path in sorted(AUTHOR_DIR.iterdir()):
                 
                 with open(DESTO_DIR / "glossae_001.jsonl", "w") as f:
                     idx = 0
-                    for corresp, content in get_glossae():
+                    for corresp, content in get_glossae(SRC_FILE, TEXTURN):
                         idx += 1
                         entry = {
                             "urn": f"{URN_PREFIX}:{idx}",
