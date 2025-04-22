@@ -76,23 +76,24 @@ def get_glossae():
                         ], gggchild.tag
                 yield (corresp2, to_xml(gchild))
 
-with open(DESTO_DIR / "glossae_001.jsonl", "w") as f:
-    idx = 0
-    for corresp, content in get_glossae():
-        idx += 1
-        entry = {
-            "urn": f"{URN_PREFIX}:{idx}",
-            "corresp": corresp,
-            "content": content,
-        }
-        print(json.dumps(entry, ensure_ascii=False), file=f)
+if __name__ == "__main__":
+    with open(DESTO_DIR / "glossae_001.jsonl", "w") as f:
+        idx = 0
+        for corresp, content in get_glossae():
+            idx += 1
+            entry = {
+                "urn": f"{URN_PREFIX}:{idx}",
+                "corresp": corresp,
+                "content": content,
+            }
+            print(json.dumps(entry, ensure_ascii=False), file=f)
 
-metadata = {
-    "label": "Commentary on Sophocles: Oedipus Tyrannus by Sir Richard C. Jebb",
-    "urn": URN_PREFIX,
-    "kind": "Commentary",
-    "entries": ["glossae_001.jsonl"],
-}
+    metadata = {
+        "label": "Commentary on Sophocles: Oedipus Tyrannus by Sir Richard C. Jebb",
+        "urn": URN_PREFIX,
+        "kind": "Commentary",
+        "entries": ["glossae_001.jsonl"],
+    }
 
-with open(DESTO_DIR / "metadata.json", "w") as f:
-    json.dump(metadata, f, indent=2, ensure_ascii=False)
+    with open(DESTO_DIR / "metadata.json", "w") as f:
+        json.dump(metadata, f, indent=2, ensure_ascii=False)
