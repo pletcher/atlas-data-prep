@@ -8,10 +8,6 @@ import pathlib
 from lxml import etree
 
 
-SRC_FILE = pathlib.Path("../canonical_pdlrefwk/data/viaf2603144/viaf001/viaf2603144.viaf001.perseus-eng1.xml")
-TEXT_URN = "urn:cts:greekLit:tlg0011.tlg004:"  # note trailing colon
-DESTO_DIR = pathlib.Path("test-data/commentaries/jebb-ot")
-URN_PREFIX = "urn:cts:greekLit:viaf2603144.viaf001.perseus-eng1"
 
 
 def TEI(tag):
@@ -30,8 +26,8 @@ def to_xml(el):
         etree.tostring(el, with_tail=True, encoding="unicode", method="xml")
     ).strip()
 
-def get_glossae():
-    tree = etree.parse(SRC_FILE)
+def get_glossae(src_file, text_urn):
+    tree = etree.parse(src_file)
     root = tree.getroot()
 
     commentary_div = root[1][0][0]
@@ -40,32 +36,47 @@ def get_glossae():
     # urn = commentary_div.attrib["n"]
 
     for child in commentary_div:
-        assert child.tag == TEI("div")
+        if child.tag == TEI("p"):
+            continue  # for now
+        assert child.tag == TEI("div"), child.tag
         assert child.attrib["type"] == "textpart"
-        assert child.attrib["subtype"] == "section"
-        corresp = child.attrib["corresp"]
+        # assert child.attrib["subtype"] == "section"
+        corresp = child.attrib.get("corresp")
+        if not corresp:
+            continue
 
         for gchild in child:
-            if gchild.tag == TEI("p"):
+            if gchild.tag == TEI("head"):
+                continue
+            elif gchild.tag == TEI("p"):
                 for ggchild in gchild:
                     assert ggchild.tag in [
                         TEI("foreign"),
                         TEI("emph"),
                         TEI("title"),
                         TEI("bibl"),
+                        TEI("ref"),
+                        TEI("cit"),
+                        TEI("quote"),
+                        TEI("app"),
                     ], ggchild.tag
                 yield (corresp, to_xml(gchild))
             else:
                 assert gchild.tag == TEI("div"), gchild.tag
                 assert gchild.attrib["type"] == "textpart"
-                assert gchild.attrib["subtype"] == "commline"
+                if gchild.attrib["subtype"] != "commline":
+                    continue  # for now
                 if gchild.attrib.get("corresp"):
                     corresp2 = gchild.attrib["corresp"]
                 else:
-                    corresp2 = TEXT_URN + gchild.attrib["n"]
+                    corresp2 = text_urn + gchild.attrib["n"]
                 for ggchild in gchild:
-                    assert ggchild.tag == TEI("p")
+                    if ggchild.tag == TEI("head"):
+                        continue
+                    # assert ggchild.tag == TEI("p"), ggchild.tag
                     for gggchild in ggchild:
+                        if isinstance(gggchild, etree._Comment):
+                            continue
                         assert gggchild.tag in [
                             TEI("app"),
                             TEI("foreign"),
@@ -73,13 +84,22 @@ def get_glossae():
                             TEI("emph"),
                             TEI("bibl"),
                             TEI("title"),
+                            TEI("date"),
+                            TEI("quote"),
+                            TEI("ref"),
                         ], gggchild.tag
                 yield (corresp2, to_xml(gchild))
 
+
 if __name__ == "__main__":
+    SRC_FILE = pathlib.Path("../canonical_pdlrefwk/data/viaf2603144/viaf001/viaf2603144.viaf001.perseus-eng1.xml")
+    TEXT_URN = "urn:cts:greekLit:tlg0011.tlg004:"  # note trailing colon
+    DESTO_DIR = pathlib.Path("test-data/commentaries/jebb-ot")
+    URN_PREFIX = "urn:cts:greekLit:viaf2603144.viaf001.perseus-eng1"
+
     with open(DESTO_DIR / "glossae_001.jsonl", "w") as f:
         idx = 0
-        for corresp, content in get_glossae():
+        for corresp, content in get_glossae(SRC_FILE, TEXT_URN):
             idx += 1
             entry = {
                 "urn": f"{URN_PREFIX}:{idx}",
