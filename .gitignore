@@ -1,3 +1,5 @@
 .DS_Store
 .venv
+commentaries/scripts/convert_ot_cit.py
+
 __pycache__/
