@@ -10,5 +10,5 @@ OTHER_WORK_URNS = {
 }
 
 OTHER_AUTH_URNS = {
-    "shakespeare": "urn:cts:englishLit:shakespare",
+    "shakespeare": "urn:cts:englishLit:shakespeare",
 }

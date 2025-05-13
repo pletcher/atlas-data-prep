@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 
+# ultimately, we want to use some machine learning model to intelligently
+# decide how to resolve ambiguous references via some sort of ML
+# hoover all abbreviated citations into a file with abbreviated form and resolved form
+# do this for numeric citations as well
+# also have a file mapping all refs to their resolutions
+
 import logging
+from typing import Optional
 
 from works_greek import (
     GREEK_AUTH_URNS,
@@ -100,14 +107,17 @@ def _transform_title(title: str, titles: list) -> list:
             transformations.append(title[:-1] + "s")
 
     initials = "".join([word[0] for word in title.split()])
-    dot_initials = ".".join([word[0] for word in title.split()])
+    dot_initials = ".".join([word[0] for word in title.split()]) + "."
     under_initials = "_".join([word[0] for word in title.split()])
+    dot_under_initials = "._".join([word[0] for word in title.split()]) + "."
     if initials not in prev_titles:
         transformations.append(initials)
     if dot_initials not in prev_titles:
         transformations.append(dot_initials)
     if under_initials not in prev_titles:
         transformations.append(under_initials)
+    if dot_under_initials not in prev_titles:
+        transformations.append(dot_under_initials)
 
     first_letter = title[0]
     if first_letter not in prev_titles:
@@ -153,13 +163,18 @@ def _transform_title(title: str, titles: list) -> list:
     func_words = {"the", "a", "an", "of", "in", "by", "for", "on", "and", "de", "ad"}
     if func_words & set(title.split()):
         initials = "".join(
-            [word[0] if word not in func_words else "" for word in title.split()]
+            [word[0] for word in title.split() if word not in func_words]
         )
-        dot_initials = ".".join(
-            [word[0] if word not in func_words else "" for word in title.split()]
+        dot_initials = (
+            ".".join([word[0] for word in title.split() if word not in func_words])
+            + "."
         )
         under_initials = "_".join(
-            [word[0] if word not in func_words else "" for word in title.split()]
+            [word[0] for word in title.split() if word not in func_words]
+        )
+        dot_under_initials = (
+            "._".join([word[0] for word in title.split() if word not in func_words])
+            + "."
         )
         if initials not in prev_titles:
             transformations.append(initials)
@@ -167,6 +182,8 @@ def _transform_title(title: str, titles: list) -> list:
             transformations.append(dot_initials)
         if under_initials not in prev_titles:
             transformations.append(under_initials)
+        if dot_under_initials not in prev_titles:
+            transformations.append(dot_under_initials)
 
     # add transformation of title by taking suspensions
     # by going until you have (CONS* VOWEL CONS+) VOWEL, e.g. part.an. for de partibus animalium
@@ -205,7 +222,9 @@ for author in additions.keys():
         WORK_URNS[author][title] = additions[author][title]
 
 
-def get_urn(ref: str) -> str:
+def get_urn(
+    ref: str, content: Optional[str] = None, filename: Optional[str] = None
+) -> str:
     # for now, keep ff in references to line numbers,
     # but remove " " and "." to make it easier to process
     if ref[-2:] == "ff":
@@ -243,9 +262,14 @@ def get_urn(ref: str) -> str:
 
         if len(ref.split()) == 2:
             work_loc = ref.split()[1]
-            assert len(work_loc.split(".", maxsplit=1)) == 2, (
-                f"wrong format for citation ref: {ref}"
-            )
+            if content:
+                assert len(work_loc.split(".", maxsplit=1)) == 2, (
+                    f"wrong format for citation ref: {content}\n\nfor ref {ref}\n\nin file {filename}"
+                )
+            else:
+                assert len(work_loc.split(".", maxsplit=1)) == 2, (
+                    f"wrong format for citation ref: {ref}"
+                )
             work, loc = work_loc.split(".", maxsplit=1)
         else:
             work, loc = ref.split()[1:]
@@ -275,9 +299,14 @@ def get_urn(ref: str) -> str:
                 work = ""
                 loc = work_loc
             else:
-                assert len(work_loc.split(".", maxsplit=1)) == 2, (
-                    f"wrong format for citation ref: {ref}"
-                )
+                if content:
+                    assert len(work_loc.split(".", maxsplit=1)) == 2, (
+                        f"wrong format for citation ref: {content}\nfor ref {ref}\n\nin file {filename}"
+                    )
+                else:
+                    assert len(work_loc.split(".", maxsplit=1)) == 2, (
+                        f"wrong format for citation ref: {ref}"
+                    )
                 work, loc = work_loc.split(".", maxsplit=1)
         else:
             auth, work, loc = ref.split()
@@ -287,7 +316,9 @@ def get_urn(ref: str) -> str:
 
     if auth not in AUTHORS:
         auth = AUTH_ABB.get(auth)
-        assert auth, f"Author not recognized for: {ref}"
+        assert auth, (
+            f"Author not recognized for: {ref}\ncitation content, if provided, is: {content}"
+        )
 
     auth_urn = AUTH_URNS[auth]
 
@@ -323,7 +354,8 @@ def get_urn(ref: str) -> str:
     # where "Letter 7" identifies the work urn
     elif not work_urn:
         assert len(loc.split(".", maxsplit=1)) == 2, f"""
-            Issue with the work name or the passage citation with {ref}
+            Issue with the work name or the passage citation with {ref}.
+            loc is {loc}.
         """
         work_number, loc = loc.split(".", maxsplit=1)
         work = work + "_" + work_number
@@ -348,3 +380,23 @@ def get_urn(ref: str) -> str:
         {urn}
         """)
     return urn
+
+
+if __name__ == "__main__":
+    # run module as script to output a text file with all
+    # title forms and author abbreviations, both as specified explicitly
+    # and as automatically generated
+    with open("title_forms.txt", "w") as f:
+        for auth in WORK_URNS.keys():
+            f.write(f"___{auth}___\n")
+            auth_abb_list = []
+            for auth_form in AUTH_ABB.keys():
+                # this assumes dictionary keys are in alphabetic order
+                if auth_form[0] > auth[0]:
+                    break
+                if AUTH_ABB[auth_form] == auth:
+                    auth_abb_list.append(auth_form)
+            f.write(f"Author abbreviations: {','.join(auth_abb_list)}\n")
+            f.write("Title forms:\n")
+            for title_form in WORK_URNS[auth].keys():
+                f.write(f"{title_form}\n")
