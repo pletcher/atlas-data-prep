@@ -5,10 +5,11 @@ OTHER_AUTH_ABB = {
 
 OTHER_WORK_URNS = {
     "shakespeare": {
-        "<title>macbeth</title>": "macbeth",
+        "macbeth": "macbeth",
+        "lear": "lear",
     },
 }
 
 OTHER_AUTH_URNS = {
-    "shakespeare": "urn:cts:englishLit:shakespeare",
+    "shakespeare": "urn:cts:engLit:shakespeare",
 }

@@ -8,6 +8,7 @@
 
 import logging
 from typing import Optional
+import re
 
 from works_greek import (
     GREEK_AUTH_URNS,
@@ -222,6 +223,167 @@ for author in additions.keys():
         WORK_URNS[author][title] = additions[author][title]
 
 
+def get_ref(from_n: Optional[str] = None, from_bibl: Optional[str] = None) -> str:
+    """
+    Takes in string contents of bibl element within cit element, as well as
+    string contents of attribute "n" of bibl element,
+    compares them, evaluates which better fits the desired citation format,
+    cleans this string, and returns it. Returns None if no viable ref found.
+    """
+    if isinstance(from_n, str):
+        from_n = from_n.lower().strip()
+    if isinstance(from_bibl, str):
+        from_bibl = from_bibl.lower().strip()
+
+    # early return conditions
+    if not isinstance(from_bibl, str) or not from_bibl.strip():
+        assert isinstance(from_n, str)
+        return from_n
+    elif not isinstance(from_n, str) or not from_n.strip():
+        assert isinstance(from_bibl, str)
+        return from_bibl
+
+    # process in list form to apply same operations to both from_bibl and from_n
+    refs = [from_n, from_bibl]
+    refs = [re.sub("<title.*?>", "", ref) for ref in refs]
+    refs = [ref.replace("</title>", "") for ref in refs]
+    # deal with section symbols
+    refs = [re.sub(r" *§ *", ".", ref) for ref in refs]
+    # deal with spacing issues with alphabetic page/section references (e.g. with Stephanus pages)
+    refs = [re.sub(r"(\d+) ([A-Za-z])", r"\1\2", ref) for ref in refs]
+    from_n, from_bibl = refs
+
+    # check if at least one string begins with the best case
+    # where we have at least 2 alphabetic strings followed by two numeric strings
+    # this can get refs of format Dion. Hal. Rom. ant. 2.2, with author and work as bigrams
+    best_pattern = (
+        r"([a-zA-Z]+\.?\s?[a-zA-Z]*) ([a-zA-Z]+\.?\s?[a-zA-Z]*) \d+(\s|\.|:)\d+"
+    )
+    # second_best has two strings followed by one numeric string
+    second_best = r"([a-zA-Z]+\.?\s?[a-zA-Z]*) ([a-zA-Z]+\.?\s?[a-zA-Z]*) \d+"
+    # third_best has one alphabetic string followed by two numeric strings,
+    # and captures cases where the work is given by a numeral
+    third_best = r"([a-zA-Z]+\.?) \d+(\s|\.|:)\d+"
+    # This captures something like Bion 20, where Bion can be presumed to ref to
+    # his main surviving work, the Lament for Adonis, and 20 to he line number
+    fourth_best = r"([a-zA-Z]+\.?) \d+"
+
+    patterns = (best_pattern, second_best, third_best, fourth_best)
+    ref = None
+
+    # the basic idea here is:
+    # we take the best pattern, and if a given pattern matches from_n and from_n has
+    # a recognized author, we from_n. If not, we do the same check on from_bibl, and if it
+    # matches, we return from_bibl. We then do the same for the other patterns in order.
+    # If no pattern matches, we instead simply try to identify an author in one of
+    # from_n and from_bibl.
+
+    for pattern in patterns:
+        if re.search(pattern, from_n):
+            split = from_n.split()
+            # check that author is recognized, up to trigram
+            if AUTH_ABB.get(split[0]) or split[0] in AUTHORS:
+                ref = from_n
+                break
+            elif AUTH_ABB.get(" ".join(split[:2])) or " ".join(split[:2]) in AUTHORS:
+                ref = from_n
+                break
+            elif AUTH_ABB.get(" ".join(split[:3])) or " ".join(split[:3]) in AUTHORS:
+                ref = from_n
+                break
+        # at this point, we know that from_n either does not fit pattern, or has unrecognized author
+        # so we do the same check on from_bibl
+        if re.search(pattern, from_bibl):
+            split = from_bibl.split()
+            # check that author is recognized, up to trigram
+            if AUTH_ABB.get(split[0]) or split[0] in AUTHORS:
+                ref = from_bibl
+                break
+            elif AUTH_ABB.get(" ".join(split[:2])) or " ".join(split[:2]) in AUTHORS:
+                ref = from_bibl
+                break
+            elif AUTH_ABB.get(" ".join(split[:3])) or " ".join(split[:3]) in AUTHORS:
+                ref = from_bibl
+                break
+
+    # organized this way so more checks could easily be added
+    if ref:
+        return ref
+
+    # at this point, none of the desired patterns have been recognized
+    # check if either or both strings have a recognized author
+    n_auth_rec = False
+    bibl_auth_rec = False
+    auth_form_from_n = ""  # so we can try to match work
+    auth_form_from_bibl = ""
+
+    split = from_n.split()
+    if AUTH_ABB.get(split[0]) or split[0] in AUTHORS:
+        n_auth_rec = True
+        auth_form_from_n = split[0]
+    elif AUTH_ABB.get(" ".join(split[:2])) or " ".join(split[:2]) in AUTHORS:
+        n_auth_rec = True
+        auth_form_from_n = " ".join(split[:2])
+    elif AUTH_ABB.get(" ".join(split[:3])) or " ".join(split[:3]) in AUTHORS:
+        n_auth_rec = True
+        auth_form_from_n = " ".join(split[:3])
+
+    split = from_bibl.split()
+    if AUTH_ABB.get(split[0]) or split[0] in AUTHORS:
+        bibl_auth_rec = True
+        auth_form_from_bibl = split[0]
+    elif AUTH_ABB.get(" ".join(split[:2])) or " ".join(split[:2]) in AUTHORS:
+        bibl_auth_rec = True
+        auth_form_from_bibl = " ".join(split[:2])
+    elif AUTH_ABB.get(" ".join(split[:3])) or " ".join(split[:3]) in AUTHORS:
+        bibl_auth_rec = True
+        auth_form_from_bibl = " ".join(split[:3])
+
+    if n_auth_rec and not bibl_auth_rec:
+        return from_n
+    if bibl_auth_rec and not n_auth_rec:
+        return from_bibl
+
+    # if both have a recognized author, determine which has a recognized work
+    if n_auth_rec and bibl_auth_rec:
+        if auth_form_from_n in AUTHORS:
+            auth = auth_form_from_n
+        else:
+            auth = AUTH_ABB.get(auth_form_from_n, "")
+        split = from_n[len(auth_form_from_n) :].split()
+        auth_space = WORK_URNS.get(auth)
+        if auth_space:
+            # check for work up to trigram
+            if len(split) > 0 and auth_space.get(split[0]):
+                return from_n
+            elif len(split) > 1 and auth_space.get(" ".join(split[:2])):
+                return from_n
+            elif len(split) > 2 and auth_space.get(" ".join(split[:3])):
+                return from_n
+
+        if auth_form_from_bibl in AUTHORS:
+            auth = auth_form_from_bibl
+        else:
+            auth = AUTH_ABB.get(auth_form_from_bibl, "")
+        split = from_bibl[len(auth_form_from_bibl) :].split()
+        auth_space = WORK_URNS.get(auth)
+        if auth_space:
+            # check for work up to trigram
+            if len(split) > 0 and auth_space.get(split[0]):
+                return from_bibl
+            elif len(split) > 1 and auth_space.get(" ".join(split[:2])):
+                return from_bibl
+            elif len(split) > 2 and auth_space.get(" ".join(split[:3])):
+                return from_bibl
+
+    error_msg = (
+        f"Problem where n attribute is\n{from_n}\nand bibl element is\n{from_bibl}\n"
+    )
+    assert isinstance(ref, str), error_msg
+    # this line should be unreachable
+    return ref
+
+
 def get_urn(
     ref: str, content: Optional[str] = None, filename: Optional[str] = None
 ) -> str:
@@ -285,13 +447,25 @@ def get_urn(
                 new_ref = new_ref[: term_index - 1] + "_" + new_ref[term_index:]
         ref = new_ref
 
+        # there are various cases where the ref at this point has more than three words
+        # one is where the title of the work has multiple words, which is addressed by thecking
+        # if the possible multiple word titles are known words and replacing replevant spaces with underscores
         if len(ref.split()) > 3:
             auth = AUTH_ABB.get(ref.split()[0].lower(), ref.split()[0]).lower()
-            if WORK_URNS[auth].get("_".join(ref.split()[1:3]).lower()):
-                ref = ref.replace(
-                    " ".join(ref.split()[1:3]), "_".join(ref.split()[1:3])
-                )
-        assert len(ref.split()) in (2, 3), f"wrong format for citation ref: {ref}"
+            # iterate through work titles of two words and more
+            for i in range(3, len(ref)):
+                if WORK_URNS[auth].get("_".join(ref.split()[1:i]).lower()):
+                    ref = ref.replace(
+                        " ".join(ref.split()[1:i]), "_".join(ref.split()[1:i])
+                    )
+                break
+            # now, deal with cases where there are spaces between digits giving location in text
+            ref = re.sub(r"(?<=\d\.) (?=\d)", "", ref)
+        assert len(ref.split()) in (2, 3), f"""
+            wrong format for citation ref: {ref}\n
+            citation content, if available, is: {content}\n
+            filename, if available, is: {filename}
+        """
 
         if len(ref.split()) == 2:
             auth, work_loc = ref.split()
