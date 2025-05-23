@@ -516,6 +516,7 @@ GREEK_WORK_URNS = {
         "definitiones": "tlg037",
         "spuria": "tlg038",
         "eryxias": "tlg038",
+        "erx.": "tlg038",
         "axiochus": "tlg038",
         "epigrammata": "tlg039",
     },

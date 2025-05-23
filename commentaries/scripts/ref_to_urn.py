@@ -503,10 +503,6 @@ def get_urn(
     # citation is to their best known work, and sometimes being cited with work refernce
     # when to other works. It's better to standardize the xml in this case
     if auth in SINGLE_WORK_AUTHORS:
-        assert "greekLit" in auth_urn, f"""
-        "warning: incorrectly formatted citation urn. 
-        {ref}
-        """
         urn = f"{auth_urn}.tlg001.perseus-grc2:{'.'.join([work, loc])}"
         return urn
 
@@ -543,6 +539,8 @@ def get_urn(
         urn = f"{auth_urn}.{work_urn}.perseus-grc2:{loc}"
     elif "latinLit" in auth_urn:
         urn = f"{auth_urn}.{work_urn}.perseus-lat2:{loc}"
+    elif "englishLit" in auth_urn:
+        urn = f"{auth_urn}.{work_urn}.perseus-eng2:{loc}"
     else:
         urn = f"{auth_urn}.{work_urn}:{loc}"
         print(f"""
