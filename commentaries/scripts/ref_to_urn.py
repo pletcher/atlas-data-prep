@@ -7,7 +7,7 @@
 # also have a file mapping all refs to their resolutions
 
 import logging
-from typing import Optional
+from typing import Optional, Union, Tuple
 import re
 
 from works_greek import (
@@ -23,6 +23,7 @@ from works_latin import (
     LATIN_SINGLE_WORK_AUTHORS,
 )
 from works_other import OTHER_AUTH_ABB, OTHER_WORK_URNS, OTHER_AUTH_URNS
+from works_schol import SCHOL_AUTH_ABB, SCHOL_WORK_URNS, SCHOL_AUTH_URNS
 
 # check for duplicate keys betwen greek and latin works
 assert not set(GREEK_AUTH_URNS.keys()).intersection(LATIN_AUTH_URNS.keys())
@@ -34,14 +35,29 @@ assert not set(GREEK_AUTH_URNS.keys()).intersection(OTHER_AUTH_URNS.keys())
 assert not set(GREEK_WORK_URNS.keys()).intersection(OTHER_WORK_URNS.keys())
 assert not set(GREEK_AUTH_ABB.keys()).intersection((OTHER_AUTH_ABB.keys()))
 
+# check for duplicate keys betwen greek and schol works
+assert not set(GREEK_AUTH_URNS.keys()).intersection(SCHOL_AUTH_URNS.keys())
+assert not set(GREEK_WORK_URNS.keys()).intersection(SCHOL_WORK_URNS.keys())
+assert not set(GREEK_AUTH_ABB.keys()).intersection((SCHOL_AUTH_ABB.keys()))
+
 # check for duplicate keys betwen latin and other works
 assert not set(LATIN_AUTH_URNS.keys()).intersection(OTHER_AUTH_URNS.keys())
 assert not set(LATIN_WORK_URNS.keys()).intersection(OTHER_WORK_URNS.keys())
 assert not set(LATIN_AUTH_ABB.keys()).intersection((OTHER_AUTH_ABB.keys()))
 
-AUTH_URNS = GREEK_AUTH_URNS | LATIN_AUTH_URNS | OTHER_AUTH_URNS
-AUTH_ABB = GREEK_AUTH_ABB | LATIN_AUTH_ABB | OTHER_AUTH_ABB
-WORK_URNS = GREEK_WORK_URNS | LATIN_WORK_URNS | OTHER_WORK_URNS
+# check for duplicate keys betwen latin and schol works
+assert not set(LATIN_AUTH_URNS.keys()).intersection(SCHOL_AUTH_URNS.keys())
+assert not set(LATIN_WORK_URNS.keys()).intersection(SCHOL_WORK_URNS.keys())
+assert not set(LATIN_AUTH_ABB.keys()).intersection((SCHOL_AUTH_ABB.keys()))
+
+# check for duplicate keys betwen other and schol works
+assert not set(OTHER_AUTH_URNS.keys()).intersection(SCHOL_AUTH_URNS.keys())
+assert not set(OTHER_WORK_URNS.keys()).intersection(SCHOL_WORK_URNS.keys())
+assert not set(OTHER_AUTH_ABB.keys()).intersection((SCHOL_AUTH_ABB.keys()))
+
+AUTH_URNS = GREEK_AUTH_URNS | LATIN_AUTH_URNS | OTHER_AUTH_URNS | SCHOL_AUTH_URNS
+AUTH_ABB = GREEK_AUTH_ABB | LATIN_AUTH_ABB | OTHER_AUTH_ABB | SCHOL_AUTH_ABB
+WORK_URNS = GREEK_WORK_URNS | LATIN_WORK_URNS | OTHER_WORK_URNS | SCHOL_WORK_URNS
 SINGLE_WORK_AUTHORS = GREEK_SINGLE_WORK_AUTHORS.union(LATIN_SINGLE_WORK_AUTHORS)
 
 AUTHORS = set(AUTH_URNS.keys())
@@ -223,6 +239,19 @@ for author in additions.keys():
         WORK_URNS[author][title] = additions[author][title]
 
 
+def _detect_urn(ref) -> Optional[str]:
+    match = re.search(r"tlg\d+\.tlg\d+", ref)
+    if match:
+        return match.group(0)
+    match = re.search(r"phi\d+\.phi\d+", ref)
+    if match:
+        return match.group(0)
+    match = re.search(r"stoa\d+\.stoa\d+", ref)
+    if match:
+        return match.group(0)
+    return
+
+
 def get_ref(from_n: Optional[str] = None, from_bibl: Optional[str] = None) -> str:
     """
     Takes in string contents of bibl element within cit element, as well as
@@ -235,23 +264,33 @@ def get_ref(from_n: Optional[str] = None, from_bibl: Optional[str] = None) -> st
     if isinstance(from_bibl, str):
         from_bibl = from_bibl.lower().strip()
 
+    # process in list form to apply same operations to both from_bibl and from_n
+    refs = [from_n, from_bibl]
+    refs = [
+        re.sub("<title.*?>", "", ref) if isinstance(ref, str) else ref for ref in refs
+    ]
+    refs = [re.sub(r"[\(\)]", "", ref) if isinstance(ref, str) else ref for ref in refs]
+    refs = [
+        ref.replace("</title>", "") if isinstance(ref, str) else ref for ref in refs
+    ]
+    # deal with section symbols
+    refs = [re.sub(r" *§ *", ".", ref) if isinstance(ref, str) else ref for ref in refs]
+    # deal with spacing issues with alphabetic page/section references (e.g. with Stephanus pages)
+    refs = [
+        re.sub(r"(\d+) ([A-Za-z])", r"\1\2", ref) if isinstance(ref, str) else ref
+        for ref in refs
+    ]
+    from_n, from_bibl = refs
+
     # early return conditions
     if not isinstance(from_bibl, str) or not from_bibl.strip():
         assert isinstance(from_n, str)
         return from_n
-    elif not isinstance(from_n, str) or not from_n.strip():
+    if not isinstance(from_n, str) or not from_n.strip():
         assert isinstance(from_bibl, str)
         return from_bibl
-
-    # process in list form to apply same operations to both from_bibl and from_n
-    refs = [from_n, from_bibl]
-    refs = [re.sub("<title.*?>", "", ref) for ref in refs]
-    refs = [ref.replace("</title>", "") for ref in refs]
-    # deal with section symbols
-    refs = [re.sub(r" *§ *", ".", ref) for ref in refs]
-    # deal with spacing issues with alphabetic page/section references (e.g. with Stephanus pages)
-    refs = [re.sub(r"(\d+) ([A-Za-z])", r"\1\2", ref) for ref in refs]
-    from_n, from_bibl = refs
+    if _detect_urn(from_n):
+        return from_n
 
     # check if at least one string begins with the best case
     # where we have at least 2 alphabetic strings followed by two numeric strings
@@ -398,6 +437,24 @@ def get_urn(
         else:
             ref = ref[:-3] + "ff"
 
+    # detect if ref is already formatted as urn
+    urn_if_urn = _detect_urn(ref)
+    if urn_if_urn:
+        loc = ref[ref.index(urn_if_urn) + len(urn_if_urn) :]
+        loc_match = re.search(r"\d+.*", loc)
+        loc = loc_match.group(0) if loc_match else ""
+        if "tlg" in urn_if_urn:
+            if "urn:cts:greeklit" not in urn_if_urn:
+                urn_if_urn = "urn:cts:greekLit:" + urn_if_urn
+            urn = f"{urn_if_urn}.perseus-grc2:{loc}"
+        elif "phi" in urn_if_urn:
+            if "urn:cts:latinLit" not in urn_if_urn:
+                urn_if_urn = "urn:cts:latinLit:" + urn_if_urn
+            urn = f"{urn_if_urn}.perseus-lat2:{loc}"
+        else:
+            raise ValueError
+        return urn
+
     # deal with bigram author designations, e.g. Dion. Hal.
     if " ".join(ref.lower().split()[:2]) in AUTHORS or AUTH_ABB.get(
         " ".join(ref.lower().split()[:2])
@@ -453,6 +510,9 @@ def get_urn(
         if len(ref.split()) > 3:
             auth = AUTH_ABB.get(ref.split()[0].lower(), ref.split()[0]).lower()
             # iterate through work titles of two words and more
+            assert WORK_URNS.get(auth), (
+                f"Author not recognized for {ref}.\nContents, if available: {content}.\nFilename, if available: {filename}."
+            )
             for i in range(3, len(ref)):
                 if WORK_URNS[auth].get("_".join(ref.split()[1:i]).lower()):
                     ref = ref.replace(
@@ -491,7 +551,7 @@ def get_urn(
     if auth not in AUTHORS:
         auth = AUTH_ABB.get(auth)
         assert auth, (
-            f"Author not recognized for: {ref}\ncitation content, if provided, is: {content}"
+            f"Author not recognized for: {ref}\ncitation content, if provided, is: {content}.\nFilename, if provided, is: {filename}."
         )
 
     auth_urn = AUTH_URNS[auth]
@@ -523,13 +583,19 @@ def get_urn(
     # deal with cases like Isoc. Letter 7.7,
     # where "Letter 7" identifies the work urn
     elif not work_urn:
-        assert len(loc.split(".", maxsplit=1)) == 2, f"""
-            Issue with the work name or the passage citation with {ref}.
-            loc is {loc}.
-        """
-        work_number, loc = loc.split(".", maxsplit=1)
-        work = work + "_" + work_number
-        work_urn = WORK_URNS[auth].get(work)
+        if len(loc.split(".", maxsplit=1)) == 2:
+            work_number, loc = loc.split(".", maxsplit=1)
+            work = work + "_" + work_number
+            work_urn = WORK_URNS[auth].get(work)
+        # deal with cases where work is assumed to be author's primary work, hopefully tlg001
+        else:
+            work_urn = "tlg001"
+            msg = f"""
+            Warning: possible issues with the work name or the passage citation with {ref}. 
+            Content, if provided, is {content}, filename {filename}.
+            """
+            print(msg)
+            logging.warning(msg)
 
     if not work_urn:
         logging.warning(f"Work not recognized for {ref}")

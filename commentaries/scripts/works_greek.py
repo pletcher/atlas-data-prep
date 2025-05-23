@@ -19,6 +19,7 @@ GREEK_AUTH_ABB = {
     "d.l.": "diogenes",
     "dion. hal.": "dionysius",
     "dionysius of halicarnassus": "dionysius",
+    "dionys. periegetes": "dionysius periegetes",
     "eur.": "euripides",
     "eustath.": "eustathius",
     "gal.": "galen",
@@ -54,6 +55,7 @@ GREEK_AUTH_ABB = {
     "thuc.": "thucydides",
     "tyrt.": "tyrtaeus",
     "xen.": "xenophon",
+    "ps. xen.": "xenophon",
     "[xen.]": "xenophon",
 }
 
@@ -273,6 +275,11 @@ GREEK_WORK_URNS = {
     "dionysius": {
         "antiquitates romanae": "tlg001",
         "de antiquis oratoribus": "tlg002",
+    },
+    "dionysius periegetes": {
+        "orbis descriptio": "tlg001",
+        "lithiaca vel lithica (fragmenta)": "tlg002",
+        "paraphrasis tōn tou dionysiou ixeutikōn": "tlg003 ",
     },
     "euripides": {
         "cyclops": "tlg001",
@@ -794,6 +801,7 @@ GREEK_AUTH_URNS = {
     "plato": "urn:cts:greekLit:tlg0059",
     "lucian": "urn:cts:greekLit:tlg0062",
     "dionysius": "urn:cts:greekLit:tlg0081",
+    "dionysius periegetes": "urn:cts:greekLit:tlg0084",
     "aeschylus": "urn:cts:greekLit:tlg0085",
     "aristotle": "urn:cts:greekLit:tlg0086",
     "theophrastus": "urn:cts:greekLit:tlg0093",
