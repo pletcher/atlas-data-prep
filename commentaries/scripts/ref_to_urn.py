@@ -7,6 +7,7 @@
 # also have a file mapping all refs to their resolutions
 
 import logging
+from pythonjsonlogger.json import JsonFormatter
 from typing import Optional
 import sys
 import re
