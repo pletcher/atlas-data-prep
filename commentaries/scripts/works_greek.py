@@ -23,6 +23,8 @@ GREEK_AUTH_ABB = {
     "eur.": "euripides",
     "eustath.": "eustathius",
     "gal.": "galen",
+    "harpocr.": "harpocration",
+    "harpocrat.": "harpocration",
     "hdt.": "herodotus",
     "her.": "herodotus",
     "hes.": "hesiod",
@@ -204,6 +206,7 @@ GREEK_WORK_URNS = {
         "athena": "tlg019",
         "hymn to demeter": "tlg020",
         "demeter": "tlg020",
+        "ceres": "tlg020",
     },
     "demosthenes": {
         "olynthiac 1": "tlg001",
@@ -708,6 +711,8 @@ GREEK_WORK_URNS = {
         "oedipus coloneus": "tlg007",
         "ichneutai": "tlg008",
         "fragmenta (elegiaca)": "tlg009",
+        "fragmenta": "tlg010",
+        "fr.": "tlg010",
     },
     "theocritus": {
         "idylls": "tlg001",
@@ -763,12 +768,16 @@ GREEK_SINGLE_WORK_AUTHORS = {
     "athenaeus",
     "dio",
     "diogenes",  # laertius
+    "dionysius periegetes",
     "eustathius",
+    "harpocration",
     "herodotus",
     "hesychius",  # the grammarian
     "pausanias",
+    "paus.",
     "polybius",
     "strabo",
+    "thucydides",
     "tyrtaeus",
 }
 
@@ -816,5 +825,6 @@ GREEK_AUTH_URNS = {
     "dio": "urn:cts:greekLit:tlg0612",
     "hippocrates": "urn:cts:greekLit:tlg0627",
     "eustathius": "urn:cts:greekLit:tlg4083",
+    "harpocration": "urn:cts:greekLit:fhg0423",
     "hesychius": "urn:cts:greekLit:hesychius",  # placeholder urn since none has been minted
 }

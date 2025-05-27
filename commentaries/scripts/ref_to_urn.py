@@ -7,7 +7,8 @@
 # also have a file mapping all refs to their resolutions
 
 import logging
-from typing import Optional, Union, Tuple
+from typing import Optional
+import sys
 import re
 
 from works_greek import (
@@ -63,8 +64,13 @@ SINGLE_WORK_AUTHORS = GREEK_SINGLE_WORK_AUTHORS.union(LATIN_SINGLE_WORK_AUTHORS)
 AUTHORS = set(AUTH_URNS.keys())
 
 logger = logging.getLogger(__name__)
+file_handler = logging.FileHandler(filename="log_ref_to_urn.log")
+stdout_handler = logging.StreamHandler(stream=sys.stdout)
+handlers = [file_handler, stdout_handler]
 logging.basicConfig(
-    filename="log_ref_to_urn.log", encoding="utf-8", level=logging.DEBUG
+    encoding="utf-8",
+    level=logging.DEBUG,
+    handlers=handlers,
 )
 
 
@@ -176,6 +182,18 @@ def _transform_title(title: str, titles: list) -> list:
         if first_word not in prev_titles:
             transformations.append(first_word)
 
+    # first two words for longer titles
+    if len(title.split()) > 2:
+        two_words = "_".join(title.split()[:2])
+        if two_words not in prev_titles:
+            transformations.append(two_words)
+
+    # first three words for longer titles
+    if len(title.split()) > 3:
+        three_words = "_".join(title.split()[:3])
+        if three_words not in prev_titles:
+            transformations.append(three_words)
+
     # deal with function words
     func_words = {"the", "a", "an", "of", "in", "by", "for", "on", "and", "de", "ad"}
     if func_words & set(title.split()):
@@ -240,19 +258,21 @@ for author in additions.keys():
 
 
 def _detect_urn(ref) -> Optional[str]:
-    match = re.search(r"tlg\d+\.tlg\d+", ref)
+    match = re.search(r"tlg\d+\.tlg\d+(:\d+.?\d*)?(ff)?", ref)
     if match:
         return match.group(0)
-    match = re.search(r"phi\d+\.phi\d+", ref)
+    match = re.search(r"phi\d+\.phi\d+(:\d+.?\d*)?(ff)?", ref)
     if match:
         return match.group(0)
-    match = re.search(r"stoa\d+\.stoa\d+", ref)
+    match = re.search(r"stoa\d+\.stoa\d+(:\d+.?\d*)?(ff)?", ref)
     if match:
         return match.group(0)
     return
 
 
-def get_ref(from_n: Optional[str] = None, from_bibl: Optional[str] = None) -> str:
+def get_ref(
+    from_n: Optional[str] = None, from_bibl: Optional[str] = None
+) -> Optional[str]:
     """
     Takes in string contents of bibl element within cit element, as well as
     string contents of attribute "n" of bibl element,
@@ -273,6 +293,7 @@ def get_ref(from_n: Optional[str] = None, from_bibl: Optional[str] = None) -> st
     refs = [
         ref.replace("</title>", "") if isinstance(ref, str) else ref for ref in refs
     ]
+    refs = [ref.replace(", ", " ") if isinstance(ref, str) else ref for ref in refs]
     # deal with section symbols
     refs = [re.sub(r" *§ *", ".", ref) if isinstance(ref, str) else ref for ref in refs]
     # deal with spacing issues with alphabetic page/section references (e.g. with Stephanus pages)
@@ -415,17 +436,21 @@ def get_ref(from_n: Optional[str] = None, from_bibl: Optional[str] = None) -> st
             elif len(split) > 2 and auth_space.get(" ".join(split[:3])):
                 return from_bibl
 
-    error_msg = (
+    warning_msg = (
         f"Problem where n attribute is\n{from_n}\nand bibl element is\n{from_bibl}\n"
     )
-    assert isinstance(ref, str), error_msg
-    # this line should be unreachable
-    return ref
+    if not isinstance(ref, str):
+        logging.warning(warning_msg)
+    # if this line is reached, no urn was recognized
+    return
 
 
 def get_urn(
-    ref: str, content: Optional[str] = None, filename: Optional[str] = None
-) -> str:
+    ref: Optional[str], content: Optional[str] = None, filename: Optional[str] = None
+) -> Optional[str]:
+    if not ref:
+        return
+
     # for now, keep ff in references to line numbers,
     # but remove " " and "." to make it easier to process
     if ref[-2:] == "ff":
@@ -455,116 +480,146 @@ def get_urn(
             raise ValueError
         return urn
 
-    # deal with bigram author designations, e.g. Dion. Hal.
-    if " ".join(ref.lower().split()[:2]) in AUTHORS or AUTH_ABB.get(
-        " ".join(ref.lower().split()[:2])
-    ):
-        auth = AUTH_ABB.get(" ".join(ref.lower().split()[:2]))
-        if not auth:
-            auth = " ".join(ref.split()[:2])
-            assert auth in AUTHORS, (
-                f"Issue dealing with bigram author designation in {ref}"
+    # idea is that SINGLE_WORK_AUTHORS will only be used if the work cannot be identified by name
+    as_one_book_auth = False
+    split = ref.split()
+    auth = split[0].lower()
+    auth = AUTH_ABB.get(auth, auth)
+    bigram_auth = False
+    # deal with bigram author name
+    if auth not in AUTH_URNS.keys():
+        auth = " ".join(split[:2]).lower()
+        auth = AUTH_ABB.get(auth, auth)
+        bigram_auth = True
+
+    if auth not in AUTH_URNS.keys():
+        logging.warning(
+            f"Author not recognized for {auth}\n\nThe xml context, if available, is: {content}.\n\nFilename, if available, is: {filename}"
+        )
+        return  # failure case
+
+    # this is to keep track of where the work and loc information begins
+    pos_after_auth = 1 if not bigram_auth else 2
+
+    while auth in SINGLE_WORK_AUTHORS:
+        as_one_book_auth = True
+        if auth not in WORK_URNS.keys():
+            break
+        if len(split) <= 1:
+            break
+        for term in split[1:]:
+            if WORK_URNS[auth].get(term):
+                as_one_book_auth = False
+                break
+        break
+
+    # deal with authors known solely/primary from single work,
+    # so that they are cited without ref to specific work
+    # code above identifies whether the citation should be treated this way
+    if as_one_book_auth:
+        auth_urn = AUTH_URNS[auth]
+        work = "tlg001"
+        numerics = []
+        term = ""
+        pos_after_auth = 1 if not bigram_auth else 2
+        for term in re.split(r"[\s,.:]", ref[pos_after_auth:]):
+            if term.isnumeric():
+                numerics.append(term)
+        # deal with dashes in loc
+        if re.search(r"\d+[–-—]{1}\d+", term):
+            numerics.append(re.sub(r"(\d+)[–-—]{1}(\d+)", r"\1-\2", term))
+        elif "ff" in term:
+            numerics[-1] += "ff"
+        loc = ".".join(numerics)
+        urn = f"{auth_urn}.tlg001.perseus-grc2:{'.'.join([work, loc])}"
+        return urn
+
+    # standardize form of author reference in ref
+    ref = ref.replace(" ".join(ref.split()[:pos_after_auth]), auth)
+    pos_after_auth = len(auth.split())
+    # deal with work titles with spaces
+    new_ref = ref
+    for i, term in enumerate(ref.split()[pos_after_auth:]):
+        if term[0].isnumeric():
+            break
+        if i > 0:
+            term_index = new_ref.index(term)
+            new_ref = new_ref[: term_index - 1] + "_" + new_ref[term_index:]
+
+    ref = new_ref
+
+    # this deals with the case where we have -> author work#.loc format
+    if len(ref.split()) == pos_after_auth + 1:
+        work_loc = ref.split()[pos_after_auth]
+        if not len(work_loc.split(".", maxsplit=1)) == 2:
+            logging.warning(
+                f"wrong format for citation for ref: {ref}.\n\nXML context, if available, is: {content}\n\nFilename, if available, is: {filename}"
             )
-        ref = ref.replace(" ".join(ref.split()[:2]), auth)
-        # deal with work titles with spaces
-        new_ref = ref
-        for i, term in enumerate(ref.split()[1:]):
-            if term[0].isnumeric():
-                break
-            if i > 0:
-                term_index = new_ref.index(term)
-                new_ref = new_ref[: term_index - 1] + "_" + new_ref[term_index:]
+            return  # failure case
+        work, loc = work_loc.split(".", maxsplit=1)
 
-        ref = new_ref
+    # now we need to define work and loc for the other cases,
+    # primarily the case -> author work loc
 
-        assert len(ref.split()) in (2, 3), f"wrong format for citation ref: {ref}"
-
-        if len(ref.split()) == 2:
-            work_loc = ref.split()[1]
-            if content:
-                assert len(work_loc.split(".", maxsplit=1)) == 2, (
-                    f"wrong format for citation ref: {content}\n\nfor ref {ref}\n\nin file {filename}"
-                )
-            else:
-                assert len(work_loc.split(".", maxsplit=1)) == 2, (
-                    f"wrong format for citation ref: {ref}"
-                )
-            work, loc = work_loc.split(".", maxsplit=1)
-        else:
-            work, loc = ref.split()[1:]
-
-    else:
-        # deal with work titles with spaces
-        new_ref = ref
-        for i, term in enumerate(ref.split()[1:]):
-            if term[0].isnumeric():
-                break
-            if i > 0:
-                term_index = new_ref.index(term)
-                new_ref = new_ref[: term_index - 1] + "_" + new_ref[term_index:]
-        ref = new_ref
-
-        # there are various cases where the ref at this point has more than three words
-        # one is where the title of the work has multiple words, which is addressed by thecking
-        # if the possible multiple word titles are known words and replacing replevant spaces with underscores
-        if len(ref.split()) > 3:
-            auth = AUTH_ABB.get(ref.split()[0].lower(), ref.split()[0]).lower()
-            # iterate through work titles of two words and more
-            assert WORK_URNS.get(auth), (
+    # there are various cases where the ref at this point has more than three words (or four if author is bigram)
+    # one is where the title of the work has multiple words, which is addressed by checking
+    # if the possible multiple word titles are known words and replacing replevant spaces with underscores
+    if len(ref.split()) > pos_after_auth + 2:
+        # iterate through work titles of two words and more
+        if not WORK_URNS.get(auth):
+            logging.warning(
                 f"Author not recognized for {ref}.\nContents, if available: {content}.\nFilename, if available: {filename}."
             )
-            for i in range(3, len(ref)):
-                if WORK_URNS[auth].get("_".join(ref.split()[1:i]).lower()):
-                    ref = ref.replace(
-                        " ".join(ref.split()[1:i]), "_".join(ref.split()[1:i])
-                    )
+            return  # failure case
+        for i in range(pos_after_auth + 1, len(ref.split())):
+            if WORK_URNS[auth].get("_".join(ref.split()[pos_after_auth:i]).lower()):
+                ref = ref.replace(
+                    " ".join(ref.split()[1:i]), "_".join(ref.split()[1:i])
+                )
                 break
-            # now, deal with cases where there are spaces between digits giving location in text
-            ref = re.sub(r"(?<=\d\.) (?=\d)", "", ref)
-        assert len(ref.split()) in (2, 3), f"""
+
+    # now, deal with cases where there are spaces between digits giving location in text
+    # if there was somehow an author form with a number in it, it would have been replaced by a
+    # nonnumeric form by this point
+    while re.search(r"\d\.?\s\d", ref):
+        ref = re.sub(r"(\d\.)\s(\d)", r"\1\2", ref)
+        ref = re.sub(r"(\d)\s(\d)", r"\1\.\2", ref)
+
+    # greatest possible ref length: author bigram + work + loc
+    if len(ref.split()) not in (2, 3, 4):
+        logging.warning(f"""
             wrong format for citation ref: {ref}\n
             citation content, if available, is: {content}\n
             filename, if available, is: {filename}
-        """
+        """)
+        return  # failure case
 
-        if len(ref.split()) == 2:
-            auth, work_loc = ref.split()
-            if AUTH_ABB.get(auth.lower(), auth) in SINGLE_WORK_AUTHORS:
-                work = ""
-                loc = work_loc
-            else:
-                if content:
-                    assert len(work_loc.split(".", maxsplit=1)) == 2, (
-                        f"wrong format for citation ref: {content}\nfor ref {ref}\n\nin file {filename}"
-                    )
-                else:
-                    assert len(work_loc.split(".", maxsplit=1)) == 2, (
-                        f"wrong format for citation ref: {ref}"
-                    )
-                work, loc = work_loc.split(".", maxsplit=1)
-        else:
-            auth, work, loc = ref.split()
+    if len(ref.split()) == pos_after_auth + 1:
+        work_loc = ref.split()[pos_after_auth]
+        if len(work_loc.split(".", maxsplit=1)) != 2:
+            logging.warning(
+                f"wrong format for citation ref: {ref}\n\nXML context, if available, is: {content}\n\nFilename, if available, is: {filename}"
+            )
+            return  # failure case
+        work, loc = work_loc.split(".", maxsplit=1)
+    else:
+        if len(ref.split()[pos_after_auth:]) != 2:
+            warning_msg = f"Formatting issues with ref: {ref}.\n\nXML context, if provided, is: {content}\n\nFilename, if provided, is: {filename}"
+            logging.warning(warning_msg)
+            return  # failure case
+        work, loc = ref.split()[pos_after_auth:]
 
-    auth = auth.lower()
     work = work.lower()
 
     if auth not in AUTHORS:
         auth = AUTH_ABB.get(auth)
-        assert auth, (
-            f"Author not recognized for: {ref}\ncitation content, if provided, is: {content}.\nFilename, if provided, is: {filename}."
-        )
+        if not auth:
+            logging.warning(
+                f"Author not recognized for: {ref}\ncitation content, if provided, is: {content}.\nFilename, if provided, is: {filename}."
+            )
+            return  # failure case
 
     auth_urn = AUTH_URNS[auth]
-
-    # deal with authors known solely/primary from single work,
-    # so that they are cited without ref to specific work
-    # note that given the ambiguity in references of the form "#.#",
-    # this can't handle an author sometimes being cited without work reference when
-    # citation is to their best known work, and sometimes being cited with work refernce
-    # when to other works. It's better to standardize the xml in this case
-    if auth in SINGLE_WORK_AUTHORS:
-        urn = f"{auth_urn}.tlg001.perseus-grc2:{'.'.join([work, loc])}"
-        return urn
 
     work_urn = WORK_URNS[auth].get(work)
     if not work_urn and work.isnumeric():
@@ -594,7 +649,6 @@ def get_urn(
             Warning: possible issues with the work name or the passage citation with {ref}. 
             Content, if provided, is {content}, filename {filename}.
             """
-            print(msg)
             logging.warning(msg)
 
     if not work_urn:
@@ -609,12 +663,8 @@ def get_urn(
         urn = f"{auth_urn}.{work_urn}.perseus-eng2:{loc}"
     else:
         urn = f"{auth_urn}.{work_urn}:{loc}"
-        print(f"""
-        "warning: incorrectly formatted citation urn. 
-        {urn}
-        """)
         logging.warning(f"""
-        "warning: incorrectly formatted citation urn. 
+        "warning: possible incorrectly formatted citation urn. 
         {urn}
         """)
     return urn

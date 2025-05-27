@@ -6,6 +6,10 @@ OTHER_AUTH_ABB = {
 }
 
 OTHER_WORK_URNS = {
+    "milton": {
+        "paradise lost": "pl",
+        "par. lost.": "pl",
+    },
     "shakespeare": {
         "all's well that ends well": "aww",
         "antony and cleopatra": "ant",
@@ -29,7 +33,7 @@ OTHER_WORK_URNS = {
         "love's labor's lost": "lll",
         "lear": "lr",
         "macbeth": "mac",
-        "Measure for Measure": "",
+        "Measure for Measure": "mm",
         "the merchant of venice": "mv",
         "the merry wives of windsor": "wiv",
         "a midsummer night's dream": "mnd",
@@ -57,6 +61,14 @@ OTHER_WORK_URNS = {
     },
 }
 
+# since the urn stems for shakespeare works are themselves abbreviations
+# for the works, add them to keys
+abbreviations = OTHER_WORK_URNS["shakespeare"].copy()
+abbreviations = abbreviations.values()
+for val in abbreviations:
+    OTHER_WORK_URNS["shakespeare"][val] = val
+
 OTHER_AUTH_URNS = {
     "shakespeare": "urn:cts:englishLit:shak",
+    "milton": "urn:tcs:englishLit:milt",
 }
