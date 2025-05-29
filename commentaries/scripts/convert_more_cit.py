@@ -55,6 +55,13 @@ for path in sorted(AUTHOR_DIR.iterdir()):
                     cit_counter = {"count": 0}
                     for corresp, content in get_glossae(SRC_FILE, TEXTURN):
                         idx += 1
+                        citations = extract_citations(
+                            content,
+                            idx,
+                            cit_counter,
+                            urn_prefix=f"{URN_PREFIX}.perseus-eng1",
+                            filename=str(subpath),
+                        )
                         entry = {
                             "urn": f"{URN_PREFIX}:{idx}",
                             "corresp": corresp,

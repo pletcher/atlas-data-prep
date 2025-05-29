@@ -7,10 +7,12 @@
 # also have a file mapping all refs to their resolutions
 
 import logging
-from pythonjsonlogger.json import JsonFormatter
-from typing import Optional
+from typing import Optional, Union
 import sys
+import pathlib
+import jsonlines
 import re
+from lxml import etree
 
 from works_greek import (
     GREEK_AUTH_URNS,
@@ -64,6 +66,13 @@ SINGLE_WORK_AUTHORS = GREEK_SINGLE_WORK_AUTHORS.union(LATIN_SINGLE_WORK_AUTHORS)
 
 AUTHORS = set(AUTH_URNS.keys())
 
+CITATION_OUT = pathlib.Path("./cit_data/resolved.jsonl")
+CITATION_FAIL_OUT = pathlib.Path("./cit_data/unresolved.jsonl")
+
+CITATION_OUT.parent.mkdir(parents=True, exist_ok=True)
+CITATION_FAIL_OUT.parent.mkdir(parents=True, exist_ok=True)
+
+
 logger = logging.getLogger(__name__)
 file_handler = logging.FileHandler(filename="log_ref_to_urn.log")
 stdout_handler = logging.StreamHandler(stream=sys.stdout)
@@ -73,6 +82,70 @@ logging.basicConfig(
     level=logging.DEBUG,
     handlers=handlers,
 )
+
+
+def to_string(el):
+    return re.sub(
+        r"\s+",
+        " ",
+        etree.tostring(el, with_tail=True, encoding="unicode", method="text"),
+    ).strip()
+
+
+def to_xml(el):
+    return re.sub(
+        r"\s+",
+        " ",
+        etree.tostring(el, with_tail=True, encoding="unicode", method="xml"),
+    ).strip()
+
+
+def mk_cit_data(
+    ref: Optional[str],
+    from_n: Optional[str],
+    from_bibl: Optional[str],
+    urn: Optional[str],
+    quote: Optional[str],
+    xml_context: Union[str, etree._Element],
+    filename: Union[str, pathlib.Path, None],
+    cit_urn: Optional[str],
+) -> None:
+    """function to save citations as json files, one file for successful resolutions (citations.jsonl)
+    and another for unsuccessful resolutions (citations_unr.jsonl). get_ref and get_urn both return None in case of
+    failure to resolve urn, so mk_cit_data interprets ref = None as failure, ref != None as success.
+    """
+    if isinstance(xml_context, etree._Element):
+        xml_context = to_xml(xml_context)
+    if isinstance(filename, pathlib.Path):
+        filename = str(filename)
+    # deal with failure case
+    if ref is None or urn is None:
+        out = {
+            "ref": ref,
+            "n_attrib": from_n,
+            "bibl": from_bibl,
+            "urn": "",
+            "quote": quote,
+            "xml_context": xml_context,
+            "filename": filename,
+            "doc_cit_urn": cit_urn,
+        }
+        with jsonlines.open(CITATION_FAIL_OUT, "a") as f:
+            f.write(out)
+        return
+    out = {
+        "n_attrib": from_n,
+        "bibl": from_bibl,
+        "ref": ref,
+        "urn": urn,
+        "quote": quote,
+        "xml_context": xml_context,
+        "filename": filename,
+        "doc_cit_urn": cit_urn,
+    }
+    with jsonlines.open(CITATION_OUT, "a") as f:
+        f.write(out)
+    return
 
 
 def _smart_suspend(title: str, skip_de=True, join_char=".") -> str:

@@ -8,7 +8,7 @@ from typing import Optional
 
 from lxml import etree
 
-from ref_to_urn import get_urn, get_ref
+from ref_to_urn import get_urn, get_ref, mk_cit_data, CITATION_FAIL_OUT, CITATION_OUT
 
 
 def TEI(tag):
@@ -129,15 +129,18 @@ def extract_citations(
         # assert ref, f"Issue extracting ref from {p_xml}\n\nin citation {match.group()}"
         # sometimes, the n attribute includes important information like author name,
         # that the bibl element lacks
+        target_urn = get_urn(ref, content=p_xml, filename=filename)
         citation = {
             "urn": cit_urn,
             "data": {
                 "quote": quote,
                 "ref": ref,
-                "urn": get_urn(ref, content=p_xml, filename=filename),
+                "urn": target_urn,
             },
         }
         citations.append(citation)
+        # save citation data as separate jsonl files in ./cit_data
+        mk_cit_data(ref, from_n, from_bibl, target_urn, quote, p_xml, filename, cit_urn)
     return citations
 
 
@@ -148,6 +151,9 @@ if __name__ == "__main__":
     TEXT_URN = "urn:cts:greekLit:tlg0011.tlg004:"  # note trailing colon
     DESTO_DIR = pathlib.Path("../../test-data/commentaries/jebb-ot")
     URN_PREFIX = "urn:cts:greekLit:viaf2603144.viaf001.perseus-eng1"
+
+    CITATION_FAIL_OUT.unlink(missing_ok=True)
+    CITATION_OUT.unlink(missing_ok=True)
 
     with open(DESTO_DIR / "glossae_001.jsonl", "w") as f:
         idx = 0
