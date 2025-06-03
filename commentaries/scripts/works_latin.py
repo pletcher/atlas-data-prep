@@ -1,6 +1,11 @@
 # values must have no white space
 LATIN_AUTH_ABB = {
+    "caes.": "caesar",
     "cic.": "cicero",
+    "lucr.": "lucretius",
+    "prop.": "propertius",
+    "propert.": "propertius",
+    "ov.": "ovid",
     "plaut.": "plautus",
     "tac.": "tacitus",
     "verg.": "vergil",
@@ -10,6 +15,12 @@ LATIN_AUTH_ABB = {
 # note: multiword titles have spaces replaced with "_"
 # # titles with spaces replaced with "_" are automatically added to WORK_URNS
 LATIN_WORK_URNS = {
+    "caesar": {
+        "gallic war": "phi001",
+        "civil war": "phi002",
+        "fragmenta": "phi004",
+        "carmina": "phi006",
+    },
     "cicero": {
         "for publius quinctius": "phi001",
         "for sextus roscius of ameria": "phi002",
@@ -133,8 +144,32 @@ LATIN_WORK_URNS = {
         "de consolatu suo": "stoa007",  # note that the author urn for this in the catalog is stoa0087
         "somnium scipionum": "stoa060a",  # same here and below
     },
+    "lucretius": {
+        "de rerum natura": "phi001",
+    },
+    "ovid": {
+        "amores": "phi001",
+        "epistulae": "phi002",
+        "medicamina faciei femineae": "phi003",
+        "amatoria": "phi004",
+        "remedia amoris": "phi005",
+        "metamorphoses": "phi006",
+        "fasti": "phi007",
+        "tristia": "phi008",
+        "ex ponto": "phi009",
+        "epistulae ex ponto": "phi009",
+        "ibis": "phi010",
+        "medea": "phi011",
+        "carmina; fragmenta": "phi012",
+        "nux [sp.]": "phi013",
+        "halieutica [sp.]": "phi014",
+        "consolatio ad liviam (epicedion drusi)": "phi015",
+    },
     "plautus": {
         "trinummus": "phi019",
+    },
+    "propertius": {
+        "elegies": "tlg001",
     },
     "tacitus": {
         "agricola": "phi001",
@@ -152,11 +187,15 @@ LATIN_WORK_URNS = {
 
 # surely the more general point is that if there is no work name then the ref should resolve to tlg001
 
-LATIN_SINGLE_WORK_AUTHORS = {}
+LATIN_SINGLE_WORK_AUTHORS = {"lucretius", "propertius"}
 
 LATIN_AUTH_URNS = {
+    "caesar": "urn:cts:latinLit:phi0448",
     "cicero": "urn:cts:latinLit:phi0474",
+    "ovid": "urns:cts:latinLit:phi0959",
+    "lucretius": "urn:cts:latinLit:phi0550",
     "plautus": "urn:cts:latinLit:phi0119",
+    "propertius": "urn:cts:latinLit:phi0620",
     "tacitus": "urn:cts:latinLit:phi1351",
     "vergil": "urn:cts:latinLit:phi0690",
 }

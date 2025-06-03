@@ -690,6 +690,9 @@ GREEK_WORK_URNS = {
         "ἐκλογὴ περὶ τῶν ἀδυνάτων": "tlg147",
         "moralia": "moralia",
     },
+    "pollux": {
+            "onomasticon": "tlg001",
+    },
     "sappho": {
         "fragmenta": "tlg001",
         "epigrammata": "tlg002",
@@ -698,6 +701,9 @@ GREEK_WORK_URNS = {
         "pyrrhoniae hypotyposes": "tlg001",
         "adversus mathematicos": "tlg002",
         "adv. math.": "tlg002",
+    },
+    "solon": {
+        "fragmenta": "tlg001",
     },
     "sophocles": {
         "trachiniae": "tlg001",
@@ -775,7 +781,9 @@ GREEK_SINGLE_WORK_AUTHORS = {
     "hesychius",  # the grammarian
     "pausanias",
     "paus.",
+    "pollux",
     "polybius",
+    "solon",
     "strabo",
     "thucydides",
     "tyrtaeus",
@@ -820,6 +828,7 @@ GREEK_AUTH_URNS = {
     "callimachus": "urn:cts:greekLit:tlg0533",
     "lysias": "urn:cts:greekLit:tlg0540",
     "menander": "urn:cts:greekLit:tlg0541",
+    "pollux": "urn:cts:greekLit:tlg0542",
     "polybius": "urn:cts:greekLit:tlg0543",
     "sextus": "urn:cts:greekLit:tlg0544",
     "dio": "urn:cts:greekLit:tlg0612",

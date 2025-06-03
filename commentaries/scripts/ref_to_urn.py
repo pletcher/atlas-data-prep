@@ -605,7 +605,7 @@ def get_urn(
         elif "ff" in term:
             numerics[-1] += "ff"
         loc = ".".join(numerics)
-        urn = f"{auth_urn}.tlg001.perseus-grc2:{'.'.join([work, loc])}"
+        urn = f"{auth_urn}.{work}.perseus-grc2:{loc}"
         return urn
 
     # standardize form of author reference in ref
