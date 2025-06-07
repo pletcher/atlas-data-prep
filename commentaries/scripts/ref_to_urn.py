@@ -344,6 +344,24 @@ def _detect_urn(ref) -> Optional[str]:
     return
 
 
+def _res_ordered_works(work_collection: tuple[str, int, int], ref: str, auth: str) -> Optional[str]:
+    # some keys in the dictionary of work urns amap to a function that returns the tuple 
+    # that can be passed as work_collection
+    urn_stem, start, end = work_collection
+    if len(auth) >= len(ref):
+        logging.warning(f"Problem processing collection of works for {ref}.")
+        return
+    work_number = ref[len(auth):].split()[1]
+    work_number = work_number.split(".")[0]
+    if not work_number.isnumeric():
+        logging.warning(f"Problem processing collection of works for {ref}.")
+        return
+    work_number = int(work_number)
+    urn_number = start - 1 + work_number
+    urn_number = str(urn_number).zfill(3)
+    urn = f"{urn_stem}{urn_number}"
+    return urn
+
 def get_ref(
     from_n: Optional[str] = None, from_bibl: Optional[str] = None
 ) -> Optional[str]:
@@ -537,6 +555,7 @@ def get_urn(
             ref = ref[:-3] + "ff"
 
     # detect if ref is already formatted as urn
+    # note that this won't work if urn already has reference to edition, e.g. perseus-grc2
     urn_if_urn = _detect_urn(ref)
     if urn_if_urn:
         loc = ref[ref.index(urn_if_urn) + len(urn_if_urn) :]
@@ -559,29 +578,33 @@ def get_urn(
     split = ref.split()
     auth = split[0].lower()
     auth = AUTH_ABB.get(auth, auth)
-    bigram_auth = False
-    # deal with bigram author name
-    if auth not in AUTH_URNS.keys():
-        auth = " ".join(split[:2]).lower()
+    pos_after_auth = 1
+    # deal with bigram author name, trigram, etc
+    while auth not in AUTH_URNS.keys() and not callable(auth):
+        pos_after_auth += 1
+        # only try to match author name up to quadrigram
+        if pos_after_auth == 5:
+            break
+        auth = " ".join(split[:pos_after_auth]).lower()
         auth = AUTH_ABB.get(auth, auth)
-        bigram_auth = True
 
-    if auth not in AUTH_URNS.keys():
+    # some auth strings are mapped to functions in AUTH_ABB
+    if auth not in AUTH_URNS.keys() and not callable(auth):
         logging.warning(
             f"Author not recognized for {auth}\n\nThe xml context, if available, is: {content}.\n\nFilename, if available, is: {filename}"
         )
         return  # failure case
 
-    # this is to keep track of where the work and loc information begins
-    pos_after_auth = 1 if not bigram_auth else 2
-
+    # this deals with references to a work name for an author mainly known for one work
     while auth in SINGLE_WORK_AUTHORS:
         as_one_book_auth = True
         if auth not in WORK_URNS.keys():
             break
         if len(split) <= 1:
             break
-        for term in split[1:]:
+
+        for i in range(1, len(split)-pos_after_auth):
+            term = "_".join(split[pos_after_auth:pos_after_auth+i])
             if WORK_URNS[auth].get(term):
                 as_one_book_auth = False
                 break
@@ -595,7 +618,6 @@ def get_urn(
         work = "tlg001"
         numerics = []
         term = ""
-        pos_after_auth = 1 if not bigram_auth else 2
         for term in re.split(r"[\s,.:]", ref[pos_after_auth:]):
             if term.isnumeric():
                 numerics.append(term)
@@ -608,6 +630,8 @@ def get_urn(
         urn = f"{auth_urn}.{work}.perseus-grc2:{loc}"
         return urn
 
+    if callable(auth):
+        return
     # standardize form of author reference in ref
     ref = ref.replace(" ".join(ref.split()[:pos_after_auth]), auth)
     pos_after_auth = len(auth.split())
@@ -696,6 +720,28 @@ def get_urn(
     auth_urn = AUTH_URNS[auth]
 
     work_urn = WORK_URNS[auth].get(work)
+
+    # deal with case where auth is mapped to tuple, rather than urn
+    if isinstance(work_urn, tuple):
+        work_urn = _res_ordered_works(work_urn, ref, auth)
+        numerics = []
+        term = ""
+        numeric_count = 0
+        for term in re.split(r"[\s,.:]", ref[pos_after_auth:]):
+            if term.isnumeric():
+                if numeric_count == 0:
+                    numeric_count += 1
+                    continue # skip numeric term that specifies which work in collection
+                numerics.append(term)
+        # deal with dashes in loc
+        if re.search(r"\d+[–-—]{1}\d+", term):
+            numerics.append(re.sub(r"(\d+)[–-—]{1}(\d+)", r"\1-\2", term))
+        elif "ff" in term:
+            numerics[-1] += "ff"
+        loc = ".".join(numerics)
+        urn = f"{auth_urn}.{work_urn}.perseus-grc2:{loc}"
+        return urn
+
     if not work_urn and work.isnumeric():
         if "tlg" in auth_urn:
             prefix = "tlg"

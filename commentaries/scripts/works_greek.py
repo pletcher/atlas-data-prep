@@ -64,6 +64,11 @@ GREEK_AUTH_ABB = {
 
 # note: multiword titles have spaces replaced with "_"
 # # titles with spaces replaced with "_" are automatically added to WORK_URNS
+# TODO: add option for work to point to 3 tuple in format (alphabetic_id, start, end), 
+# where the alphabetic_id is something like "tlg", and the numeric start and end give a range 
+# of urns. E.g. Dem. or. 3 would be resolved to tlg8 if we had 
+# {'demonsthenes': {"or.": ("tlg", 6, 10)}. In this case, Dem. or. 6 should cause a warning to be 
+# raised.
 GREEK_WORK_URNS = {
     "aeschines": {
         "against timarchus": "tlg001",
@@ -209,6 +214,9 @@ GREEK_WORK_URNS = {
         "ceres": "tlg020",
     },
     "demosthenes": {
+        "or.": ("tlg", 1, 60), # e.g. or. 3.12 gets resolve to urn:cts:greekLit:tlg0014.tlg003:12
+        "orations": ("tlg", 1, 60),
+        "orationes": ("tlg", 1, 60),
         "olynthiac 1": "tlg001",
         "olynthiac 2": "tlg002",
         "olynthiac 3": "tlg003",

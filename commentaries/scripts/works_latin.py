@@ -1,13 +1,30 @@
+from typing import Optional
+
+# the idea is that the importing module will check 
+# if value in LATIN_AUTH_ABB is a function, and then 
+# if it is, call said function passing the work as argument
+def _which_seneca(work: str) -> Optional[str]:
+    for seneca in ("seneca_junior", "seneca_senior"):
+        if LATIN_WORK_URNS[seneca].get(work):
+            return seneca
+    return
+
 # values must have no white space
 LATIN_AUTH_ABB = {
     "caes.": "caesar",
     "cic.": "cicero",
+    "hor.": "horace",
+    "liv.": "livy",
     "lucr.": "lucretius",
     "prop.": "propertius",
     "propert.": "propertius",
     "ov.": "ovid",
     "plaut.": "plautus",
+    "sall.": "sallust",
+    "sen.": _which_seneca,
+    "seneca": _which_seneca,
     "tac.": "tacitus",
+    "tib.": "tibullus",
     "verg.": "vergil",
 }
 
@@ -144,6 +161,20 @@ LATIN_WORK_URNS = {
         "de consolatu suo": "stoa007",  # note that the author urn for this in the catalog is stoa0087
         "somnium scipionum": "stoa060a",  # same here and below
     },
+    "horace": {
+        "odes": "phi001",
+        "carmen saeculare": "phi002",
+        "epodi": "phi003",
+        "satires": "phi004",
+        "epistulae": "phi005",
+        "ars poetica": "phi006",
+    },
+    "livy": {
+        "ab urbe condita": "phi001",
+        "periochae": "phi002",
+        "fragmenta": "phi003",
+        "oxyrrhyncus epitome of livy": "phi004",
+    },
     "lucretius": {
         "de rerum natura": "phi001",
     },
@@ -169,7 +200,53 @@ LATIN_WORK_URNS = {
         "trinummus": "phi019",
     },
     "propertius": {
-        "elegies": "tlg001",
+        "elegies": "phi001",
+    },
+    "sallust": {
+        "catilinae coniuratio": "phi001",
+        "bellum catilinae": "phi001",
+        "bellum iugurthinum": "phi002",
+        "historiae": "phi003",
+        "fragmenta ampliora": "phi004",
+        "epistulae ad caesarem": "phi007",
+        "in ciceronem": "phi008",
+    },
+    "seneca_junior": {
+        "hercules furens": "phi001",
+        "troades": "phi002",
+        "phoenissae": "phi003",
+        "medea": "phi004",
+        "phaedra": "phi005",
+        "oedipus": "phi006",
+        "agamemnon": "phi007",
+        "thyestes": "phi008",
+        "hercules oetaeus": "phi009",
+        "octavia": "phi010",
+        "apocolocyntosis": "phi011",
+        "dialogorum liber ix": "phi012",
+        "de beneficiis": "phi013",
+        "de clementia": "phi014",
+        "epistulae morales ad lucilium": "phi015",
+        "naturales quaestiones": "phi016",
+        "ex cleanthe versus": "phi017",
+        "de vita patris": "phi018",
+        "epigrammata from anthologia latina": "phi019",
+        "de brevitate vitae": "stoa004", # have a stoa auth urn in Perseus catalogue
+        "de consolatione ad helviam": "stoa006",
+        "de consolatione ad marciam": "stoa007",
+        "de consolatione ad polybium": "stoa008",
+        "de constantia": "stoa009",
+        "de ira": "stoa010",
+        "de otio sapientis": "stoa011",
+        "de providentia": "stoa012",
+        "de tranquilitate animi": "stoa013",
+        "de vita beata": "stoa014",
+    },
+    "seneca_senior": {
+        "controversiae": "phi001",
+        "excerpta controversiae": "phi002",
+        "suasoriae": "phi003",
+        "fragmenta": "phi004",
     },
     "tacitus": {
         "agricola": "phi001",
@@ -178,6 +255,10 @@ LATIN_WORK_URNS = {
         "historiae": "phi004",
         "annales": "phi005",
     },
+    "tibullus": {
+        "elegiae": "phi001",
+        "carmina tibulliana [sp.]": "phi002",
+    },
     "vergil": {
         "eclogues": "phi001",
         "georgics": "phi002",
@@ -185,17 +266,21 @@ LATIN_WORK_URNS = {
     },
 }
 
-# surely the more general point is that if there is no work name then the ref should resolve to tlg001
-
-LATIN_SINGLE_WORK_AUTHORS = {"lucretius", "propertius"}
+LATIN_SINGLE_WORK_AUTHORS = {"livy", "lucretius", "propertius", "tibullus"}
 
 LATIN_AUTH_URNS = {
     "caesar": "urn:cts:latinLit:phi0448",
     "cicero": "urn:cts:latinLit:phi0474",
+    "horace": "urn:cts:latinLit:phi0893",
     "ovid": "urns:cts:latinLit:phi0959",
+    "livy": "urn:cts:latinLit:phi0914",
     "lucretius": "urn:cts:latinLit:phi0550",
     "plautus": "urn:cts:latinLit:phi0119",
     "propertius": "urn:cts:latinLit:phi0620",
+    "sallust": "urn:cts:latinLit:phi0631",
+    "seneca_junior": "urn:cts:latinLit:phi1017",
+    "seneca_senior": "urn:cts:latinLit:phi1014",
     "tacitus": "urn:cts:latinLit:phi1351",
+    "tibullus": "urn:cts:latinLit:phi0660",
     "vergil": "urn:cts:latinLit:phi0690",
 }
