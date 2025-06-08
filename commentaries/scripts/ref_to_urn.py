@@ -358,6 +358,9 @@ def _res_ordered_works(work_collection: tuple[str, int, int], ref: str, auth: st
         return
     work_number = int(work_number)
     urn_number = start - 1 + work_number
+    if urn_number > end:
+        logging.warning(f"Problem processing collection of works for {ref}.")
+        return
     urn_number = str(urn_number).zfill(3)
     urn = f"{urn_stem}{urn_number}"
     return urn

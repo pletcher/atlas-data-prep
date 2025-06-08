@@ -441,6 +441,9 @@ GREEK_WORK_URNS = {
         "dial. d.": "tlg068",
     },
     "lysias": {
+        "or.": ("tlg", 1, 60), # e.g. or. 3.12 gets resolve to urn:cts:greekLit:tlg0014.tlg003:12
+        "orations": ("tlg", 1, 34),
+        "orationes": ("tlg", 1, 34),
         "against eratosthenes": "tlg012",
     },
     "menander": {
