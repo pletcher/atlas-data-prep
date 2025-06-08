@@ -631,7 +631,20 @@ def get_urn(
         return urn
 
     if callable(auth):
-        return
+        # deal with cases where auth maps to function
+        work_words = 0
+        while not isinstance(auth, str):
+            work_words += 1
+            work_name = " ".join(ref.split()[pos_after_auth: pos_after_auth+work_words])
+            auth = auth(work_name)
+            if work_words == 4:
+                break
+        if not isinstance(auth, str):
+            logging.warning(
+                f"author failed to resolve for ref: {ref}.\n\nXML context, if available, is: {content}\n\nFilename, if available, is: {filename}"
+            )
+            return
+
     # standardize form of author reference in ref
     ref = ref.replace(" ".join(ref.split()[:pos_after_auth]), auth)
     pos_after_auth = len(auth.split())
