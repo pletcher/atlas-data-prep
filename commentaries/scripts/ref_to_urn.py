@@ -612,7 +612,6 @@ def get_urn(
                 as_one_book_auth = False
                 break
         break
-
     # deal with authors known solely/primary from single work,
     # so that they are cited without ref to specific work
     # code above identifies whether the citation should be treated this way

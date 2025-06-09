@@ -9,6 +9,13 @@ def _which_seneca(work: str) -> Optional[str]:
             return seneca
     return
 
+
+def _which_pliny(work: str) -> Optional[str]:
+    for pliny in ("pliny_junior", "pliny_senior"):
+        if LATIN_WORK_URNS[pliny].get(work):
+            return pliny
+    return
+
 # values must have no white space
 LATIN_AUTH_ABB = {
     "caes.": "caesar",
@@ -20,6 +27,8 @@ LATIN_AUTH_ABB = {
     "propert.": "propertius",
     "ov.": "ovid",
     "plaut.": "plautus",
+    "plin.": _which_pliny,
+    "pliny": _which_pliny,
     "sall.": "sallust",
     "sen.": _which_seneca,
     "seneca": _which_seneca,
@@ -199,6 +208,15 @@ LATIN_WORK_URNS = {
     "plautus": {
         "trinummus": "phi019",
     },
+    "pliny_junior": {
+        "epistulae": "phi001",
+        "panegyricus": "phi002",
+        "fragmenta (versus)": "phi003",
+    },
+    "pliny_senior": {
+        "naturalis historia": "phi001",
+        "natural history": "phi001",
+    },
     "propertius": {
         "elegies": "phi001",
     },
@@ -221,6 +239,8 @@ LATIN_WORK_URNS = {
         "agamemnon": "phi007",
         "thyestes": "phi008",
         "hercules oetaeus": "phi009",
+        "herc. oet.": "phi009",
+        "herc. o.": "phi009",
         "octavia": "phi010",
         "apocolocyntosis": "phi011",
         "dialogorum liber ix": "phi012",
@@ -266,7 +286,7 @@ LATIN_WORK_URNS = {
     },
 }
 
-LATIN_SINGLE_WORK_AUTHORS = {"livy", "lucretius", "propertius", "tibullus"}
+LATIN_SINGLE_WORK_AUTHORS = {"livy", "lucretius", "pliny_senior", "propertius", "tibullus"}
 
 LATIN_AUTH_URNS = {
     "caesar": "urn:cts:latinLit:phi0448",
@@ -276,6 +296,8 @@ LATIN_AUTH_URNS = {
     "livy": "urn:cts:latinLit:phi0914",
     "lucretius": "urn:cts:latinLit:phi0550",
     "plautus": "urn:cts:latinLit:phi0119",
+    "pliny_junior": "urn:cts:latinLit:phi1318",
+    "pliny_senior": "urn:cts:latinLit:phi0978",
     "propertius": "urn:cts:latinLit:phi0620",
     "sallust": "urn:cts:latinLit:phi0631",
     "seneca_junior": "urn:cts:latinLit:phi1017",
